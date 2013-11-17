@@ -1,7 +1,7 @@
 Mapfolio
 ========
 
-#### [http://americanredcross.github.io/Mapfolio/](http://americanredcross.github.io/Mapfolio/) ####
+#### [http://americanredcross.github.io/haiyan_mapfolio/](http://americanredcross.github.io/haiyan_mapfolio/) ####
 
 Interactive portfolio to exhibit map products of the [American Red Cross](http://redcross.org/) International Services GIS team. 
 
