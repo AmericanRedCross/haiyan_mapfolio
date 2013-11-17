@@ -153,7 +153,7 @@ function showDisclaimer() {
     window.alert("The maps on this page do not imply the expression of any opinion on the part of the British Red Cross, American Red Cross or the International Federation of Red Cross and Red Crescent Societies or National Societies concerning the legal status of a territory or of its authorities.");
 }
 
-// MAP SHIT STARTS HERE
+// map stuff starts here
 var centroids = [];
 var markersBounds = [];
 var displayedPoints = [];
