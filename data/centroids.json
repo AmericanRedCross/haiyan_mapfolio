@@ -1,0 +1,67 @@
+[
+  {
+    "name":"RC Evacuated Persons",
+    "thumbnail_id":"T001",
+    "caption":"Evacuated Persons",
+    "date":"14 Novemeber 2013",
+    "description":"This map shows the number of evacuated persons per province in the Philippines as recorded by the Philippines Red Cross.",
+    "image": "14_11_13_siterep_evacuated_persons_Philippines_ForArticle.png",
+    "thumb": "14_11_13_siterep_evacuated_persons_Philippines_ForArticle_thumb.png",
+    "extent":"CW",
+    "sector":"SITREP RC",
+    "latitude":9.860,
+    "longitude":124.060
+  },
+  {
+    "name":"Haiyan Path",
+    "thumbnail_id":"T002",
+    "caption":"Relief Web - Typoon Haiyan Path",
+    "date":"11 Novemeber 2013",
+    "description":"This map shows the path of Typhoon Haiyan over the Philippines.",
+    "image": "ReliefWeb_Typhoon_Haiyan_Yolanda_Population _density_with_storm_path.png",
+    "thumb": "ReliefWeb_Typhoon_Haiyan_Yolanda_Population _density_with_storm_path_thumb.png",
+    "extent":"CW",
+    "sector":"NRC",
+    "latitude":9.860,
+    "longitude":124.060
+  },
+  {
+    "name":"RC Missing People",
+    "thumbnail_id":"T003",
+    "caption":"Missing People",
+    "date":"14 Novemeber 2013",
+    "description":"This map shows the number of missing persons per province in the Philippines as recorded by the Philippines Red Cross.",
+    "image": "14_11_13_siterep_missing_people_Philippines.png",
+    "thumb": "14_11_13_siterep_missing_people_Philippines_thumb.png",
+    "extent":"CW",
+    "sector":"RC SITREP",
+    "latitude":9.860,
+    "longitude":124.060
+  },
+  {
+    "name":"Mapaction - Affected Person per Municipalities",
+    "thumbnail_id":"T004",
+    "caption":"Mapaction - Affected Person per Municipalities",
+    "date":"12 Novemeber 2013",
+    "description":"This map shows the number of affected persons per municipality in the Philippines from MapAction.",
+    "image": "MA010_AffectedPopulationPercMunicipalities_v03-300dpi.png",
+    "thumb": "MA010_AffectedPopulationPercMunicipalities_v03-300dpi_thumb.png",
+    "extent":"CW",
+    "sector":"NRC SITREP",
+    "latitude":9.860,
+    "longitude":124.060
+  },
+  {
+    "name":"Mapaction - Affected Person per Municipalities",
+    "thumbnail_id":"T005",
+    "caption":"Copernicus - Damage Grading of Tacloban CIty",
+    "date":"13 Novemeber 2013",
+    "description":"This map shows the number of affected persons per municipality in the Philippines from MapAction.",
+    "image": "COPERNICUS_Damage_Grading_Overview_13_11_08.png",
+    "thumb": "COPERNICUS_Damage_Grading_Overview_13_11_08_thumb.png",
+    "extent":"TACLOBAN",
+    "sector":"NRC SITREP SAT",
+    "latitude":11.2693701,
+    "longitude":124.9644775
+  }
+]

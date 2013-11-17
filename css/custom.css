@@ -1,0 +1,224 @@
+body{
+  padding-top: 50px;
+  margin: 0;
+}
+
+.oldBrowser {
+  margin: 60px 0;
+  padding: 20px 0;
+  background: #ccc;
+  color: #000;
+}
+
+.navbar {
+  height: 50px;
+}
+
+#map {
+  width: 100%;
+  height: 575px;
+  background-color: #ffffff;
+  
+  margin-bottom: 20px;
+  border-bottom-color: #eee;
+  border-bottom-width: 1px;  
+  border-bottom-style: solid;
+}
+
+.btn-zoom {
+  position: absolute;
+  left: 47px;
+  top: 60px;
+  z-index: 1001;
+  background-color: #ffffff;
+  border-color: #d7d7d8;
+  font-weight: bold;
+  color: #6d6e70;
+  box-shadow: 1px 1px 9px #c3c3c5;
+}
+
+.btn-zoom:hover,
+.btn-zoom:focus {
+  color: black;
+  background-color: #f4f4f4; 
+}
+
+a.leaflet-control-zoom-in, 
+a.leaflet-control-zoom-out {
+  color:#6d6e70;
+}
+
+
+.twitter span {
+  position: absolute;
+  left: 10px;
+  top:124px;
+  z-index: 1002;
+  box-shadow: 1px 1px 9px #c3c3c5;
+  border-radius: 5px;
+  border:1px solid #d7d7d8;
+  background: url("../img/twitter_gray.png");
+  background-repeat: no-repeat;
+  height: 28px;
+  width: 28px;    
+}
+
+.twitter a:hover span {
+  background: url("../img/twitter_color.png");
+  background-repeat: no-repeat;  
+}
+
+.facebook span {
+  position: absolute;
+  left: 10px;
+  top: 158px;
+  z-index: 1003;
+  box-shadow: 1px 1px 9px #c3c3c5;
+  border-radius: 5px;
+  border:1px solid #d7d7d8;
+  background: url("../img/fb_gray.png");
+  background-repeat: no-repeat;
+  height: 28px;
+  width: 28px;
+  
+}
+
+.facebook a:hover span {
+  background: url("../img/fb_color.png");
+  background-repeat: no-repeat;  
+}
+
+
+.btn-extent {
+  background-color: #C4DFF6;
+  margin-bottom: 5px;
+}
+.btn-extent.filtering {
+  background-color: #82bbec;
+}
+.btn-extent:hover,
+.btn-extent:focus {
+  background-color: #56A0D3  
+}
+
+
+.btn-sector{
+  background-color: #8ec06c;
+  margin-bottom: 5px;
+}
+.btn-sector.filtering {
+  background-color: #679c43;
+}
+.btn-sector:hover,
+.btn-sector:focus {
+  background-color: #537b35;  
+}
+#sectorButtons.allOn button {
+  background-color: #8ec06c;
+}
+
+.modal-dialog {
+  width: 70%;
+  height:90%;    
+}
+
+#arclogo {
+  position: absolute;
+  right:0;
+  z-index: 1004;
+  margin: 15px;
+  height: 55px;
+  margin-top:160px;
+}
+
+#brclogo {
+  position: absolute;
+  right:0;
+  z-index: 1004;
+  margin: 15px;
+  height: 55px;
+  margin-top:75px;
+}
+
+#ifrclogo {
+  position: absolute;
+  right:0;
+  z-index: 1004;
+  margin: 15px;
+  height: 30px;
+}
+
+.navbar-brand {
+  max-width: none;
+}
+
+.thumbnail{
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.thumbnail:hover {
+  text-decoration: none;
+}
+
+.thumbnail {
+  min-height:310px;  /*set to largest thumbnail, so all boxes match*/
+}
+
+.detailedDescription {
+  display: none;  
+}
+.modal-detailedDescription {
+  padding-bottom: 8px;
+  text-align: left;
+}
+
+@media (max-width: 980px) {
+  /* Enable use of floated navbar text */
+  .navbar-text.pull-right {
+    float: none;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.disclaimer {
+  margin: 0 10px;  
+  font-size: small;
+  color: #9f9fa3;
+}
+.disclaimer a {    
+  text-decoration: none;
+  cursor: pointer;
+  color: #6d6e70;
+}
+
+
+
+/*styling for marker clusters*/
+.marker-cluster-small {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.marker-cluster-small div {
+  background-color: rgba(237, 27, 46, 0.7);
+}
+
+.marker-cluster-medium {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.marker-cluster-medium div {
+  background-color: rgba(237, 27, 46, 0.7);
+}
+
+.marker-cluster-large {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.marker-cluster-large div {
+  background-color: rgba(237, 27, 46, 0.7);
+}
+.marker-cluster div {
+  color: #FFF;
+  text-align: center;
+  border-radius: 15px;
+  font: bold 12px "Helvetica Neue", Arial, Helvetica, sans-serif;
+}

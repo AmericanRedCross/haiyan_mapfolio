@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Mapfolio</title>
+
+    <meta property="og:image" content="http://americanredcross.github.io/Mapfolio/img/redCross.png" />
+    <meta property="og:title" content="Typhoon Haiyan Mapfolio" />
+    <meta property="og:description" content = "Interactive portfolio of maps produced by the International Services Department." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="American Red Cross">
+    <meta name="google-translate-customization" content="dd5207c171a5d11a-29d1c9c17ff34632-g6f9aa177fdeafd13-1a"></meta>
+    <link href="css/bootstrap-glyphicons.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.css" />
+    <link rel="stylesheet" href="css/markercluster.css" />
+    <link rel="stylesheet" href="css/MarkerCluster.Default.css" />
+
+    <link href="css/custom.css" rel="stylesheet">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+      
+  </head>
+  
+
+  <body>
+        <!--[if lt IE 10]>
+            <p class="oldBrowser" style="text-align:center;">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a>.</p>
+            <![endif]-->
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div>
+          <a class="navbar-brand" href="../index.html">Typhoon Haiyan Mapfolio</a>
+        </div>
+      </div>
+      <div id="google_translate_element" style="position:absolute;top:3px;right:3px;"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.FloatPosition.TOP_RIGHT}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>    
+          
+    <a href="http://redcross.org"><img src="img/redcross-logo.png" id="arclogo" /></a>
+    <a href="http://redcross.org.uk"><img src="img/British_Red_Cross.png" id="brclogo" /></a>
+    <a href="http://www.ifrc.org/"><img src="img/IFRC_logo_English_CMYK.png" id="ifrclogo" /></a>
+    <button class="btn btn-small btn-zoom" type="button" onClick="zoomOut();">Zoom to Extent</button>
+    <div class="twitter">
+      <a class="twitter twitterpopup" href="http://twitter.com/intent/tweet?text=awesome%20%40RedCross%20mapfolio&amp;url=http%3A%2F%2Fbit.ly%2F19V54xv&amp;related=RedCross"><span></span></a>
+    </div>   
+    <div class="facebook">
+      <a href="#" 
+      onclick="
+      window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
+      'facebook-share-dialog', 
+      'width=626,height=436'); 
+      return false;"><span></span></a>
+    </div>      
+
+      <div id="map"></div>          
+
+<div id="myModal" class="modal fade">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+        <h4 class="modal-title">Modal title</h4>
+      </div>
+      <div class="modal-body" style="text-align:center;">
+        <img class="modal-img" src="">
+      </div>
+      <div class="modal-footer">
+        <div class="modal-detailedDescription"></div>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <a id="downloadPDF" href="#" target="_blank" class="btn btn-primary">Download PDF</a>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+      <div class="container">
+        
+      <h4>Filters: <small> Use the buttons to explore this collection and view maps from a specific region or sector of interest.</small></h4> 
+
+      <p><h6><b>Extent:</b>
+      <span  id="extentButtons" style="margin-left:10px;">      
+      <button id="ALL" class="btn btn-small btn-extent filtering" type="button" onclick="toggleFilter('ALL', this);" style="margin-right:10px;">All <span class="glyphicon glyphicon-check" style="margin-left:4px;"></span></button> 
+      <button id="CW" class="btn btn-small btn-extent" type="button" onclick="toggleFilter('CW', this);">Country Wide<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>
+      <button id="TACLOBAN" class="btn btn-small btn-extent" type="button" onclick="toggleFilter('TACLOBAN', this);">Tacloban<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>
+      </span></h6></p>        
+      <p><h6><b>Sector:</b>
+      <span style="margin-left:10px;">
+      <button id="refreshSectors" class="btn btn-small btn-sector filtering" type="button" onclick="toggleFilter('refreshSectors', this);" style="margin-right:10px;">All <span class="glyphicon glyphicon-check" style="margin-left:4px;"></span></button>              
+      <div id="sectorButtons" class="allOn" style="display:inline;">
+          <button id="RC" class="btn btn-small btn-sector filtering" type="button" onclick="toggleFilter('RC', this);">Red Cross<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>
+          <button id="NRC" class="btn btn-small btn-sector filtering" type="button" onclick="toggleFilter('NRC', this);">Non Red Cross<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>
+          <button id="SITREP" class="btn btn-small btn-sector filtering" type="button" onclick="toggleFilter('SITREP', this);">Situational Reports<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>
+          <button id="SAT" class="btn btn-small btn-sector filtering" type="button" onclick="toggleFilter('SAT', this);">Satellite<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>
+      </div>
+      <hr style="margin-bottom:0;">
+      </span></h6></p>
+    </div>
+      <div class="container">
+      <div id="mappreviews" class="row thumbnailGallery">
+      </div> <!-- /row  -->
+      
+    </div><!--/container-->
+    
+    <hr style="margin-bottom:10px;">
+    <footer>
+      <div class="disclaimer pull-right">
+        <p>
+            &copy; <a href="http://redcross.org" title="Red Cross" target="_blank">Red Cross</a> 2013 | 
+            <a title="Disclaimer" onClick="showDisclaimer();">Disclaimer</a>
+        </p>        
+    </div>
+    </footer>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
+    <script src="http://cdn.leafletjs.com/leaflet-0.6.2/leaflet.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/leaflet.markercluster-src.js"></script>
+    <script src="js/main.js"></script>
+
+     <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-42245094-3', 'americanredcross.github.io');
+      ga('send', 'pageview');
+
+      </script>
+
+  </body>
+</html>
