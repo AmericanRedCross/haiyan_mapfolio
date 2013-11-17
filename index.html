@@ -6,7 +6,7 @@
 
     <meta property="og:image" content="http://americanredcross.github.io/Mapfolio/img/redCross.png" />
     <meta property="og:title" content="Typhoon Haiyan Mapfolio" />
-    <meta property="og:description" content = "Interactive portfolio of maps produced by the International Services Department." />
+    <meta property="og:description" content = "Interactive collection of maps." />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
@@ -43,22 +43,10 @@ function googleTranslateElementInit() {
 </script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     </div>    
           
-    <a href="http://redcross.org"><img src="img/redcross-logo.png" id="arclogo" /></a>
-    <a href="http://redcross.org.uk"><img src="img/British_Red_Cross.png" id="brclogo" /></a>
-    <a href="http://www.ifrc.org/"><img src="img/IFRC_logo_English_CMYK.png" id="ifrclogo" /></a>
+    
     <button class="btn btn-small btn-zoom" type="button" onClick="zoomOut();">Zoom to Extent</button>
-    <div class="twitter">
-      <a class="twitter twitterpopup" href="http://twitter.com/intent/tweet?text=awesome%20%40RedCross%20mapfolio&amp;url=http%3A%2F%2Fbit.ly%2F19V54xv&amp;related=RedCross"><span></span></a>
-    </div>   
-    <div class="facebook">
-      <a href="#" 
-      onclick="
-      window.open(
-      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href), 
-      'facebook-share-dialog', 
-      'width=626,height=436'); 
-      return false;"><span></span></a>
-    </div>      
+      
+          
 
       <div id="map"></div>          
 
@@ -81,33 +69,32 @@ function googleTranslateElementInit() {
   </div><!-- /.modal-dialog -->
 </div><!-- /.modal -->
 
-      <div class="container">
-        
-      <h4>Filters: <small> Use the buttons to explore this collection and view maps from a specific region or sector of interest.</small></h4> 
-
-      <p><h6><b>Extent:</b>
-      <span  id="extentButtons" style="margin-left:10px;">      
-      <button id="ALL" class="btn btn-small btn-extent filtering" type="button" onclick="toggleFilter('ALL', this);" style="margin-right:10px;">All <span class="glyphicon glyphicon-check" style="margin-left:4px;"></span></button> 
-      <button id="CW" class="btn btn-small btn-extent" type="button" onclick="toggleFilter('CW', this);">Country Wide<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>
-      <button id="TACLOBAN" class="btn btn-small btn-extent" type="button" onclick="toggleFilter('TACLOBAN', this);">Tacloban<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>
-      </span></h6></p>        
-      <p><h6><b>Sector:</b>
-      <span style="margin-left:10px;">
-      <button id="refreshSectors" class="btn btn-small btn-sector filtering" type="button" onclick="toggleFilter('refreshSectors', this);" style="margin-right:10px;">All <span class="glyphicon glyphicon-check" style="margin-left:4px;"></span></button>              
-      <div id="sectorButtons" class="allOn" style="display:inline;">
-          <button id="RC" class="btn btn-small btn-sector filtering" type="button" onclick="toggleFilter('RC', this);">Red Cross<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>
-          <button id="NRC" class="btn btn-small btn-sector filtering" type="button" onclick="toggleFilter('NRC', this);">Non Red Cross<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>
-          <button id="SITREP" class="btn btn-small btn-sector filtering" type="button" onclick="toggleFilter('SITREP', this);">Situational Reports<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>
-          <button id="SAT" class="btn btn-small btn-sector filtering" type="button" onclick="toggleFilter('SAT', this);">Satellite<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>
+    <div class="container">
+      <div class="row row-logo">
+        <a href="http://redcross.org.uk" target="_blank"><img src="img/British_Red_Cross.png" id="brclogo" /></a>  
+        <a href="http://redcross.org" target="_blank"><img src="img/redcross-logo.png" id="arclogo" /></a>
+        <a href="http://www.ifrc.org/" target="_blank"><img src="img/IFRC_logo_English_CMYK.png" id="ifrclogo" /></a>
       </div>
+
+      <div class="collaborationText">The American Red Cross and the British Red Cross are working together because they both love making maps and helping people, yay! Lorem ipsum.</div>
       <hr style="margin-bottom:0;">
-      </span></h6></p>
+
+      <h4>Filters: <small> Use the buttons to explore this collection and view maps from a specific region or sector of interest.</small></h4> 
+      <p><h6>
+        <b>Extent:</b>
+        <span  id="extentButtons" style="margin-left:10px;"></span>
+      </h6></p>  
+      <p><h6>
+        <b>Sector(s):</b>
+        <span id ="sectorButtons" style="margin-left:10px;"></span>
+      </h6></p>
+      <hr style="margin-bottom:0;">
+
     </div>
-      <div class="container">
-      <div id="mappreviews" class="row thumbnailGallery">
-      </div> <!-- /row  -->
-      
-    </div><!--/container-->
+
+    <div class="container">
+      <div id="mappreviews" class="row thumbnailGallery"></div>     
+    </div>
     
     <hr style="margin-bottom:10px;">
     <footer>

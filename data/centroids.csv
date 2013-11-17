@@ -1,39 +1,6 @@
-name,thumbnail_id,extent,sector,latitude,longitude
-floodRisk,T001,AFRICA,x,0.9676,34.2914
-2011_09_29_Blocks_Nhoods_Agencies_All_CF,T002,LACH,x,18.5135,-72.3467
-2012_03_09_Campeche_Satellite_SDE,T003,LACH,x,18.5257,-72.337
-2011_12_29_2YRDRR_Final,T004,LACH,x,18.539,-72.3348
-2012_06_12_MyanmarFinal,T006,AMEE,x,19.75,96.1
-2012_08_05_PaP_Bilateral_and_Partners_Overview_7.27.11,T007,LACH,x,18.5494,-72.303
-2012_08_17_Cases_v_Volunteers,T008,AFRICA,x,8.48445,-13.23445
-2013_01_30_DisasterResponse_Q2,T009,GLOBAL,x,25,-40
-2013_01_31_Latin_America_Programs_FY13_InternalV2,T010,LACH,x,2.1708,-72.1042
-2013_03_29_RFL_MAP,T011,USA,x,38.895111,-77.036667
-2013_3_28_ResponseAppeals,T013,GLOBAL,x,25,-40
-AMEE_PO_Coverage_June2013,T014,AMEE,x,35.7754,84.9318
-ARC_P019_metropolitan_camps_geology_analysis,T015,LACH,x,18.502778,-72.286111
-ARC_P062_v1_LAMIKA_STUDY_AREA_UNSAFE_AREAS_low,T016,LACH,x,18.526667,-72.333333
-ARC_P066_V2_CAMPECHE_FIELD_LIGHTING_high,T017,LACH,x,18.525,-72.335
-ARC_P074_DELINEATION_low,T018,LACH,x,18.524722,-72.334722
-ARC_P09_metropolitan_camps_geology_analysis,T019,LACH,x,18.508333,-72.327778
-2013_09_18_TheCaribbean_Programs_FY14,T020,LACH,x,16.2632,-76.0081
-GDPC_EngagementMap_FY2013,T021,GLOBAL,x,25,-40
-GuluFireRisk,T022,AFRICA,x,2.776256,32.287621
-LaPlata_2,T023,LACH,x,-34.920755,-57.95353
-IROC,T024,GLOBAL,ONLINE,30,-52
-ProgramMaps,T025,GLOBAL,ONLINE,25,-40
-Caribbean,T026,LACH,ONLINE,14.1,-78
-2013_08_20_RFL_FY12-13,T027,USA,x,38.895111,-77.036667
-2013_01_31_Africa_Programs_FY13_External,T028,AFRICA,x,15.965,14.559
-2012_01_18_Africa_Programs_January2012,T029,AFRICA,x,15.965,14.559
-2011_03_14_Africa_Programs,T030,AFRICA,x,15.965,14.559
-2013_09_26_RFL_Grant_Recipients_2013,T031,USA,x,38.895111,-77.036667
-2013_10_22_Africa_Programs_FY14_Internal,T032,AFRICA,x,15.965,14.559
-2013_10_22_Africa_Programs_FY14_External_thumb,T033,AFRICA,x,15.965,14.559
-2013_10_22_Latin_America_Programs_FY14_Internal,T034,LACH,x,2.1708,-72.1042
-2013_10_22_Latin_America_Programs_FY14_External,T035,LACH,x,2.1708,-72.1042
-2013_10_22_Middle_East_Europe_FY14_Internal,T036,AMEE,x,49.5584,17.1158
-2013_10_22_Middle_East_Europe_FY14_External,T037,AMEE,x,49.5584,17.1158
-2013_10_22_Asia_Programs_FY14_Internal_thumb,T038,AMEE,x,24.7937,99.1763
-2013_10_22_Asia_Programs_FY14_External_thumb,T039,AMEE,x,24.7937,99.1763
-2013_10_24_VNM_TyphoonPaths,T040,AMEE,x,14.6585,108.6546
+name,thumbnail_id,caption,date,description,image,thumb,extent,sector,latitude,longitude
+RC Evacuated Persons,T001,Evacuated Persons,11/14/2013,This map shows the number of evacuated persons per province in the Philippines as recorded by the Philippines Red Cross.,14_11_13_siterep_evacuated_persons_Philippines_ForArticle.png,14_11_13_siterep_evacuated_persons_Philippines_ForArticle_thumb.png,Country_Wide,Situational_Reports Red_Cross,11.5,123.6
+Haiyan Path,T002,Relief Web - Typoon Haiyan Path,11/11/2013,This map shows the path of Typhoon Haiyan over the Philippines.,ReliefWeb_Typhoon_Haiyan_Yolanda_Population _density_with_storm_path.png,ReliefWeb_Typhoon_Haiyan_Yolanda_Population _density_with_storm_path_thumb.png,Country_Wide,Non_Red_Cross,11.5,123.6
+RC Missing People,T003,Missing People,11/14/2013,This map shows the number of missing persons per province in the Philippines as recorded by the Philippines Red Cross.,14_11_13_siterep_missing_people_Philippines.png,14_11_13_siterep_missing_people_Philippines_thumb.png,Country_Wide,Red_Cross Situational_Reports,11.5,123.6
+Mapaction - Affected Person per Municipalities,T004,Mapaction - Affected Person per Municipalities,11/12/2013,This map shows the number of affected persons per municipality in the Philippines from MapAction.,MA010_AffectedPopulationPercMunicipalities_v03-300dpi.png,MA010_AffectedPopulationPercMunicipalities_v03-300dpi_thumb.png,Country_Wide,Non_Red_Cross Situational_Reports,11.5,123.6
+Mapaction - Affected Person per Municipalities,T005,Copernicus - Damage Grading of Tacloban CIty,11/13/2013,This map shows the number of affected persons per municipality in the Philippines from MapAction.,COPERNICUS_Damage_Grading_Overview_13_11_08.png,COPERNICUS_Damage_Grading_Overview_13_11_08_thumb.png,Tacloban,Non_Red_Cross Situational_Reports Satellite,11.2693701,124.9644775
