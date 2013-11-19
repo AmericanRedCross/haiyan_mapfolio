@@ -40,6 +40,7 @@ body{
 .btn-zoom:focus {
   color: black;
   background-color: #f4f4f4; 
+  outline: 0;
 }
 
 a.leaflet-control-zoom-in, 
@@ -54,6 +55,7 @@ a.leaflet-control-zoom-out {
 }
 .btn-extent:focus {
   outline:0;
+  color: black;
 }
 .btn-extent:hover,
 .btn-extent.filtering {
@@ -69,6 +71,7 @@ a.leaflet-control-zoom-out {
 }
 .btn-sector:focus{
   outline:0;
+  color: black;
 }
 .btn-sector:hover,
 .btn-sector.filtering  {
@@ -84,7 +87,8 @@ a.leaflet-control-zoom-out {
 
 #arclogo,
 #brclogo,
-#ifrclogo {  
+#ifrclogo,
+#prclogo {  
   height: 35px;
   margin: 0 15px 10px 0;  
 }

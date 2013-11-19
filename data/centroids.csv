@@ -1,4 +1,7 @@
 thumbnail_id,caption,date,description,thumb,extent,sector,latitude,longitude
+T076,ICRC and IFRC Operational Provinces,11/19/2013,Areas of operation.,2013_11_19_ICRC_IFRC_operation_areas_v2_thumb.jpg,Country_Wide,Operations,11.5,123.6
+T077,"Ormoc, Leyte",11/18/2013,Maposmatic of OSM data with street index. Poster.,2013-11-18_maposmatic_Leyte_Ormoc_HOT_index_poster_thumb.jpg,Leyte Ormoc,Overview OSM maposmatic Poster,11.008,124.608
+T078,"Tacloban, Leyte",11/18/2013,Maposmatic of OSM data with street index. Poster.,2013-11-18_maposmatic_Leyte_TaclobanCity_HOT_index_poster_thumb.jpg,Leyte Tacloban,Overview OSM maposmatic Poster,11.24133,125.0006
 T024,Affected Persons per Mobilized Volunteer,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_affected_people_per_mobilized_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
 T030,Operational Overview,11/18/2013,,2013-11-18_ARC_mapForResponseReport_thumb.jpg,Country_Wide,Red_Cross Operations,11.5,123.6
 T069,Volunteers Mobilized by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_volunteers_mobilized_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
@@ -7,22 +10,22 @@ T071,Deaths by Province,11/18/2013,Situational Report. Data source: Philippines 
 T072,Volunteers by Chapter HQ w/ Affected Persons by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_vols_by_chapter_and_affected_persons_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
 T073,Totally Damaged Buildings by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_totally_damaged_buildings_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
 T074,Terrain in Leyte (northern),11/18/2013,,North_Leyte_Terrain_2013_11_18_thumb.jpg,Leyte,Overview,11.14,124.73
-T075,Ormoc City and Surrounding Area Barangays,11/18/2013,"Data source: OSM, GADM.",2013-11-18_OSM_OrmocSurroundingBarangays_thumb.jpg,Leyte,Overview OSM Administrative_Boundaries,11.008,124.608
-T028,Building Damage Assessment,11/17/2013,"Ormoc City, Leyte. Data source: UNOSAT.",2013_11_17_western_ormoc_OSM_buildingtags_thumb.jpg,Leyte,Analysis Damage_Assessment,11.008,124.608
-T031,"Asturias, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Asturias_thumb.jpg,Cebu,Administrative_Boundaries,10.597,123.792
-T032,"Balamban, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Balamban_thumb.jpg,Cebu,Administrative_Boundaries,10.484,123.767
+T075,Ormoc City and Surrounding Area Barangays,11/18/2013,"Data source: OSM, GADM.",2013-11-18_OSM_OrmocSurroundingBarangays_thumb.jpg,Leyte Ormoc,Overview OSM Administrative_Boundaries,11.008,124.608
+T028,Building Damage Assessment,11/17/2013,"Ormoc City, Leyte. Data source: UNOSAT.",2013_11_17_western_ormoc_OSM_buildingtags_thumb.jpg,Leyte Ormoc,Analysis Damage_Assessment,11.008,124.608
+T031,"Asturias, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Asturias_thumb.jpg,Cebu,Administrative_Boundaries,10.5625,123.72763
+T032,"Balamban, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Balamban_thumb.jpg,Cebu,Administrative_Boundaries,10.5056,123.7182
 T033,"Bantayan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Bantayan_thumb.jpg,Cebu,Administrative_Boundaries,11.211,123.723
 T034,"Bogo City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_BogoCity_thumb.jpg,Cebu,Administrative_Boundaries,11.037,124.014
 T035,"Borbon, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Borbon_thumb.jpg,Cebu,Administrative_Boundaries,10.852,124.014
 T036,"Carmen, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Carmen_thumb.jpg,Cebu,Administrative_Boundaries,10.589,124.005
 T037,"Catmon, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Catmon_thumb.jpg,Cebu,Administrative_Boundaries,10.674,124.001
-T038,"Cebu City (all), Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_CebuCityALL_thumb.jpg,Cebu,Administrative_Boundaries,10.312,123.867
-T039,"Cebu City (center), Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_CebuCityCENTER_thumb.jpg,Cebu,Administrative_Boundaries,10.312,123.867
+T038,"Cebu City (all), Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_CebuCityALL_thumb.jpg,Cebu Cebu_City,Administrative_Boundaries,10.312,123.867
+T039,"Cebu City (center), Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_CebuCityCENTER_thumb.jpg,Cebu Cebu_City,Administrative_Boundaries,10.312,123.867
 T040,"Compostela, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Compostela_thumb.jpg,Cebu,Administrative_Boundaries,10.461,123.995
 T041,"Consolacion, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Consolacion_thumb.jpg,Cebu,Administrative_Boundaries,10.372,123.971
 T042,"Cordova, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Cordova_thumb.jpg,Cebu,Administrative_Boundaries,10.252,123.95
 T043,"Daanbantayan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Daanbantayan_thumb.jpg,Cebu,Administrative_Boundaries,11.227,124.02
-T044,"Danao City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_DanaoCity_thumb.jpg,Cebu,Administrative_Boundaries,10.526,124.1
+T044,"Danao City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_DanaoCity_thumb.jpg,Cebu,Administrative_Boundaries,10.524,124.027
 T045,"Lapu-Lapu City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_LapuLapuCity_thumb.jpg,Cebu,Administrative_Boundaries,10.3,123.984
 T046,"Liloan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Liloan_thumb.jpg,Cebu,Administrative_Boundaries,10.413,123.984
 T047,"Madridejos, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Madridejos_thumb.jpg,Cebu,Administrative_Boundaries,11.278,123.735
@@ -53,8 +56,8 @@ T020,Evacuated Persons by Province,11/14/2013,Situational Report. Data source: P
 T021,Injuries by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_injuries_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
 T022,Missing People by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_missing_people_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
 T023,Evacuated Casualties by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_no_ec_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T068,IFRC Cebu City Logistics Map,11/14/2013,,2013_11_14_CebuCityLogistics_thumb.jpg,Cebu,IFRC Operations,10.312,123.867
-T003,Damage Grading of Tacloban City (Copernicus),11/13/2013,Affected persons per municipality.,COPERNICUS_Damage_Grading_Overview_13_11_08_thumb.png,Tacloban,Non_Red_Cross Situational_Reports Satellite,11.2694,124.9645
+T068,IFRC Cebu City Logistics Map,11/14/2013,,2013_11_14_CebuCityLogistics_thumb.jpg,Cebu Cebu_City,IFRC Operations,10.312,123.867
+T003,Damage Grading of Tacloban City (Copernicus),11/13/2013,Affected persons per municipality.,COPERNICUS_Damage_Grading_Overview_13_11_08_thumb.png,Leyte Tacloban,Non_Red_Cross Situational_Report Satellite,11.24133,125.0006
 T012,Deaths by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_deaths_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
 T013,Evacuated Families by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_evacuated_families_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
 T014,Evacuated Persons by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_evacuated_persons_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
@@ -63,7 +66,7 @@ T016,Missing People by Province,11/13/2013,Situational Report. Data source: Phil
 T017,Evacuated Casualties by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_no_ec_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
 T065,Active Evacuation Centers in Municipalities,11/13/2013,Data source: Map Action.,2013_11_13_EvacCenter_MapAction_zoom_thumb.jpg,Country_Wide,Situational_Report,11.5,123.6
 T066,Percent of Population Affected by Municipality,11/13/2013,Data source: Map Action.,2013_11_15_AffPop_MapAction_zoom_thumb.jpg,Country_Wide,Situational_Report,11.5,123.6
-T002,Affected Person per Municipalities (MapAction),11/12/2013,Affected persons per municipality.,MA010_AffectedPopulationPercMunicipalities_v03-300dpi_thumb.png,Country_Wide,Non_Red_Cross Situational_Reports,11.5,123.6
+T002,Affected Person per Municipalities (MapAction),11/12/2013,Affected persons per municipality.,MA010_AffectedPopulationPercMunicipalities_v03-300dpi_thumb.png,Country_Wide,Non_Red_Cross Situational_Report,11.5,123.6
 T029,Airport Status and Runway Length,11/12/2013,,2013-11-14_AirportMapPhilippines_thumb.jpg,Country_Wide,Situational_Report,11.5,123.6
 T001,Relief Web - Typoon Haiyan Path,11/11/2013,This map shows the path of Typhoon Haiyan over the Philippines.,ReliefWeb_Typhoon_Haiyan_Yolanda_Population _density_with_storm_path_thumb.png,Country_Wide,Non_Red_Cross,11.5,123.6
 T006,Deaths by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_deaths_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
@@ -73,4 +76,4 @@ T009,Injuries by Province,11/11/2013,Situational Report. Data source: Philippine
 T010,Missing by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_missing_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
 T011,Evacuated Casualties by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_no_ec_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
 T005,Haiyan Path,11/9/2013,Provinces and major cities with overlay of Haiyan's path.,PHL_ARC_ProvincesCitiesPathOverview_letter_2013-11-09_thumb.jpg,Country_Wide,Red_Cross Overview,11.5,123.6
-T004,OSM Overview Map,11/8/2013,Eastern half of the main affected area.,PHL_ARC_OSM_AOI(east)_archE_2013-11-08_thumb.jpg,Affected_Area_East,Red_Cross Base_Map OSM Poster,11.6,123.9
+T004,OSM Overview Map,11/8/2013,Eastern half of the main affected area.,PHL_ARC_OSM_AOI(east)_archE_2013-11-08_thumb.jpg,Affected_Area_East,Red_Cross OSM Poster Overview,11.6,123.9
