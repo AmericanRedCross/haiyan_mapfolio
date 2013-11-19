@@ -326,7 +326,11 @@ function formatCentroids(){
 
 function markersToMap(){
     map.removeLayer(markers);
-    markers = new L.MarkerClusterGroup({showCoverageOnHover:false, spiderfyDistanceMultiplier:3,});
+    markers = new L.MarkerClusterGroup({
+        showCoverageOnHover:false, 
+        maxClusterRadius: 40   
+        // spiderfyDistanceMultiplier:3
+    });    
     idList = [];
     displayedPoints=[];
     //build array of visible thumbnail IDs
