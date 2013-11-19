@@ -644,7 +644,7 @@
     "description":"Affected persons per municipality.",
     "thumb":"COPERNICUS_Damage_Grading_Overview_13_11_08_thumb.png",
     "extent":"Leyte Tacloban",
-    "sector":"Non_Red_Cross Situational_Reports Satellite",
+    "sector":"Non_Red_Cross Situational_Report Satellite",
     "latitude":11.24133,
     "longitude":125.0006
   },
@@ -743,7 +743,7 @@
     "description":"Affected persons per municipality.",
     "thumb":"MA010_AffectedPopulationPercMunicipalities_v03-300dpi_thumb.png",
     "extent":"Country_Wide",
-    "sector":"Non_Red_Cross Situational_Reports",
+    "sector":"Non_Red_Cross Situational_Report",
     "latitude":11.5,
     "longitude":123.6
   },
