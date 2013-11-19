@@ -1,7 +1,7 @@
 var windowHeight = $(window).height();
 var extentButtons;
 var sectorButtons;
-var visibleExtent = [];
+var visibleExtents = [];
 var visibleSectors = [];
 var thumbnails;
 var centroidsData;
@@ -25,43 +25,27 @@ function toggleFilter (filter, element) {
         $("#ALL-SECTOR").children().removeClass("glyphicon-unchecked"); 
         $("#ALL-SECTOR").children().addClass("glyphicon-check");
         $("#ALL-SECTOR").addClass("filtering");        
-    }
-    // steps if a extent filter is clicked
-    else if($(element).hasClass("btn-extent")){
-        // set global var for extent (only 1 at a time)
-        visibleExtent = filter;
-        // adjust display of checks and Xs
-        // has class "filtering" = active
-        $.each(extentButtons, function(i, button){
-            var buttonId = $(button).attr("id");
-            var buttonSpan = $(button).children();            
-            if(buttonId === filter){
-                $(buttonSpan).removeClass("glyphicon-unchecked");        
-                $(buttonSpan).addClass("glyphicon-check");
-                $(button).addClass("filtering");
-            } else {
-                $(buttonSpan).removeClass("glyphicon-check");
-                $(buttonSpan).addClass("glyphicon-unchecked");
-                $(button).removeClass("filtering");
-            }
-        })        
-    // steps if sector filter is clicked
-    // allows for multiple extent filters to be selected
-    // for example 'Red Cross' and 'Situational Reports'
-    } else {   
-        if(filter === "ALL-SECTOR"){
-            $.each(sectorButtons, function(i, button){
+    } else {
+    // if a filter button is clicked
+        var containerId = '#' + $(element).parent().attr('id');
+        var sameFilterButtons = $(containerId).children();
+        // check if filter is for all
+        if($(element).hasClass('all')){
+            $.each(sameFilterButtons, function(i, button){
                 $(button).children().removeClass("glyphicon-check");
                 $(button).children().addClass("glyphicon-unchecked");
                 $(button).removeClass("filtering");
             })
-            $("#ALL-SECTOR").children().removeClass("glyphicon-unchecked"); 
-            $("#ALL-SECTOR").children().addClass("glyphicon-check");
-            $("#ALL-SECTOR").addClass("filtering");         
-        } else{
-            $("#ALL-SECTOR").children().addClass("glyphicon-unchecked"); 
-            $("#ALL-SECTOR").children().removeClass("glyphicon-check");
-            $("#ALL-SECTOR").removeClass("filtering");
+            $(element).children().removeClass("glyphicon-unchecked"); 
+            $(element).children().addClass("glyphicon-check");
+            $(element).addClass("filtering");         
+        } else {
+            // clear the ALL filter for the filter category
+            var sameCategoryAll = $(containerId).find('.all');
+            $(sameCategoryAll).children().addClass("glyphicon-unchecked");
+            $(sameCategoryAll).children().removeClass("glyphicon-check");
+            $(sameCategoryAll).removeClass("filtering");
+            
             // if clicked sector filter is on, then turn it off
             if($(element).hasClass("filtering") === true){
                 $(element).removeClass("filtering");
@@ -69,15 +53,15 @@ function toggleFilter (filter, element) {
                 $(element).children().addClass("glyphicon-unchecked");
                 // if no sector filters are turned on, toggle 'All' back on
                 var noSectorFiltering = true;
-                $.each(sectorButtons, function(i, button){
+                $.each(sameFilterButtons, function(i, button){
                     if ($(button).hasClass("filtering")){
                         noSectorFiltering = false;
                     }
                 });
                 if (noSectorFiltering === true){
-                    $("#ALL-SECTOR").children().removeClass("glyphicon-unchecked"); 
-                    $("#ALL-SECTOR").children().addClass("glyphicon-check");
-                    $("#ALL-SECTOR").addClass("filtering");     
+                    $(sameCategoryAll).children().removeClass("glyphicon-unchecked"); 
+                    $(sameCategoryAll).children().addClass("glyphicon-check");
+                    $(sameCategoryAll).addClass("filtering");     
                 }
             // if clicked sector filter is off, then turn it on
             } else {
@@ -86,13 +70,13 @@ function toggleFilter (filter, element) {
                 $(element).children().addClass("glyphicon-check");                
             }
         }
-    }        
-        
-    // check to see what which extent is active (only 1 at a time)
+    }
+    // check to see what which extents are active
+    visibleExtents = [];
     $.each(extentButtons, function(i, button){
         if($(button).hasClass("filtering")){
             var buttonid = $(button).attr("id");
-            visibleExtent = buttonid;
+            visibleExtents.push(buttonid);
         }
     })
     // check to see what sectors are active
@@ -108,18 +92,22 @@ function toggleFilter (filter, element) {
 
 function toggleThumbnails (){
     $(thumbnails).hide();
-    $.each(thumbnails, function(iT, thumbnail){        
-        if ($(thumbnail).hasClass(visibleExtent)){        
-            var status = true;
-            $.each(visibleSectors, function(iS, sector){
-                if($(thumbnail).hasClass(sector) === false ){
-                    status = false;
-                } 
-            });
-            if (status === true){
-                $(thumbnail).show();
-            }            
-        }
+    $.each(thumbnails, function(iT, thumbnail){ 
+        var hasExtent = false;
+        $.each(visibleExtents, function(iE, extent){
+            if($(thumbnail).hasClass(extent)){
+                hasExtent = true;
+            }
+        });
+        var hasSectors = true;
+        $.each(visibleSectors, function(iS, sector){
+            if($(thumbnail).hasClass(sector) === false ){
+                hasSectors = false;
+            } 
+        });
+        if(hasExtent === true && hasSectors === true){
+            $(thumbnail).show();
+        }        
     });
     thumbnailCount = $(thumbnails).filter(function(){return $(this).css('display') === 'block';}).length;
     if (thumbnailCount === 0){
@@ -168,14 +156,14 @@ var centroidOptions = {
     fillOpacity: 1
 };
 
-var cloudmadeUrl = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
-var attribution = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a> | &copy; <a href="http://redcross.org" title="Red Cross" target="_blank">Red Cross</a> 2013';
-var cloudmade = L.tileLayer(cloudmadeUrl, {attribution: attribution});
+var mapUrl = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
+var mapAttribution = 'Map data &copy; <a href="http://openstreetmap.org" target="_blank">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a> | Map style by <a href="http://hot.openstreetmap.org" target="_blank">H.O.T.</a> | &copy; <a href="http://redcross.org" title="Red Cross" target="_blank">Red Cross</a> 2013 | <a title="Disclaimer" onClick="showDisclaimer();">Disclaimer</a>';
+var mapTiles = L.tileLayer(mapUrl, {attribution: mapAttribution});
 
 var map = L.map('map', {   
     zoom: 0,
     scrollWheelZoom: false,
-    layers: [cloudmade]
+    layers: [mapTiles]
 });
 
 
@@ -263,7 +251,8 @@ function generatepreviewhtml(data){
 }
 
 function generateFilterButtons(){
-    var extentFilterHtml = '<button id="ALL-EXTENT" class="btn btn-small btn-extent filtering" type="button" onclick="toggleFilter('+"'ALL-EXTENT'"+', this);"'+
+    extentTags.sort();
+    var extentFilterHtml = '<button id="ALL-EXTENT" class="btn btn-small btn-extent filtering all" type="button" onclick="toggleFilter('+"'ALL-EXTENT'"+', this);"'+
         ' style="margin-right:10px;">All<span class="glyphicon glyphicon-check" style="margin-left:4px;"></span></button>';
     $.each(extentTags, function(index, tag){
         var itemHtml = '<button id="'+tag+'" class="btn btn-small btn-extent" type="button" onclick="toggleFilter('+"'"+tag+"'"+', this);">'+tag+
@@ -273,7 +262,8 @@ function generateFilterButtons(){
     $('#extentButtons').html(extentFilterHtml);
     extentButtons = $("#extentButtons").children();
 
-    var sectorFilterHtml = '<button id="ALL-SECTOR" class="btn btn-small btn-sector filtering" type="button" onclick="toggleFilter('+"'ALL-SECTOR'"+', this);"'+ 
+    sectorTags.sort();
+    var sectorFilterHtml = '<button id="ALL-SECTOR" class="btn btn-small btn-sector filtering all" type="button" onclick="toggleFilter('+"'ALL-SECTOR'"+', this);"'+ 
         'style="margin-right:10px;">All <span class="glyphicon glyphicon-check" style="margin-left:4px;"></span></button>';
     $.each(sectorTags, function(index, tag){
         var itemHtml = '<button id="'+tag+'" class="btn btn-small btn-sector" type="button" onclick="toggleFilter('+"'"+tag+"'"+', this);">'+tag+
@@ -284,26 +274,6 @@ function generateFilterButtons(){
     sectorButtons = $("#sectorButtons").children();
     formatCentroids();
 }
-
-// function formatExtentTag(extentTag){
-//     if (extentTag === "CW"){
-//         return "Country Wide";
-//     } else if (extentTag === "TACLOBAN"){
-//         return "Tacloban";
-//     } else {
-//         return extentTag;
-//     }
-// }
-
-// function formatSectorTag(sectorTag){
-//     if (sectorTag === "RC"){
-//         return "Red Cross";
-//     } else if (sectorTag === "SITREP"){
-//         return "Situational Reports";
-//     } else {
-//         return sectorTag;
-//     }
-// }
 
 function formatCentroids(){
     $.each(centroidsData, function(index, item) {
@@ -367,8 +337,12 @@ function markersToMap(){
     });
     markers.addLayer(marker);
     markers.addTo(map);
-    markersBounds = markers.getBounds();    
-    map.fitBounds(markersBounds);
+    markersBounds = markers.getBounds();
+    markersBounds._northEast.lat += 0.05;
+    markersBounds._northEast.lng += 0.05;
+    markersBounds._southWest.lat -= 0.05;
+    markersBounds._southWest.lat -= 0.05;
+    map.fitBounds(markersBounds);    
 } 
 
 
