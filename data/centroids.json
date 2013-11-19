@@ -1,5 +1,38 @@
 [
   {
+    "thumbnail_id":"T076",
+    "caption":"ICRC and IFRC Operational Provinces",
+    "date":"11/19/2013",
+    "description":"Areas of operation.",
+    "thumb":"2013_11_19_ICRC_IFRC_operation_areas_v2_thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Operations",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T077",
+    "caption":"Ormoc, Leyte",
+    "date":"11/18/2013",
+    "description":"Maposmatic of OSM data with street index. Poster.",
+    "thumb":"2013-11-18_maposmatic_Leyte_Ormoc_HOT_index_poster_thumb.jpg",
+    "extent":"Leyte Ormoc",
+    "sector":"Overview OSM maposmatic Poster",
+    "latitude":11.008,
+    "longitude":124.608
+  },
+  {
+    "thumbnail_id":"T078",
+    "caption":"Tacloban, Leyte",
+    "date":"11/18/2013",
+    "description":"Maposmatic of OSM data with street index. Poster.",
+    "thumb":"2013-11-18_maposmatic_Leyte_TaclobanCity_HOT_index_poster_thumb.jpg",
+    "extent":"Leyte Tacloban",
+    "sector":"Overview OSM maposmatic Poster",
+    "latitude":11.24133,
+    "longitude":125.0006
+  },
+  {
     "thumbnail_id":"T024",
     "caption":"Affected Persons per Mobilized Volunteer",
     "date":"11/18/2013",
@@ -93,7 +126,7 @@
     "date":"11/18/2013",
     "description":"Data source: OSM, GADM.",
     "thumb":"2013-11-18_OSM_OrmocSurroundingBarangays_thumb.jpg",
-    "extent":"Leyte",
+    "extent":"Leyte Ormoc",
     "sector":"Overview OSM Administrative_Boundaries",
     "latitude":11.008,
     "longitude":124.608
@@ -104,7 +137,7 @@
     "date":"11/17/2013",
     "description":"Ormoc City, Leyte. Data source: UNOSAT.",
     "thumb":"2013_11_17_western_ormoc_OSM_buildingtags_thumb.jpg",
-    "extent":"Leyte",
+    "extent":"Leyte Ormoc",
     "sector":"Analysis Damage_Assessment",
     "latitude":11.008,
     "longitude":124.608
@@ -117,8 +150,8 @@
     "thumb":"2013-11-17_ARC_Cebu_Asturias_thumb.jpg",
     "extent":"Cebu",
     "sector":"Administrative_Boundaries",
-    "latitude":10.597,
-    "longitude":123.792
+    "latitude":10.5625,
+    "longitude":123.72763
   },
   {
     "thumbnail_id":"T032",
@@ -128,8 +161,8 @@
     "thumb":"2013-11-17_ARC_Cebu_Balamban_thumb.jpg",
     "extent":"Cebu",
     "sector":"Administrative_Boundaries",
-    "latitude":10.484,
-    "longitude":123.767
+    "latitude":10.5056,
+    "longitude":123.7182
   },
   {
     "thumbnail_id":"T033",
@@ -192,7 +225,7 @@
     "date":"11/17/2013",
     "description":"Municipal map with barangays.",
     "thumb":"2013-11-17_ARC_Cebu_CebuCityALL_thumb.jpg",
-    "extent":"Cebu",
+    "extent":"Cebu Cebu_City",
     "sector":"Administrative_Boundaries",
     "latitude":10.312,
     "longitude":123.867
@@ -203,7 +236,7 @@
     "date":"11/17/2013",
     "description":"Municipal map with barangays.",
     "thumb":"2013-11-17_ARC_Cebu_CebuCityCENTER_thumb.jpg",
-    "extent":"Cebu",
+    "extent":"Cebu Cebu_City",
     "sector":"Administrative_Boundaries",
     "latitude":10.312,
     "longitude":123.867
@@ -260,8 +293,8 @@
     "thumb":"2013-11-17_ARC_Cebu_DanaoCity_thumb.jpg",
     "extent":"Cebu",
     "sector":"Administrative_Boundaries",
-    "latitude":10.526,
-    "longitude":124.1
+    "latitude":10.524,
+    "longitude":124.027
   },
   {
     "thumbnail_id":"T045",
@@ -599,7 +632,7 @@
     "date":"11/14/2013",
     "description":"",
     "thumb":"2013_11_14_CebuCityLogistics_thumb.jpg",
-    "extent":"Cebu",
+    "extent":"Cebu Cebu_City",
     "sector":"IFRC Operations",
     "latitude":10.312,
     "longitude":123.867
@@ -610,10 +643,10 @@
     "date":"11/13/2013",
     "description":"Affected persons per municipality.",
     "thumb":"COPERNICUS_Damage_Grading_Overview_13_11_08_thumb.png",
-    "extent":"Tacloban",
-    "sector":"Non_Red_Cross Situational_Reports Satellite",
-    "latitude":11.2694,
-    "longitude":124.9645
+    "extent":"Leyte Tacloban",
+    "sector":"Non_Red_Cross Situational_Report Satellite",
+    "latitude":11.24133,
+    "longitude":125.0006
   },
   {
     "thumbnail_id":"T012",
@@ -710,7 +743,7 @@
     "description":"Affected persons per municipality.",
     "thumb":"MA010_AffectedPopulationPercMunicipalities_v03-300dpi_thumb.png",
     "extent":"Country_Wide",
-    "sector":"Non_Red_Cross Situational_Reports",
+    "sector":"Non_Red_Cross Situational_Report",
     "latitude":11.5,
     "longitude":123.6
   },
@@ -820,7 +853,7 @@
     "description":"Eastern half of the main affected area.",
     "thumb":"PHL_ARC_OSM_AOI(east)_archE_2013-11-08_thumb.jpg",
     "extent":"Affected_Area_East",
-    "sector":"Red_Cross Base_Map OSM Poster",
+    "sector":"Red_Cross OSM Poster Overview",
     "latitude":11.6,
     "longitude":123.9
   }
