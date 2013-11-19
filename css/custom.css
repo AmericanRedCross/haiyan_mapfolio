@@ -107,7 +107,7 @@ a.leaflet-control-zoom-out {
 }
 
 .thumbnail {
-  min-height:310px;  /*set to largest thumbnail, so all boxes match*/
+  min-height:330px;  /*set to largest thumbnail, so all boxes match*/
 }
 
 .detailedDescription {

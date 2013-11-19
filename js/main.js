@@ -134,7 +134,7 @@ function callModal (item) {
 	var title = $(item).find('.caption').html();
     var description = $(item).find('.detailedDescription').html();
 	var thumbSrc = $(item).find('img').attr("src");
-    var mapSrc = thumbSrc.replace("_thumb", "");
+    var mapSrc = thumbSrc.slice(0,-10) + '.png';
     var pdfSrc = "pdf" + mapSrc.substring(8).replace(".jpg", ".pdf");
     pdfSrc = pdfSrc.replace(".png", ".pdf");
     var img_maxHeight = (windowHeight*0.60).toString() + "px";
@@ -237,7 +237,7 @@ function generatepreviewhtml(data){
           '<a onclick="callModal(this);" class="thumbnail">'+
             '<img src="img/maps/'+item.thumb+'" alt="">'+
             '<div class="caption">'+            
-              '<h4>'+item.caption+'<br><small>'+ formatDate(item.date) +'</small></h4>'+        
+              '<h5 style="margin-bottom:-8px; font-weight:bold;">'+item.caption+'</h5><br><p style="font-size:small;">'+ item.description +'<br><small>'+ formatDate(item.date) +'</small></p>'+        
             '</div>'+
             '<div class="detailedDescription">'+item.description+
             '</div>'+
