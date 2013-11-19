@@ -142,6 +142,10 @@ a.leaflet-control-zoom-out {
 }
 
 
+/* logo styling */
+#prclogo {
+  height: 40px;
+}
 
 /*styling for marker clusters*/
 .marker-cluster-small {
