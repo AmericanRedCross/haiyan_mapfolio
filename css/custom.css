@@ -87,7 +87,8 @@ a.leaflet-control-zoom-out {
 
 #arclogo,
 #brclogo,
-#ifrclogo {  
+#ifrclogo,
+#prclogo {  
   height: 35px;
   margin: 0 15px 10px 0;  
 }
