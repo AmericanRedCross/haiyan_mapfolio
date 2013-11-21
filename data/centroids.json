@@ -600,7 +600,7 @@
     "description":"Maposmatic of OSM data with street index. Poster.",
     "thumb":"2013-11-18_maposmatic_Leyte_Ormoc_HOT_index_poster_thumb.jpg",
     "extent":"Leyte Ormoc",
-    "sector":"Overview OSM maposmatic Poster",
+    "sector":"Overview OSM Maposmatic Poster",
     "latitude":11.008,
     "longitude":124.608
   },
@@ -611,7 +611,7 @@
     "description":"Maposmatic of OSM data with street index. Poster.",
     "thumb":"2013-11-18_maposmatic_Leyte_TaclobanCity_HOT_index_poster_thumb.jpg",
     "extent":"Leyte Tacloban",
-    "sector":"Overview OSM maposmatic Poster",
+    "sector":"Overview OSM Maposmatic Poster",
     "latitude":11.24133,
     "longitude":125.0006
   },
