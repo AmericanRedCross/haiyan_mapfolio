@@ -1,5 +1,533 @@
 [
   {
+    "thumbnail_id":"T078",
+    "caption":"Alangalang (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Alangalang(detail)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.222,
+    "longitude":124.845
+  },
+  {
+    "thumbnail_id":"T079",
+    "caption":"Alangalang, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Alangalang_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.222,
+    "longitude":124.845
+  },
+  {
+    "thumbnail_id":"T080",
+    "caption":"Albuera, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Albuera_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":10.922,
+    "longitude":124.714
+  },
+  {
+    "thumbnail_id":"T081",
+    "caption":"Babatngon, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Babatngon_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.412,
+    "longitude":124.846
+  },
+  {
+    "thumbnail_id":"T082",
+    "caption":"Barugo (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Barugo(detail)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.316,
+    "longitude":124.765
+  },
+  {
+    "thumbnail_id":"T083",
+    "caption":"Barugo, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Barugo_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.316,
+    "longitude":124.765
+  },
+  {
+    "thumbnail_id":"T084",
+    "caption":"Burauen (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Burauen(detail)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":10.976,
+    "longitude":124.888
+  },
+  {
+    "thumbnail_id":"T122",
+    "caption":"Burauen, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Burauen_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":10.976,
+    "longitude":124.888
+  },
+  {
+    "thumbnail_id":"T085",
+    "caption":"Calubian (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Calubian(detail)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.438,
+    "longitude":124.424
+  },
+  {
+    "thumbnail_id":"T086",
+    "caption":"Calubian, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Calubian_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.438,
+    "longitude":124.424
+  },
+  {
+    "thumbnail_id":"T087",
+    "caption":"Capoocan, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Capoocan_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.287,
+    "longitude":124.633
+  },
+  {
+    "thumbnail_id":"T088",
+    "caption":"Carigara (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Carigara(detail)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.292,
+    "longitude":124.691
+  },
+  {
+    "thumbnail_id":"T089",
+    "caption":"Carigara, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Carigara_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.292,
+    "longitude":124.691
+  },
+  {
+    "thumbnail_id":"T090",
+    "caption":"Dagami (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Dagami(detail)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.062,
+    "longitude":124.899
+  },
+  {
+    "thumbnail_id":"T091",
+    "caption":"Dagami, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Dagami_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.062,
+    "longitude":124.899
+  },
+  {
+    "thumbnail_id":"T092",
+    "caption":"Dulag (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Dulag(detail)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":10.959,
+    "longitude":125.02
+  },
+  {
+    "thumbnail_id":"T093",
+    "caption":"Dulag, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Dulag_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":10.959,
+    "longitude":125.02
+  },
+  {
+    "thumbnail_id":"T094",
+    "caption":"Isabel, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Isabel_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":10.937,
+    "longitude":124.45
+  },
+  {
+    "thumbnail_id":"T095",
+    "caption":"Jaro (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Jaro(detail)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.186,
+    "longitude":124.776
+  },
+  {
+    "thumbnail_id":"T096",
+    "caption":"Jaro, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Jaro_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.186,
+    "longitude":124.776
+  },
+  {
+    "thumbnail_id":"T097",
+    "caption":"Julita, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Julita_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":10.978,
+    "longitude":124.959
+  },
+  {
+    "thumbnail_id":"T098",
+    "caption":"Kananga, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Kananga_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.182,
+    "longitude":124.559
+  },
+  {
+    "thumbnail_id":"T099",
+    "caption":"La Paz, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_LaPaz_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":10.897,
+    "longitude":124.94
+  },
+  {
+    "thumbnail_id":"T100",
+    "caption":"Leyte, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Leyte_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.371,
+    "longitude":124.493
+  },
+  {
+    "thumbnail_id":"T101",
+    "caption":"Matag Ob, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_MatagOb_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.127,
+    "longitude":124.467
+  },
+  {
+    "thumbnail_id":"T102",
+    "caption":"Mayorga, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Mayorga_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":10.899,
+    "longitude":124.998
+  },
+  {
+    "thumbnail_id":"T103",
+    "caption":"Merida, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Merida_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":10.921,
+    "longitude":124.528
+  },
+  {
+    "thumbnail_id":"T104",
+    "caption":"Ormoc City (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_OrmocCity(central1)_thumb.jpg",
+    "extent":"Leyte Ormoc",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.008,
+    "longitude":124.608
+  },
+  {
+    "thumbnail_id":"T105",
+    "caption":"Ormoc City (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_OrmocCity(central2)_thumb.jpg",
+    "extent":"Leyte Ormoc",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.008,
+    "longitude":124.608
+  },
+  {
+    "thumbnail_id":"T106",
+    "caption":"Ormoc City (east), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_OrmocCity(east)_thumb.jpg",
+    "extent":"Leyte Ormoc",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.026,
+    "longitude":124.657
+  },
+  {
+    "thumbnail_id":"T107",
+    "caption":"Ormoc City (west), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_OrmocCity(west)_thumb.jpg",
+    "extent":"Leyte Ormoc",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.046,
+    "longitude":124.573
+  },
+  {
+    "thumbnail_id":"T108",
+    "caption":"Palo (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Palo(detail)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.154,
+    "longitude":124.99
+  },
+  {
+    "thumbnail_id":"T112",
+    "caption":"Palo, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Palo_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.154,
+    "longitude":124.99
+  },
+  {
+    "thumbnail_id":"T109",
+    "caption":"Palompon (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Palompon(detail1)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.054,
+    "longitude":124.395
+  },
+  {
+    "thumbnail_id":"T110",
+    "caption":"Palompon (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Palompon(detail2)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.054,
+    "longitude":124.395
+  },
+  {
+    "thumbnail_id":"T111",
+    "caption":"Palompon, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Palompon_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.054,
+    "longitude":124.395
+  },
+  {
+    "thumbnail_id":"T113",
+    "caption":"Pastrana, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Pastrana_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.131,
+    "longitude":124.88
+  },
+  {
+    "thumbnail_id":"T114",
+    "caption":"San Isidro, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_SanIsidro_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.408,
+    "longitude":124.359
+  },
+  {
+    "thumbnail_id":"T115",
+    "caption":"San Miguel, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_SanMiguel_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.296,
+    "longitude":124.839
+  },
+  {
+    "thumbnail_id":"T124",
+    "caption":"Sante Fe (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_SantaFe(detail)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.185,
+    "longitude":124.928
+  },
+  {
+    "thumbnail_id":"T123",
+    "caption":"Sante Fe, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_SantaFe_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.185,
+    "longitude":124.928
+  },
+  {
+    "thumbnail_id":"T116",
+    "caption":"Tabango, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Tabango_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.319,
+    "longitude":124.38
+  },
+  {
+    "thumbnail_id":"T125",
+    "caption":"Tabontabon, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Tabontabon_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.046,
+    "longitude":124.949
+  },
+  {
+    "thumbnail_id":"T117",
+    "caption":"Tanauan (central), Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Tanauan(detail)_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.107,
+    "longitude":125.007
+  },
+  {
+    "thumbnail_id":"T118",
+    "caption":"Tanauan, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Tanauan_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.107,
+    "longitude":125.007
+  },
+  {
+    "thumbnail_id":"T119",
+    "caption":"Tolosa, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Tolosa_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.052,
+    "longitude":125.026
+  },
+  {
+    "thumbnail_id":"T120",
+    "caption":"Tunga, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Tunga_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.248,
+    "longitude":124.752
+  },
+  {
+    "thumbnail_id":"T121",
+    "caption":"Villaba, Leyte",
+    "date":"11/20/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-20_ARC_Leyte_Villaba_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Administrative_Boundaries",
+    "latitude":11.191,
+    "longitude":124.402
+  },
+  {
     "thumbnail_id":"T076",
     "caption":"ICRC and IFRC Operational Provinces",
     "date":"11/19/2013",
@@ -9,6 +537,50 @@
     "sector":"Operations",
     "latitude":11.5,
     "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T070",
+    "caption":"Affected Persons by Province",
+    "date":"11/18/2013",
+    "description":"Situational Report. Data source: Philippines Red Cross.",
+    "thumb":"2013-11-18_sitrep_persons_affected_thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T024",
+    "caption":"Affected Persons per Mobilized Volunteer",
+    "date":"11/18/2013",
+    "description":"Situational Report. Data source: Philippines Red Cross.",
+    "thumb":"2013-11-18_sitrep_affected_people_per_mobilized_thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T071",
+    "caption":"Deaths by Province",
+    "date":"11/18/2013",
+    "description":"Situational Report. Data source: Philippines Red Cross.",
+    "thumb":"2013-11-18_sitrep_deaths_thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T075",
+    "caption":"Ormoc City and Surrounding Area Barangays",
+    "date":"11/18/2013",
+    "description":"Data source: OSM, GADM.",
+    "thumb":"2013-11-18_OSM_OrmocSurroundingBarangays_thumb.jpg",
+    "extent":"Leyte Ormoc",
+    "sector":"Overview OSM Administrative_Boundaries",
+    "latitude":11.008,
+    "longitude":124.608
   },
   {
     "thumbnail_id":"T077",
@@ -33,44 +605,22 @@
     "longitude":125.0006
   },
   {
-    "thumbnail_id":"T024",
-    "caption":"Affected Persons per Mobilized Volunteer",
+    "thumbnail_id":"T074",
+    "caption":"Terrain in Leyte (northern)",
     "date":"11/18/2013",
-    "description":"Situational Report. Data source: Philippines Red Cross.",
-    "thumb":"2013-11-18_sitrep_affected_people_per_mobilized_thumb.jpg",
-    "extent":"Country_Wide",
-    "sector":"Red_Cross Situational_Report",
-    "latitude":11.5,
-    "longitude":123.6
+    "description":"",
+    "thumb":"North_Leyte_Terrain_2013_11_18_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Overview",
+    "latitude":11.14,
+    "longitude":124.73
   },
   {
-    "thumbnail_id":"T069",
-    "caption":"Volunteers Mobilized by Province",
+    "thumbnail_id":"T073",
+    "caption":"Totally Damaged Buildings by Province",
     "date":"11/18/2013",
     "description":"Situational Report. Data source: Philippines Red Cross.",
-    "thumb":"2013-11-18_sitrep_volunteers_mobilized_thumb.jpg",
-    "extent":"Country_Wide",
-    "sector":"Red_Cross Situational_Report",
-    "latitude":11.5,
-    "longitude":123.6
-  },
-  {
-    "thumbnail_id":"T070",
-    "caption":"Affected Persons by Province",
-    "date":"11/18/2013",
-    "description":"Situational Report. Data source: Philippines Red Cross.",
-    "thumb":"2013-11-18_sitrep_persons_affected_thumb.jpg",
-    "extent":"Country_Wide",
-    "sector":"Red_Cross Situational_Report",
-    "latitude":11.5,
-    "longitude":123.6
-  },
-  {
-    "thumbnail_id":"T071",
-    "caption":"Deaths by Province",
-    "date":"11/18/2013",
-    "description":"Situational Report. Data source: Philippines Red Cross.",
-    "thumb":"2013-11-18_sitrep_deaths_thumb.jpg",
+    "thumb":"2013-11-18_sitrep_totally_damaged_buildings_thumb.jpg",
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
@@ -88,48 +638,15 @@
     "longitude":123.6
   },
   {
-    "thumbnail_id":"T073",
-    "caption":"Totally Damaged Buildings by Province",
+    "thumbnail_id":"T069",
+    "caption":"Volunteers Mobilized by Province",
     "date":"11/18/2013",
     "description":"Situational Report. Data source: Philippines Red Cross.",
-    "thumb":"2013-11-18_sitrep_totally_damaged_buildings_thumb.jpg",
+    "thumb":"2013-11-18_sitrep_volunteers_mobilized_thumb.jpg",
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
     "longitude":123.6
-  },
-  {
-    "thumbnail_id":"T074",
-    "caption":"Terrain in Leyte (northern)",
-    "date":"11/18/2013",
-    "description":"",
-    "thumb":"North_Leyte_Terrain_2013_11_18_thumb.jpg",
-    "extent":"Leyte",
-    "sector":"Overview",
-    "latitude":11.14,
-    "longitude":124.73
-  },
-  {
-    "thumbnail_id":"T075",
-    "caption":"Ormoc City and Surrounding Area Barangays",
-    "date":"11/18/2013",
-    "description":"Data source: OSM, GADM.",
-    "thumb":"2013-11-18_OSM_OrmocSurroundingBarangays_thumb.jpg",
-    "extent":"Leyte Ormoc",
-    "sector":"Overview OSM Administrative_Boundaries",
-    "latitude":11.008,
-    "longitude":124.608
-  },
-  {
-    "thumbnail_id":"T028",
-    "caption":"Building Damage Assessment",
-    "date":"11/17/2013",
-    "description":"Ormoc City, Leyte. Data source: UNOSAT.",
-    "thumb":"2013_11_17_western_ormoc_OSM_buildingtags_thumb.jpg",
-    "extent":"Leyte Ormoc",
-    "sector":"Analysis Damage_Assessment",
-    "latitude":11.008,
-    "longitude":124.608
   },
   {
     "thumbnail_id":"T031",
@@ -185,6 +702,17 @@
     "sector":"Administrative_Boundaries",
     "latitude":10.852,
     "longitude":124.014
+  },
+  {
+    "thumbnail_id":"T028",
+    "caption":"Building Damage Assessment",
+    "date":"11/17/2013",
+    "description":"Ormoc City, Leyte. Data source: UNOSAT.",
+    "thumb":"2013_11_17_western_ormoc_OSM_buildingtags_thumb.jpg",
+    "extent":"Leyte Ormoc",
+    "sector":"Analysis Damage_Assessment",
+    "latitude":11.008,
+    "longitude":124.608
   },
   {
     "thumbnail_id":"T036",
@@ -396,6 +924,17 @@
     "longitude":124.424
   },
   {
+    "thumbnail_id":"T064",
+    "caption":"San Francisco, Cebu",
+    "date":"11/17/2013",
+    "description":"Municipal map with barangays.",
+    "thumb":"2013-11-19_ARC_Cebu_SanFrancisco_thumb.jpg",
+    "extent":"Cebu",
+    "sector":"Administrative_Boundaries",
+    "latitude":10.639,
+    "longitude":124.336
+  },
+  {
     "thumbnail_id":"T055",
     "caption":"San Remigio, Cebu",
     "date":"11/17/2013",
@@ -495,15 +1034,15 @@
     "longitude":124.42
   },
   {
-    "thumbnail_id":"T064",
-    "caption":"San Francisco, Cebu",
-    "date":"11/17/2013",
-    "description":"Municipal map with barangays.",
-    "thumb":"2013-11-19_ARC_Cebu_SanFrancisco_thumb.jpg",
-    "extent":"Cebu",
-    "sector":"Administrative_Boundaries",
-    "latitude":10.639,
-    "longitude":124.336
+    "thumbnail_id":"T067",
+    "caption":"Current Shelter Populations",
+    "date":"11/15/2013",
+    "description":"Data source: Map Action.",
+    "thumb":"2013_11_18_Shelter_pop_MapAction_zoom_thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
   },
   {
     "thumbnail_id":"T026",
@@ -517,6 +1056,17 @@
     "longitude":124.73
   },
   {
+    "thumbnail_id":"T025",
+    "caption":"IFRC Operational Overview",
+    "date":"11/15/2013",
+    "description":"",
+    "thumb":"2013_11_15_CebuCityOperations_ATLANTIC_thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"IFRC Operations",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
     "thumbnail_id":"T027",
     "caption":"Population and Damages",
     "date":"11/15/2013",
@@ -528,22 +1078,11 @@
     "longitude":124.73
   },
   {
-    "thumbnail_id":"T067",
-    "caption":"Current Shelter Populations",
-    "date":"11/15/2013",
-    "description":"Data source: Map Action.",
-    "thumb":"2013_11_18_Shelter_pop_MapAction_zoom_thumb.jpg",
-    "extent":"Country_Wide",
-    "sector":"Situational_Report",
-    "latitude":11.5,
-    "longitude":123.6
-  },
-  {
-    "thumbnail_id":"T018",
-    "caption":"Number of Deaths by Province",
+    "thumbnail_id":"T023",
+    "caption":"Evacuated Casualties by Province",
     "date":"11/14/2013",
     "description":"Situational Report. Data source: Philippines Red Cross.",
-    "thumb":"2013-11-14_siterep_deaths_Philippines4logos_thumb.jpg",
+    "thumb":"2013-11-14_siterep_no_ec_Philippines4logos2_thumb.jpg",
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
@@ -572,6 +1111,17 @@
     "longitude":123.6
   },
   {
+    "thumbnail_id":"T068",
+    "caption":"IFRC Cebu City Logistics Map",
+    "date":"11/14/2013",
+    "description":"",
+    "thumb":"2013_11_14_CebuCityLogistics_thumb.jpg",
+    "extent":"Cebu Cebu_City",
+    "sector":"IFRC Operations",
+    "latitude":10.312,
+    "longitude":123.867
+  },
+  {
     "thumbnail_id":"T021",
     "caption":"Injuries by Province",
     "date":"11/14/2013",
@@ -594,26 +1144,26 @@
     "longitude":123.6
   },
   {
-    "thumbnail_id":"T023",
-    "caption":"Evacuated Casualties by Province",
+    "thumbnail_id":"T018",
+    "caption":"Number of Deaths by Province",
     "date":"11/14/2013",
     "description":"Situational Report. Data source: Philippines Red Cross.",
-    "thumb":"2013-11-14_siterep_no_ec_Philippines4logos2_thumb.jpg",
+    "thumb":"2013-11-14_siterep_deaths_Philippines4logos_thumb.jpg",
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
     "longitude":123.6
   },
   {
-    "thumbnail_id":"T068",
-    "caption":"IFRC Cebu City Logistics Map",
-    "date":"11/14/2013",
-    "description":"",
-    "thumb":"2013_11_14_CebuCityLogistics_thumb.jpg",
-    "extent":"Cebu Cebu_City",
-    "sector":"IFRC Operations",
-    "latitude":10.312,
-    "longitude":123.867
+    "thumbnail_id":"T065",
+    "caption":"Active Evacuation Centers in Municipalities",
+    "date":"11/13/2013",
+    "description":"Data source: Map Action.",
+    "thumb":"2013_11_13_EvacCenter_MapAction_zoom_thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
   },
   {
     "thumbnail_id":"T003",
@@ -632,6 +1182,17 @@
     "date":"11/13/2013",
     "description":"Situational Report. Data source: Philippines Red Cross.",
     "thumb":"2013-11-13_siterep_deaths_Philippines_thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T017",
+    "caption":"Evacuated Casualties by Province",
+    "date":"11/13/2013",
+    "description":"Situational Report. Data source: Philippines Red Cross.",
+    "thumb":"2013-11-13_siterep_no_ec_Philippines_thumb.jpg",
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
@@ -682,28 +1243,6 @@
     "longitude":123.6
   },
   {
-    "thumbnail_id":"T017",
-    "caption":"Evacuated Casualties by Province",
-    "date":"11/13/2013",
-    "description":"Situational Report. Data source: Philippines Red Cross.",
-    "thumb":"2013-11-13_siterep_no_ec_Philippines_thumb.jpg",
-    "extent":"Country_Wide",
-    "sector":"Red_Cross Situational_Report",
-    "latitude":11.5,
-    "longitude":123.6
-  },
-  {
-    "thumbnail_id":"T065",
-    "caption":"Active Evacuation Centers in Municipalities",
-    "date":"11/13/2013",
-    "description":"Data source: Map Action.",
-    "thumb":"2013_11_13_EvacCenter_MapAction_zoom_thumb.jpg",
-    "extent":"Country_Wide",
-    "sector":"Situational_Report",
-    "latitude":11.5,
-    "longitude":123.6
-  },
-  {
     "thumbnail_id":"T066",
     "caption":"Percent of Population Affected by Municipality",
     "date":"11/13/2013",
@@ -737,22 +1276,22 @@
     "longitude":123.6
   },
   {
-    "thumbnail_id":"T001",
-    "caption":"Relief Web - Typoon Haiyan Path",
-    "date":"11/11/2013",
-    "description":"This map shows the path of Typhoon Haiyan over the Philippines.",
-    "thumb":"ReliefWeb_Typhoon_Haiyan_Yolanda_Population _density_with_storm_path_thumb.png",
-    "extent":"Country_Wide",
-    "sector":"Non_Red_Cross",
-    "latitude":11.5,
-    "longitude":123.6
-  },
-  {
     "thumbnail_id":"T006",
     "caption":"Deaths by Province",
     "date":"11/11/2013",
     "description":"Situational Report. Data source: Philippines Red Cross.",
     "thumb":"2013-11-11_siterep_deaths_Philippines_thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T011",
+    "caption":"Evacuated Casualties by Province",
+    "date":"11/11/2013",
+    "description":"Situational Report. Data source: Philippines Red Cross.",
+    "thumb":"2013-11-11_siterep_no_ec_Philippines_thumb.jpg",
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
@@ -803,13 +1342,13 @@
     "longitude":123.6
   },
   {
-    "thumbnail_id":"T011",
-    "caption":"Evacuated Casualties by Province",
+    "thumbnail_id":"T001",
+    "caption":"Relief Web - Typoon Haiyan Path",
     "date":"11/11/2013",
-    "description":"Situational Report. Data source: Philippines Red Cross.",
-    "thumb":"2013-11-11_siterep_no_ec_Philippines_thumb.jpg",
+    "description":"This map shows the path of Typhoon Haiyan over the Philippines.",
+    "thumb":"ReliefWeb_Typhoon_Haiyan_Yolanda_Population _density_with_storm_path_thumb.png",
     "extent":"Country_Wide",
-    "sector":"Red_Cross Situational_Report",
+    "sector":"Non_Red_Cross",
     "latitude":11.5,
     "longitude":123.6
   },
