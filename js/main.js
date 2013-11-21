@@ -120,16 +120,16 @@ function toggleThumbnails (){
 
 function callModal (item) {
 	var title = $(item).find('.caption').html();
-    var description = $(item).find('.detailedDescription').html();
+    // var description = $(item).find('.detailedDescription').html();
 	var thumbSrc = $(item).find('img').attr("src");
-    var mapSrc = thumbSrc.slice(0,-10) + '.png';
-    var pdfSrc = "pdf" + mapSrc.substring(8).replace(".jpg", ".pdf");
+    var mapSrc = thumbSrc.slice(0,-10) + '.jpg';
+    var pdfSrc = "https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/" + mapSrc.slice(9,-3) + "pdf";
     pdfSrc = pdfSrc.replace(".png", ".pdf");
     var img_maxHeight = (windowHeight*0.60).toString() + "px";
     $(".modal-title").empty();
     $(".modal-detailedDescription").empty();
 	$(".modal-title").html(title);
-    $(".modal-detailedDescription").html(description); 
+    $(".modal-detailedDescription").html('<p style="float:left;"><small>To use this map please download a PDF using the button at right.</small><p>'); 
     $(".modal-img").css('max-height', img_maxHeight);
     $(".modal-img").attr('src', mapSrc);
 	$("#downloadPDF").attr("href", pdfSrc);    
