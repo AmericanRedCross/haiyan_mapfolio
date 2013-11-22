@@ -3,6 +3,8 @@ var extentButtons;
 var sectorButtons;
 var visibleExtents = [];
 var visibleSectors = [];
+var extentTags = [];
+var sectorTags = [];
 var thumbnails;
 var centroidsData;
 
@@ -175,6 +177,7 @@ var mapTiles = L.tileLayer(mapUrl, {attribution: mapAttribution});
 
 var map = L.map('map', {   
     zoom: 0,
+    maxZoom: 15,
     scrollWheelZoom: false,
     layers: [mapTiles]
 });
@@ -220,8 +223,6 @@ function getCentroids() {
         }
     });
 }
-
-
 
 //generates html for preview boxes using data from centroid.json
 function generatepreviewhtml(data){
@@ -312,8 +313,8 @@ function markersToMap(){
     map.removeLayer(markers);
     markers = new L.MarkerClusterGroup({
         showCoverageOnHover:false, 
-        maxClusterRadius: 40   
-        // spiderfyDistanceMultiplier:3
+        maxClusterRadius: 40,   
+        spiderfyDistanceMultiplier:2
     });    
     idList = [];
     displayedPoints=[];
@@ -359,26 +360,16 @@ function markersToMap(){
     map.fitBounds(markersBounds);    
 } 
 
-
 $(window).resize(function(){    
     map.fitBounds(markersBounds);    
     windowHeight = $(window).height();
 })
 
 
-
 // reset map bounds using Zoom to Extent button
 function zoomOut() {
     map.fitBounds(markersBounds);
 }
-
-
-
-
-var extentTags = [];
-var sectorTags = [];
-
-
 
 
 // start function chain to initialize map
