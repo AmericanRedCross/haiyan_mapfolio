@@ -122,7 +122,7 @@ function toggleThumbnails (){
 
 function callModal (item) {
 	var title = $(item).find('.caption').html();
-    // var description = $(item).find('.detailedDescription').html();
+    var description = $(item).find('.detailedDescription').html();
 	var thumbSrc = $(item).find('img').attr("src");
     var mapSrc = thumbSrc.slice(0,-10) + '.jpg';
     var pdfSrc = "https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/" + mapSrc.slice(9,-3) + "pdf";
@@ -131,7 +131,7 @@ function callModal (item) {
     $(".modal-title").empty();
     $(".modal-detailedDescription").empty();
 	$(".modal-title").html(title);
-    $(".modal-detailedDescription").html('<p style="float:left;"><small>To use this map please download a PDF using the button at right.</small><p>'); 
+    $(".modal-detailedDescription").html(description); 
     $(".modal-img").css('max-height', img_maxHeight);
     $(".modal-img").attr('src', mapSrc);
 	$("#downloadPDF").attr("href", pdfSrc);    
@@ -240,7 +240,7 @@ function generatepreviewhtml(data){
             '<div class="caption">'+            
               '<h5 style="margin-bottom:-8px; font-weight:bold;">'+item.caption+'</h5><br><p style="font-size:small;">'+ item.description +'<br><small>'+ formatDate(item.date) +'</small></p>'+        
             '</div>'+
-            '<div class="detailedDescription">'+item.description+
+            '<div class="detailedDescription">'+item.description+ '<br>PDF file size: ' + item.pdf_MB.toString() + ' MB.' +
             '</div>'+
           '</a>'+
         '</div>';
@@ -308,7 +308,7 @@ function formatCentroids(){
 }
 
 function markersToMap(){
-    paginateThumbnails();
+    // paginateThumbnails();
     map.removeLayer(markers);
     markers = new L.MarkerClusterGroup({
         showCoverageOnHover:false, 
