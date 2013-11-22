@@ -247,6 +247,14 @@ function generatepreviewhtml(data){
     });
     $('#mappreviews').html(html);
     thumbnails = $(".thumbnailGallery").children();
+    $("div.jp-holder").jPages({
+        containerID : "mappreviews",        
+        perPage      : 12,
+        startPage    : 1,
+        startRange   : 1,
+        midRange     : 5,
+        endRange     : 1
+    });
     generateFilterButtons();
 }
 
