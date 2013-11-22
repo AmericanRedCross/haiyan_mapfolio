@@ -1,5 +1,93 @@
 [
   {
+    "thumbnail_id":"T141",
+    "caption":"Affected Barangays by Municipality",
+    "date":"11/21/2013",
+    "description":"Situational Report. Data source: NDRRMC.",
+    "thumb":"2013-11-21_sitrep32_affected_barangays_ thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T142",
+    "caption":"Affected Families by Municipality",
+    "date":"11/21/2013",
+    "description":"Situational Report. Data source: NDRRMC.",
+    "thumb":"2013-11-21_sitrep32_affected_families_ thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T143",
+    "caption":"Affected Persons by Municipality",
+    "date":"11/21/2013",
+    "description":"Situational Report. Data source: NDRRMC.",
+    "thumb":"2013-11-21_sitrep32_affected_persons_ thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T138",
+    "caption":"Evacuation Centres by Municipality",
+    "date":"11/21/2013",
+    "description":"Situational Report. Data source: NDRRMC.",
+    "thumb":"2013-11-21_sitrep32_number_of_evacuation_centres_ thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T144",
+    "caption":"Families In Evacuation Centres by Municipality",
+    "date":"11/21/2013",
+    "description":"Situational Report. Data source: NDRRMC.",
+    "thumb":"2013-11-21_sitrep32_families_in_evacuation_centres_ thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T137",
+    "caption":"Families Outside Evacuation Centres by Municipality",
+    "date":"11/21/2013",
+    "description":"Situational Report. Data source: NDRRMC.",
+    "thumb":"2013-11-21_sitrep32_families_outside_evacuation_centres_ thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T139",
+    "caption":"Persons in Evacuation Centres by Muncipality",
+    "date":"11/21/2013",
+    "description":"Situational Report. Data source: NDRRMC.",
+    "thumb":"2013-11-21_sitrep32_persons_in_evacuation_centres_ thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
+    "thumbnail_id":"T140",
+    "caption":"Persons Outside Evacuation Centres by Municipality",
+    "date":"11/21/2013",
+    "description":"Situational Report. Data source: NDRRMC.",
+    "thumb":"2013-11-21_sitrep32_persons_outside_evacuation_centres_ thumb.jpg",
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Situational_Report",
+    "latitude":11.5,
+    "longitude":123.6
+  },
+  {
     "thumbnail_id":"T136",
     "caption":"Power Outages",
     "date":"11/21/2013",
