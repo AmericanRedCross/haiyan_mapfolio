@@ -93,6 +93,7 @@ function toggleFilter (filter, element) {
 function toggleThumbnails (){
     $(thumbnails).hide();
     $.each(thumbnails, function(iT, thumbnail){ 
+        $(thumbnail).removeClass("mapped");
         var hasExtent = false;
         $.each(visibleExtents, function(iE, extent){
             if($(thumbnail).hasClass(extent)){
@@ -107,6 +108,7 @@ function toggleThumbnails (){
         });
         if(hasExtent === true && hasSectors === true){
             $(thumbnail).show();
+            $(thumbnail).addClass("mapped");
         }        
     });
     thumbnailCount = $(thumbnails).filter(function(){return $(this).css('display') === 'block';}).length;
@@ -134,6 +136,17 @@ function callModal (item) {
     $(".modal-img").attr('src', mapSrc);
 	$("#downloadPDF").attr("href", pdfSrc);    
     $('#myModal').modal();    
+}
+
+function paginateThumbnails() {
+    $("div.jp-holder").jPages({
+        containerID: "mappreviews",        
+        perPage: 12,
+        startPage: 1,
+        startRange: 1,
+        midRange: 5,
+        endRange: 1
+    });
 }
 
 //disclaimer text
@@ -221,7 +234,7 @@ function generatepreviewhtml(data){
         return formattedDate;
     }
     $.each(data, function(index, item){
-        var itemhtml = '<div id="'+item.thumbnail_id+'" class="col-sm-3 ALL-EXTENT ALL-SECTOR '+item.extent+' '+item.sector+'">' +
+        var itemhtml = '<div id="'+item.thumbnail_id+'" style="display:none," class="col-sm-3 ALL-EXTENT ALL-SECTOR mapped '+item.extent+' '+item.sector+'">' +
           '<a onclick="callModal(this);" class="thumbnail">'+
             '<img src="img/maps/'+item.thumb+'" alt="">'+
             '<div class="caption">'+            
@@ -247,14 +260,6 @@ function generatepreviewhtml(data){
     });
     $('#mappreviews').html(html);
     thumbnails = $(".thumbnailGallery").children();
-    $("div.jp-holder").jPages({
-        containerID : "mappreviews",        
-        perPage      : 12,
-        startPage    : 1,
-        startRange   : 1,
-        midRange     : 5,
-        endRange     : 1
-    });
     generateFilterButtons();
 }
 
@@ -303,6 +308,7 @@ function formatCentroids(){
 }
 
 function markersToMap(){
+    paginateThumbnails();
     map.removeLayer(markers);
     markers = new L.MarkerClusterGroup({
         showCoverageOnHover:false, 
@@ -313,7 +319,7 @@ function markersToMap(){
     displayedPoints=[];
     //build array of visible thumbnail IDs
     $.each(thumbnails, function (i, thumbnail){
-       if($(thumbnail).css("display") !== "none"){
+       if($(thumbnail).hasClass("mapped")){
            idList.push($(thumbnail).attr("id"));
        }
     })
