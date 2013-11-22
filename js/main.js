@@ -308,7 +308,7 @@ function formatCentroids(){
 }
 
 function markersToMap(){
-    paginateThumbnails();
+    // paginateThumbnails();
     map.removeLayer(markers);
     markers = new L.MarkerClusterGroup({
         showCoverageOnHover:false, 

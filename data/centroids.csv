@@ -1,145 +1,165 @@
-thumbnail_id,caption,date,description,thumb,extent,sector,latitude,longitude
-T141,Affected Barangays by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_affected_barangays_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T142,Affected Families by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_affected_families_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T143,Affected Persons by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_affected_persons_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T138,Evacuation Centres by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_number_of_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T144,Families In Evacuation Centres by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_families_in_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T137,Families Outside Evacuation Centres by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_families_outside_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T139,Persons in Evacuation Centres by Muncipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_persons_in_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T140,Persons Outside Evacuation Centres by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_persons_outside_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T136,Power Outages,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_power_outages_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T075,"Alangalang (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Alangalang(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.222,124.845
-T077,"Alangalang, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Alangalang_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.222,124.845
-T078,"Albuera, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Albuera_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.922,124.714
-T079,"Babatngon, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Babatngon_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.412,124.846
-T080,"Barugo (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Barugo(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.316,124.765
-T081,"Barugo, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Barugo_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.316,124.765
-T082,"Burauen (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Burauen(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.976,124.888
-T120,"Burauen, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Burauen_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.976,124.888
-T083,"Calubian (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Calubian(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.438,124.424
-T084,"Calubian, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Calubian_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.438,124.424
-T085,"Capoocan, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Capoocan_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.287,124.633
-T086,"Carigara (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Carigara(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.292,124.691
-T087,"Carigara, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Carigara_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.292,124.691
-T088,"Dagami (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Dagami(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.062,124.899
-T089,"Dagami, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Dagami_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.062,124.899
-T090,"Dulag (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Dulag(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.959,125.02
-T091,"Dulag, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Dulag_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.959,125.02
-T092,"Isabel, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Isabel_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.937,124.45
-T093,"Jaro (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Jaro(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.186,124.776
-T094,"Jaro, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Jaro_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.186,124.776
-T095,"Julita, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Julita_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.978,124.959
-T096,"Kananga, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Kananga_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.182,124.559
-T097,"La Paz, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_LaPaz_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.897,124.94
-T098,"Leyte, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Leyte_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.371,124.493
-T099,"Matag Ob, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_MatagOb_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.127,124.467
-T100,"Mayorga, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Mayorga_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.899,124.998
-T101,"Merida, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Merida_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.921,124.528
-T102,"Ormoc City (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_OrmocCity(central1)_thumb.jpg,Leyte Ormoc,Red_Cross Administrative_Boundaries,11.008,124.608
-T103,"Ormoc City (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_OrmocCity(central2)_thumb.jpg,Leyte Ormoc,Red_Cross Administrative_Boundaries,11.008,124.608
-T104,"Ormoc City (east), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_OrmocCity(east)_thumb.jpg,Leyte Ormoc,Red_Cross Administrative_Boundaries,11.026,124.657
-T105,"Ormoc City (west), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_OrmocCity(west)_thumb.jpg,Leyte Ormoc,Red_Cross Administrative_Boundaries,11.046,124.573
-T106,"Palo (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Palo(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.154,124.99
-T110,"Palo, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Palo_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.154,124.99
-T107,"Palompon (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Palompon(detail1)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.054,124.395
-T108,"Palompon (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Palompon(detail2)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.054,124.395
-T109,"Palompon, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Palompon_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.054,124.395
-T111,"Pastrana, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Pastrana_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.131,124.88
-T112,"San Isidro, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_SanIsidro_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.408,124.359
-T113,"San Miguel, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_SanMiguel_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.296,124.839
-T122,"Sante Fe (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_SantaFe(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.185,124.928
-T121,"Sante Fe, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_SantaFe_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.185,124.928
-T114,"Tabango, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Tabango_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.319,124.38
-T123,"Tabontabon, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Tabontabon_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.046,124.949
-T115,"Tanauan (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Tanauan(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.107,125.007
-T116,"Tanauan, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Tanauan_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.107,125.007
-T117,"Tolosa, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Tolosa_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.052,125.026
-T118,"Tunga, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Tunga_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.248,124.752
-T119,"Villaba, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Villaba_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.191,124.402
-T073,ICRC and IFRC Operational Provinces,11/19/2013,Areas of operation.,2013_11_19_ICRC_IFRC_operation_areas_v2_thumb.jpg,Country_Wide,Red_Cross IFRC Operations,11.5,123.6
-T068,Affected Persons by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_persons_affected_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T024,Affected Persons per Mobilized Volunteer,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_affected_people_per_mobilized_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T069,Deaths by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_deaths_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T125,Ormoc City (central) Barangays,11/18/2013,"Data source: OSM, GADM.",2013_11_19_OrmocCity(central)_OSM_thumb.jpg,Leyte Ormoc,Red_Cross Administrative_Boundaries OSM Overview,11.008,124.608
-T124,Ormoc City and Surrounding Area Barangays,11/18/2013,"Data source: OSM, GADM.",2013_11_18_OSM_Ormoc_thumb.jpg,Leyte Ormoc,Red_Cross Administrative_Boundaries OSM Overview,11.008,124.608
-T074,"Ormoc, Leyte",11/18/2013,Maposmatic of OSM data with street index. Poster.,2013-11-18_maposmatic_Leyte_Ormoc_HOT_index_poster_thumb.jpg,Leyte Ormoc,Red_Cross Overview OSM Maposmatic Poster,11.008,124.608
-T076,"Tacloban, Leyte",11/18/2013,Maposmatic of OSM data with street index. Poster.,2013-11-18_maposmatic_Leyte_TaclobanCity_HOT_index_poster_thumb.jpg,Leyte Tacloban,Red_Cross Overview OSM Maposmatic Poster,11.24133,125.0006
-T072,Terrain in Leyte (northern),11/18/2013,,North_Leyte_Terrain_2013_11_18_thumb.jpg,Leyte,Red_Cross Overview,11.14,124.73
-T071,Totally Damaged Buildings by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_totally_damaged_buildings_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T070,Volunteers by Chapter HQ w/ Affected Persons by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_vols_by_chapter_and_affected_persons_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T067,Volunteers Mobilized by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_volunteers_mobilized_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T029,"Asturias, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Asturias_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.5625,123.72763
-T030,"Balamban, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Balamban_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.5056,123.7182
-T031,"Bantayan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Bantayan_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,11.211,123.723
-T032,"Bogo City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_BogoCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,11.037,124.014
-T033,"Borbon, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Borbon_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.852,124.014
-T027,Building Damage Assessment,11/17/2013,"Ormoc City, Leyte. Data source: UNOSAT.",2013_11_17_western_ormoc_OSM_buildingtags_thumb.jpg,Leyte Ormoc,Red_Cross Analysis Damage_Assessment,11.008,124.608
-T034,"Carmen, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Carmen_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.589,124.005
-T035,"Catmon, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Catmon_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.674,124.001
-T135,Cebu,11/17/2013,Province map with municipalities.,2013-11-17_ARC_Cebu(northern)ProvinceMuncipalitiesOverviewMap_thumb.jpg,Cebu,Red_Cross Overview Administrative_Boundaries,10.688,123.9001
-T036,"Cebu City (all), Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_CebuCityALL_thumb.jpg,Cebu Cebu_City,Red_Cross Administrative_Boundaries,10.312,123.867
-T037,"Cebu City (center), Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_CebuCityCENTER_thumb.jpg,Cebu Cebu_City,Red_Cross Administrative_Boundaries,10.312,123.867
-T038,"Compostela, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Compostela_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.461,123.995
-T039,"Consolacion, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Consolacion_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.372,123.971
-T040,"Cordova, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Cordova_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.252,123.95
-T041,"Daanbantayan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Daanbantayan_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,11.227,124.02
-T042,"Danao City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_DanaoCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.524,124.027
-T043,"Lapu-Lapu City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_LapuLapuCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.3,123.984
-T044,"Liloan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Liloan_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.413,123.984
-T045,"Madridejos, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Madridejos_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,11.278,123.735
-T046,"Mandaue City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_MandaueCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.341,123.945
-T047,"Medellin, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Medellin_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,11.131,123.98
-T048,"Minglanilla, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Minglanilla_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.247,123.795
-T049,"Naga City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_NagaCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.22,123.743
-T050,"Pilar, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Pilar_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.769,124.531
-T051,"Pinamungahan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Pinamungahan_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.277,123.601
-T052,"Poro, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Poro_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.674,124.424
-T062,"San Francisco, Cebu",11/17/2013,Municipal map with barangays.,2013-11-19_ARC_Cebu_SanFrancisco_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.639,124.336
-T053,"San Remigio, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_SanRemigio_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.961,123.932
-T054,"Santa Fe, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_SanteFe_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,11.165,123.79
-T055,"Sogod, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Sogod_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.76,123.993
-T056,"Tabogon, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Tabogon_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.932,124.014
-T057,"Tabuelan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Tabuelan_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.859,123.888
-T058,"Talisay City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_TalisayCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.255,123.837
-T059,"Toledo City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_ToledoCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.379,123.656
-T060,"Tuburan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Tuburan_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.729,123.846
-T061,"Tudela, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Tudela_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.672,124.42
-T065,Current Shelter Populations,11/15/2013,Data source: Map Action.,2013_11_18_Shelter_pop_MapAction_zoom_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T025,Damages and Affected Persons,11/15/2013,Northern Leyte. ,2013_11_15_North_Leyte_Damages_and_AffectedPersons_thumb.jpg,Leyte,Red_Cross Analysis,11.14,124.73
-T129,"Ormoc, Leyte",11/15/2013,Overview poster map using OSM data.,2013-11-15_OSM_Leyte_Ormoc_thumb.jpg,Leyte Ormoc,Red_Cross Overview OSM Poster,11.008,124.608
-T126,Philippines Transportation,11/15/2013,,2013_11_21_Philippines_airstrips_thumb.jpg,Country_Wide,Red_Cross Situational_Report Transportation Analysis,11.5,123.6
-T026,Population and Damages,11/15/2013,Northern Leyte. ,2013_11_15_North_Leyte_Pop_Damages_thumb.jpg,Leyte,Red_Cross Analysis,11.14,124.73
-T023,Evacuated Casualties by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_no_ec_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T019,Evacuated Families by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_evacuated_families_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T020,Evacuated Persons by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_evacuated_persons_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T066,IFRC Cebu City Logistics Map,11/14/2013,,2013_11_14_CebuCityLogistics_thumb.jpg,Cebu Cebu_City,Red_Cross IFRC Operations,10.312,123.867
-T021,Injuries by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_injuries_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T022,Missing People by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_missing_people_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T018,Number of Deaths by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_deaths_Philippines4logos_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T063,Active Evacuation Centers in Municipalities,11/13/2013,Data source: Map Action.,2013_11_13_EvacCenter_MapAction_zoom_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T128,"Cebu City (center), Cebu",11/13/2013,Maposmatic of OSM data with street index. Poster.,2013-11-13_maposmatic_CebuCitycentral_index_poster_thumb.jpg,Cebu Cebu_City,Red_Cross Overview OSM Maposmatic Poster,10.312,123.867
-T003,Damage Grading of Tacloban City (Copernicus),11/13/2013,Affected persons per municipality.,COPERNICUS_Damage_Grading_Overview_13_11_08_thumb.jpg,Leyte Tacloban,Non_Red_Cross Situational_Report Satellite,11.24133,125.0006
-T012,Deaths by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_deaths_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T017,Evacuated Casualties by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_no_ec_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T013,Evacuated Families by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_evacuated_families_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T014,Evacuated Persons by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_evacuated_persons_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T015,Injuries by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_injuries_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T016,Missing People by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_missing_Philippines.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T064,Percent of Population Affected by Municipality,11/13/2013,Data source: Map Action.,2013_11_15_AffPop_MapAction_zoom_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T127,"Tacloban, Leyte",11/13/2013,Overview poster map using OSM data.,2013-11-13_ARC_OSM_Leyte_TaclobanCity(poster)_thumb.jpg,Leyte Tacloban,Red_Cross Overview OSM Poster,11.24133,125.0006
-T002,Affected Person per Municipalities (MapAction),11/12/2013,Affected persons per municipality.,MA010_AffectedPopulationPercMunicipalities_v03-300dpi_thumb.jpg,Country_Wide,Non_Red_Cross Situational_Report,11.5,123.6
-T028,Airport Status and Runway Length,11/12/2013,,2013-11-14_AirportMapPhilippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report Transportation,11.5,123.6
-T006,Deaths by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_deaths_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T011,Evacuated Casualties by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_no_ec_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T007,Evacuated Families by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_evacuated_families_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T008,Evacuated Persons by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_evacuated_persons_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T009,Injuries by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_injuries_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T010,Missing by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_missing_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
-T001,Relief Web - Typoon Haiyan Path,11/11/2013,This map shows the path of Typhoon Haiyan over the Philippines.,ReliefWeb_Typhoon_Haiyan_Yolanda_Population _density_with_storm_path_thumb.jpg,Country_Wide,Non_Red_Cross,11.5,123.6
-T005,Haiyan Path,11/9/2013,Provinces and major cities with overlay of Haiyan's path.,PHL_ARC_ProvincesCitiesPathOverview_letter_2013-11-09_thumb.jpg,Country_Wide,Red_Cross Overview,11.5,123.6
-T130,Leyte,11/8/2013,Overview poster map using OSM data.,PHL_ARC_OSM_Leyte_archE_2013-11-08_thumb.jpg,Leyte,Red_Cross Overview OSM Poster,11.14,124.73
-T131,"Mayorga, Leyte",11/8/2013,Overview map using OSM data.,PHL_ARC_OSM_Leyte_Mayorga_archE_2013-11-08_thumb.jpg,Leyte,Red_Cross Overview OSM,10.899,124.998
-T004,OSM Overview Map,11/8/2013,Eastern half of the main affected area.,PHL_ARC_OSM_AOI(east)_archE_2013-11-08_thumb.jpg,Affected_Area_East,Red_Cross OSM Poster Overview,11.6,123.9
-T132,"Palo, Leyte",11/8/2013,Overview map using OSM data.,PHL_ARC_OSM_Leyte_PaloCity_archE_2013-11-08_thumb.jpg,Leyte,Red_Cross Overview OSM,11.154,124.99
-T133,"Tanauan, Leyte",11/8/2013,Overview map using OSM data.,PHL_ARC_OSM_Leyte_TanauanCity_archE_2013-11-08_thumb.jpg,Leyte,Red_Cross Overview OSM,11.107,125.007
-T134,"Tolosa, Leyte",11/8/2013,Overview map using OSM data.,PHL_ARC_OSM_Leyte_Tolosa_archE_2013-11-08_thumb.jpg,Leyte,Red_Cross Overview OSM,11.052,125.026
+source,thumbnail_id,caption,date,description,thumb,extent,sector,latitude,longitude,link
+,T141,Affected Barangays by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_affected_barangays_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T142,Affected Families by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_affected_families_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T143,Affected Persons by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_affected_persons_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T138,Evacuation Centres by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_number_of_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T144,Families In Evacuation Centres by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_families_in_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T137,Families Outside Evacuation Centres by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_families_outside_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T139,Persons in Evacuation Centres by Muncipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_persons_in_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T140,Persons Outside Evacuation Centres by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_persons_outside_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T136,Power Outages,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_power_outages_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T075,"Alangalang (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Alangalang(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.222,124.845,
+,T077,"Alangalang, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Alangalang_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.222,124.845,
+,T078,"Albuera, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Albuera_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.922,124.714,
+,T079,"Babatngon, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Babatngon_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.412,124.846,
+,T080,"Barugo (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Barugo(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.316,124.765,
+,T081,"Barugo, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Barugo_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.316,124.765,
+,T082,"Burauen (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Burauen(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.976,124.888,
+,T120,"Burauen, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Burauen_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.976,124.888,
+,T083,"Calubian (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Calubian(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.438,124.424,
+,T084,"Calubian, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Calubian_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.438,124.424,
+,T085,"Capoocan, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Capoocan_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.287,124.633,
+,T086,"Carigara (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Carigara(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.292,124.691,
+,T087,"Carigara, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Carigara_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.292,124.691,
+,T088,"Dagami (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Dagami(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.062,124.899,
+,T089,"Dagami, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Dagami_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.062,124.899,
+,T090,"Dulag (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Dulag(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.959,125.02,
+,T091,"Dulag, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Dulag_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.959,125.02,
+,T092,"Isabel, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Isabel_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.937,124.45,
+,T093,"Jaro (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Jaro(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.186,124.776,
+,T094,"Jaro, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Jaro_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.186,124.776,
+,T095,"Julita, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Julita_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.978,124.959,
+,T096,"Kananga, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Kananga_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.182,124.559,
+,T097,"La Paz, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_LaPaz_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.897,124.94,
+,T098,"Leyte, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Leyte_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.371,124.493,
+,T099,"Matag Ob, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_MatagOb_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.127,124.467,
+,T100,"Mayorga, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Mayorga_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.899,124.998,
+,T101,"Merida, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Merida_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,10.921,124.528,
+,T102,"Ormoc City (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_OrmocCity(central1)_thumb.jpg,Leyte Ormoc,Red_Cross Administrative_Boundaries,11.008,124.608,
+,T103,"Ormoc City (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_OrmocCity(central2)_thumb.jpg,Leyte Ormoc,Red_Cross Administrative_Boundaries,11.008,124.608,
+,T104,"Ormoc City (east), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_OrmocCity(east)_thumb.jpg,Leyte Ormoc,Red_Cross Administrative_Boundaries,11.026,124.657,
+,T105,"Ormoc City (west), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_OrmocCity(west)_thumb.jpg,Leyte Ormoc,Red_Cross Administrative_Boundaries,11.046,124.573,
+,T106,"Palo (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Palo(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.154,124.99,
+,T110,"Palo, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Palo_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.154,124.99,
+,T107,"Palompon (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Palompon(detail1)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.054,124.395,
+,T108,"Palompon (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Palompon(detail2)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.054,124.395,
+,T109,"Palompon, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Palompon_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.054,124.395,
+,T111,"Pastrana, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Pastrana_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.131,124.88,
+,T112,"San Isidro, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_SanIsidro_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.408,124.359,
+,T113,"San Miguel, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_SanMiguel_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.296,124.839,
+,T122,"Sante Fe (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_SantaFe(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.185,124.928,
+,T121,"Sante Fe, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_SantaFe_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.185,124.928,
+,T114,"Tabango, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Tabango_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.319,124.38,
+,T123,"Tabontabon, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Tabontabon_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.046,124.949,
+,T115,"Tanauan (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Tanauan(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.107,125.007,
+,T116,"Tanauan, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Tanauan_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.107,125.007,
+,T117,"Tolosa, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Tolosa_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.052,125.026,
+,T118,"Tunga, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Tunga_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.248,124.752,
+,T119,"Villaba, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Villaba_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.191,124.402,
+,T073,ICRC and IFRC Operational Provinces,11/19/2013,Areas of operation.,2013_11_19_ICRC_IFRC_operation_areas_v2_thumb.jpg,Country_Wide,Red_Cross IFRC Operations,11.5,123.6,
+,T068,Affected Persons by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_persons_affected_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T024,Affected Persons per Mobilized Volunteer,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_affected_people_per_mobilized_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T069,Deaths by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_deaths_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T125,Ormoc City (central) Barangays,11/18/2013,"Data source: OSM, GADM.",2013_11_19_OrmocCity(central)_OSM_thumb.jpg,Leyte Ormoc,Red_Cross Administrative_Boundaries OSM Overview,11.008,124.608,
+,T124,Ormoc City and Surrounding Area Barangays,11/18/2013,"Data source: OSM, GADM.",2013_11_18_OSM_Ormoc_thumb.jpg,Leyte Ormoc,Red_Cross Administrative_Boundaries OSM Overview,11.008,124.608,
+,T074,"Ormoc, Leyte",11/18/2013,Maposmatic of OSM data with street index. Poster.,2013-11-18_maposmatic_Leyte_Ormoc_HOT_index_poster_thumb.jpg,Leyte Ormoc,Red_Cross Overview OSM Maposmatic Poster,11.008,124.608,
+,T076,"Tacloban, Leyte",11/18/2013,Maposmatic of OSM data with street index. Poster.,2013-11-18_maposmatic_Leyte_TaclobanCity_HOT_index_poster_thumb.jpg,Leyte Tacloban,Red_Cross Overview OSM Maposmatic Poster,11.24133,125.0006,
+,T072,Terrain in Leyte (northern),11/18/2013,,North_Leyte_Terrain_2013_11_18_thumb.jpg,Leyte,Red_Cross Overview,11.14,124.73,
+,T071,Totally Damaged Buildings by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_totally_damaged_buildings_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T070,Volunteers by Chapter HQ w/ Affected Persons by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_vols_by_chapter_and_affected_persons_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T067,Volunteers Mobilized by Province,11/18/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-18_sitrep_volunteers_mobilized_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T029,"Asturias, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Asturias_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.5625,123.72763,
+,T030,"Balamban, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Balamban_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.5056,123.7182,
+,T031,"Bantayan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Bantayan_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,11.211,123.723,
+,T032,"Bogo City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_BogoCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,11.037,124.014,
+,T033,"Borbon, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Borbon_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.852,124.014,
+,T027,Building Damage Assessment,11/17/2013,"Ormoc City, Leyte. Data source: UNOSAT.",2013_11_17_western_ormoc_OSM_buildingtags_thumb.jpg,Leyte Ormoc,Red_Cross Analysis Damage_Assessment,11.008,124.608,
+,T034,"Carmen, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Carmen_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.589,124.005,
+,T035,"Catmon, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Catmon_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.674,124.001,
+,T135,Cebu,11/17/2013,Province map with municipalities.,2013-11-17_ARC_Cebu(northern)ProvinceMuncipalitiesOverviewMap_thumb.jpg,Cebu,Red_Cross Overview Administrative_Boundaries,10.688,123.9001,
+,T036,"Cebu City (all), Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_CebuCityALL_thumb.jpg,Cebu Cebu_City,Red_Cross Administrative_Boundaries,10.312,123.867,
+,T037,"Cebu City (center), Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_CebuCityCENTER_thumb.jpg,Cebu Cebu_City,Red_Cross Administrative_Boundaries,10.312,123.867,
+,T038,"Compostela, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Compostela_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.461,123.995,
+,T039,"Consolacion, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Consolacion_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.372,123.971,
+,T040,"Cordova, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Cordova_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.252,123.95,
+,T041,"Daanbantayan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Daanbantayan_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,11.227,124.02,
+,T042,"Danao City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_DanaoCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.524,124.027,
+,T043,"Lapu-Lapu City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_LapuLapuCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.3,123.984,
+,T044,"Liloan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Liloan_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.413,123.984,
+,T045,"Madridejos, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Madridejos_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,11.278,123.735,
+,T046,"Mandaue City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_MandaueCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.341,123.945,
+,T047,"Medellin, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Medellin_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,11.131,123.98,
+,T048,"Minglanilla, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Minglanilla_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.247,123.795,
+,T049,"Naga City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_NagaCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.22,123.743,
+,T050,"Pilar, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Pilar_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.769,124.531,
+,T051,"Pinamungahan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Pinamungahan_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.277,123.601,
+,T052,"Poro, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Poro_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.674,124.424,
+,T062,"San Francisco, Cebu",11/17/2013,Municipal map with barangays.,2013-11-19_ARC_Cebu_SanFrancisco_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.639,124.336,
+,T053,"San Remigio, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_SanRemigio_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.961,123.932,
+,T054,"Santa Fe, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_SanteFe_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,11.165,123.79,
+,T055,"Sogod, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Sogod_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.76,123.993,
+,T056,"Tabogon, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Tabogon_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.932,124.014,
+,T057,"Tabuelan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Tabuelan_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.859,123.888,
+,T058,"Talisay City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_TalisayCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.255,123.837,
+,T059,"Toledo City, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_ToledoCity_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.379,123.656,
+,T060,"Tuburan, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Tuburan_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.729,123.846,
+,T061,"Tudela, Cebu",11/17/2013,Municipal map with barangays.,2013-11-17_ARC_Cebu_Tudela_thumb.jpg,Cebu,Red_Cross Administrative_Boundaries,10.672,124.42,
+,T065,Current Shelter Populations,11/15/2013,Data source: Map Action.,2013_11_18_Shelter_pop_MapAction_zoom_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T025,Damages and Affected Persons,11/15/2013,Northern Leyte. ,2013_11_15_North_Leyte_Damages_and_AffectedPersons_thumb.jpg,Leyte,Red_Cross Analysis,11.14,124.73,
+,T129,"Ormoc, Leyte",11/15/2013,Overview poster map using OSM data.,2013-11-15_OSM_Leyte_Ormoc_thumb.jpg,Leyte Ormoc,Red_Cross Overview OSM Poster,11.008,124.608,
+,T126,Philippines Transportation,11/15/2013,,2013_11_21_Philippines_airstrips_thumb.jpg,Country_Wide,Red_Cross Situational_Report Transportation Analysis,11.5,123.6,
+,T026,Population and Damages,11/15/2013,Northern Leyte. ,2013_11_15_North_Leyte_Pop_Damages_thumb.jpg,Leyte,Red_Cross Analysis,11.14,124.73,
+OTHER,T153,"SitRep: Damage to Chindolan Island, Palawan",11/15/2013,UNOSAT. 3 page report.,UNOSAT_TC20131108PHL_Palawan_A4_Report_v1_thumb.jpg,Palawan,Non_Red_Cross Damage_Assessment Analysis,11.931947,120.053339,http://www.unitar.org/unosat/node/44/1870
+,T023,Evacuated Casualties by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_no_ec_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T019,Evacuated Families by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_evacuated_families_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T020,Evacuated Persons by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_evacuated_persons_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T066,IFRC Cebu City Logistics Map,11/14/2013,,2013_11_14_CebuCityLogistics_thumb.jpg,Cebu Cebu_City,Red_Cross IFRC Operations,10.312,123.867,
+,T021,Injuries by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_injuries_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T022,Missing People by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_missing_people_Philippines4logos2_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T018,Number of Deaths by Province,11/14/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-14_siterep_deaths_Philippines4logos_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T063,Active Evacuation Centers in Municipalities,11/13/2013,Data source: Map Action.,2013_11_13_EvacCenter_MapAction_zoom_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T128,"Cebu City (center), Cebu",11/13/2013,Maposmatic of OSM data with street index. Poster.,2013-11-13_maposmatic_CebuCitycentral_index_poster_thumb.jpg,Cebu Cebu_City,Red_Cross Overview OSM Maposmatic Poster,10.312,123.867,
+OTHER,T003,Damage Grading of Tacloban City (Copernicus),11/13/2013,Affected persons per municipality.,COPERNICUS_Damage_Grading_Overview_13_11_08_thumb.jpg,Leyte Tacloban,Non_Red_Cross Situational_Report Satellite,11.24133,125.0006,
+OTHER,T145,Damage Overview in Eastern Visayas Region,11/13/2013,UNOSAT.,UNOSAT_OverviewMap_EasternVisayas_20131119_MAP01_thumb.jpg,Eastern_Visayas,Non_Red_Cross Damage_Assessment Analysis Overview,11.6,123.9,http://www.unitar.org/unosat/node/44/1879
+OTHER,T151,"Damaged Structures in Ormoc City, Leyte",11/13/2013,UNOSAT.,UNOSAT_A3_Ormoc_City_DamageAnalysis_thumb.jpg,Leyte Ormoc,Non_Red_Cross Damage_Assessment Analysis,11.008,124.608,http://www.unitar.org/unosat/node/44/1872
+,T012,Deaths by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_deaths_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T017,Evacuated Casualties by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_no_ec_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T013,Evacuated Families by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_evacuated_families_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T014,Evacuated Persons by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_evacuated_persons_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T015,Injuries by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_injuries_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T016,Missing People by Province,11/13/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-13_siterep_missing_Philippines.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T064,Percent of Population Affected by Municipality,11/13/2013,Data source: Map Action.,2013_11_15_AffPop_MapAction_zoom_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T127,"Tacloban, Leyte",11/13/2013,Overview poster map using OSM data.,2013-11-13_ARC_OSM_Leyte_TaclobanCity(poster)_thumb.jpg,Leyte Tacloban,Red_Cross Overview OSM Poster,11.24133,125.0006,
+OTHER,T002,Affected Person per Municipalities (MapAction),11/12/2013,Affected persons per municipality.,MA010_AffectedPopulationPercMunicipalities_v03-300dpi_thumb.jpg,Country_Wide,Non_Red_Cross Situational_Report,11.5,123.6,
+,T028,Airport Status and Runway Length,11/12/2013,,2013-11-14_AirportMapPhilippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report Transportation,11.5,123.6,
+OTHER,T155,"Damage to Tacloban Oil Depot, Tacloban City",11/11/2013,UNOSAT. 3 page report.,UNOSAT_TC20131108PHL_TaclobanOilDepot_A4_Report_v1_thumb.jpg,Leyte Tacloban,Non_Red_Cross Damage_Assessment Analysis,11.24133,125.0006,http://www.unitar.org/unosat/node/44/1867
+OTHER,T156,"Damaged Structures in Bentiqui (Bantigue), Isabel, Leyte",11/11/2013,UNOSAT.,UNOSAT_A3_Bentiqui_DamageAnalysis_thumb.jpg,Leyte,Non_Red_Cross Damage_Assessment Analysis,10.937,124.45,http://www.unitar.org/unosat/node/44/1866
+OTHER,T146,"Damaged Structures in Cabolan (Cabul-an), Capoocan, Leyte",11/11/2013,UNOSAT.,UNOSAT_A3_Cabolan_DamageAnalysis_AOI2_thumb.jpg,Leyte,Non_Red_Cross Damage_Assessment Analysis,11.287,124.633,http://www.unitar.org/unosat/node/44/1877
+OTHER,T154,"Damaged Structures in Capoocan, Leyte",11/11/2013,UNOSAT.,UNOSAT_A3__Capocaan_DamageAnalysis_thumb.jpg,Leyte,Non_Red_Cross Damage_Assessment Analysis,11.287,124.633,http://www.unitar.org/unosat/node/44/1868
+OTHER,T157,"Damaged Structures in Isabel, Leyte",11/11/2013,UNOSAT.,UNOSAT_A3__Isabel_DamageAnalysis_thumb.jpg,Leyte,Non_Red_Cross Damage_Assessment Analysis,10.937,124.45,http://www.unitar.org/unosat/node/44/1865
+OTHER,T149,"Damaged Structures in Julita, Leyte",11/11/2013,UNOSAT.,UNOSAT_A3_Julita_DamageAnalysis_Landscape_thumb.jpg,Leyte,Non_Red_Cross Damage_Assessment Analysis,10.978,124.959,http://www.unitar.org/unosat/node/44/1874
+OTHER,T147,"Damaged Structures in Limon (Lemon), Capoocan, Leyte",11/11/2013,UNOSAT.,UNOSAT_A3_Limon_DamageAnalysis_AOI1_thumb.jpg,Leyte,Non_Red_Cross Damage_Assessment Analysis,11.287,124.633,http://www.unitar.org/unosat/node/44/1876
+OTHER,T150,"Damaged Structures in Managasnas, Capoocan, Leyte",11/11/2013,UNOSAT.,UNOSAT_A3_Managasnas_DamageAnalysis_thumb.jpg,Leyte,Non_Red_Cross Damage_Assessment Analysis,11.287,124.633,http://www.unitar.org/unosat/node/44/1873
+OTHER,T148,"Damaged Structures in Potot, Capoocan, Leyte",11/11/2013,UNOSAT.,UNOSAT_A3_Potot_DamagAnalysis_Portrait_thumb.jpg,Leyte,Non_Red_Cross Damage_Assessment Analysis,11.287,124.633,http://www.unitar.org/unosat/node/44/1875
+,T006,Deaths by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_deaths_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T011,Evacuated Casualties by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_no_ec_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T007,Evacuated Families by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_evacuated_families_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T008,Evacuated Persons by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_evacuated_persons_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T009,Injuries by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_injuries_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+,T010,Missing by Province,11/11/2013,Situational Report. Data source: Philippines Red Cross.,2013-11-11_siterep_missing_Philippines_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6,
+OTHER,T001,Relief Web - Typoon Haiyan Path,11/11/2013,This map shows the path of Typhoon Haiyan over the Philippines.,ReliefWeb_Typhoon_Haiyan_Yolanda_Population _density_with_storm_path_thumb.jpg,Country_Wide,Non_Red_Cross,11.5,123.6,
+OTHER,T158,"SitRep: Destruction in Sulangan, Bantayan, Cebu",11/11/2013,UNOSAT. 3 page report.,UNOSAT_TC20131108PHL_Sulangan_A4_Report_v1_thumb.jpg,Cebu,Non_Red_Cross Damage_Assessment Analysis,11.211,123.723,http://www.unitar.org/unosat/node/44/1864
+OTHER,T152,"Damaged Structures in Dulag, Leyte",11/10/2013,UNOSAT.,UNOSAT_A3_Dulag_DamageAnalysis_thumb.jpg,Leyte,Non_Red_Cross Damage_Assessment Analysis,10.959,125.02,http://www.unitar.org/unosat/node/44/1871
+OTHER,T159,"Damaged Structures in Madridejos, Cebu",11/10/2013,UNOSAT.,UNOSAT_A3__Madridejos_DamageAnalysis_20131112_thumb.jpg,Cebu,Non_Red_Cross Damage_Assessment Analysis,11.278,123.735,http://www.unitar.org/unosat/node/44/1863
+OTHER,T163,"SitRep: Destruction in Dulag Town, Leyte",11/10/2013,UNOSAT. 3 page report.,UNOSAT_TC20131108PHL_Dulag_A4_Report_v1_thumb.jpg,Leyte,Non_Red_Cross Damage_Assessment Analysis,10.959,125.02,http://www.unitar.org/unosat/node/44/1859
+OTHER,T161,"SitRep: Destruction in Luntad, Palo, Leyte",11/10/2013,UNOSAT. 3 page report.,UNOSAT_TC20131108PHL_Luntad_A4_Report_v1_thumb.jpg,Leyte,Non_Red_Cross Damage_Assessment Analysis,11.154,124.99,http://www.unitar.org/unosat/node/44/1861
+OTHER,T160,"SitRep: Destruction in Madredijos, Cebu",11/10/2013,UNOSAT. 3 page report.,UNOSAT_TC20131108PHL_Madredijos_A4_Report_v1_thumb.jpg,Cebu,Non_Red_Cross Damage_Assessment Analysis,11.278,123.735,http://www.unitar.org/unosat/node/44/1862
+OTHER,T164,"SitRep: Destruction in Tabontabon Town, Leyte",11/10/2013,UNOSAT. 3 page report.,UNOSAT_TC20131108PHL_Tabontabon_A4_Report_v1_thumb.jpg,Leyte,Non_Red_Cross Damage_Assessment Analysis,11.046,124.949,http://www.unitar.org/unosat/node/44/1857
+OTHER,T162,"SitRep: Destruction in Tacloban City, Leyte",11/10/2013,UNOSAT. 3 page report.,UNOSAT_TC20131108PHL_TaclobanCity_A4_Report_v1_thumb.jpg,Leyte Tacloban,Non_Red_Cross Damage_Assessment Analysis,11.24133,125.0006,http://www.unitar.org/unosat/node/44/1860
+,T005,Haiyan Path,11/9/2013,Provinces and major cities with overlay of Haiyan's path.,PHL_ARC_ProvincesCitiesPathOverview_letter_2013-11-09_thumb.jpg,Country_Wide,Red_Cross Overview,11.5,123.6,
+,T130,Leyte,11/8/2013,Overview poster map using OSM data.,PHL_ARC_OSM_Leyte_archE_2013-11-08_thumb.jpg,Leyte,Red_Cross Overview OSM Poster,11.14,124.73,
+,T131,"Mayorga, Leyte",11/8/2013,Overview map using OSM data.,PHL_ARC_OSM_Leyte_Mayorga_archE_2013-11-08_thumb.jpg,Leyte,Red_Cross Overview OSM,10.899,124.998,
+,T004,OSM Overview Map,11/8/2013,Eastern half of the main affected area.,PHL_ARC_OSM_AOI(east)_archE_2013-11-08_thumb.jpg,Eastern_Visayas,Red_Cross OSM Poster Overview,11.6,123.9,
+,T132,"Palo, Leyte",11/8/2013,Overview map using OSM data.,PHL_ARC_OSM_Leyte_PaloCity_archE_2013-11-08_thumb.jpg,Leyte,Red_Cross Overview OSM,11.154,124.99,
+,T133,"Tanauan, Leyte",11/8/2013,Overview map using OSM data.,PHL_ARC_OSM_Leyte_TanauanCity_archE_2013-11-08_thumb.jpg,Leyte,Red_Cross Overview OSM,11.107,125.007,
+,T134,"Tolosa, Leyte",11/8/2013,Overview map using OSM data.,PHL_ARC_OSM_Leyte_Tolosa_archE_2013-11-08_thumb.jpg,Leyte,Red_Cross Overview OSM,11.052,125.026,

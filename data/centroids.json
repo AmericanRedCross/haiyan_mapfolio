@@ -1,5 +1,6 @@
 [
   {
+    "source":"",
     "thumbnail_id":"T141",
     "caption":"Affected Barangays by Municipality",
     "date":"11/21/2013",
@@ -8,9 +9,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T142",
     "caption":"Affected Families by Municipality",
     "date":"11/21/2013",
@@ -19,9 +22,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T143",
     "caption":"Affected Persons by Municipality",
     "date":"11/21/2013",
@@ -30,9 +35,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T138",
     "caption":"Evacuation Centres by Municipality",
     "date":"11/21/2013",
@@ -41,9 +48,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T144",
     "caption":"Families In Evacuation Centres by Municipality",
     "date":"11/21/2013",
@@ -52,9 +61,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T137",
     "caption":"Families Outside Evacuation Centres by Municipality",
     "date":"11/21/2013",
@@ -63,9 +74,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T139",
     "caption":"Persons in Evacuation Centres by Muncipality",
     "date":"11/21/2013",
@@ -74,9 +87,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T140",
     "caption":"Persons Outside Evacuation Centres by Municipality",
     "date":"11/21/2013",
@@ -85,9 +100,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T136",
     "caption":"Power Outages",
     "date":"11/21/2013",
@@ -96,9 +113,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T075",
     "caption":"Alangalang (central), Leyte",
     "date":"11/20/2013",
@@ -107,9 +126,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.222,
-    "longitude":124.845
+    "longitude":124.845,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T077",
     "caption":"Alangalang, Leyte",
     "date":"11/20/2013",
@@ -118,9 +139,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.222,
-    "longitude":124.845
+    "longitude":124.845,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T078",
     "caption":"Albuera, Leyte",
     "date":"11/20/2013",
@@ -129,9 +152,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.922,
-    "longitude":124.714
+    "longitude":124.714,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T079",
     "caption":"Babatngon, Leyte",
     "date":"11/20/2013",
@@ -140,9 +165,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.412,
-    "longitude":124.846
+    "longitude":124.846,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T080",
     "caption":"Barugo (central), Leyte",
     "date":"11/20/2013",
@@ -151,9 +178,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.316,
-    "longitude":124.765
+    "longitude":124.765,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T081",
     "caption":"Barugo, Leyte",
     "date":"11/20/2013",
@@ -162,9 +191,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.316,
-    "longitude":124.765
+    "longitude":124.765,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T082",
     "caption":"Burauen (central), Leyte",
     "date":"11/20/2013",
@@ -173,9 +204,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.976,
-    "longitude":124.888
+    "longitude":124.888,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T120",
     "caption":"Burauen, Leyte",
     "date":"11/20/2013",
@@ -184,9 +217,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.976,
-    "longitude":124.888
+    "longitude":124.888,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T083",
     "caption":"Calubian (central), Leyte",
     "date":"11/20/2013",
@@ -195,9 +230,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.438,
-    "longitude":124.424
+    "longitude":124.424,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T084",
     "caption":"Calubian, Leyte",
     "date":"11/20/2013",
@@ -206,9 +243,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.438,
-    "longitude":124.424
+    "longitude":124.424,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T085",
     "caption":"Capoocan, Leyte",
     "date":"11/20/2013",
@@ -217,9 +256,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.287,
-    "longitude":124.633
+    "longitude":124.633,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T086",
     "caption":"Carigara (central), Leyte",
     "date":"11/20/2013",
@@ -228,9 +269,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.292,
-    "longitude":124.691
+    "longitude":124.691,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T087",
     "caption":"Carigara, Leyte",
     "date":"11/20/2013",
@@ -239,9 +282,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.292,
-    "longitude":124.691
+    "longitude":124.691,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T088",
     "caption":"Dagami (central), Leyte",
     "date":"11/20/2013",
@@ -250,9 +295,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.062,
-    "longitude":124.899
+    "longitude":124.899,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T089",
     "caption":"Dagami, Leyte",
     "date":"11/20/2013",
@@ -261,9 +308,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.062,
-    "longitude":124.899
+    "longitude":124.899,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T090",
     "caption":"Dulag (central), Leyte",
     "date":"11/20/2013",
@@ -272,9 +321,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.959,
-    "longitude":125.02
+    "longitude":125.02,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T091",
     "caption":"Dulag, Leyte",
     "date":"11/20/2013",
@@ -283,9 +334,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.959,
-    "longitude":125.02
+    "longitude":125.02,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T092",
     "caption":"Isabel, Leyte",
     "date":"11/20/2013",
@@ -294,9 +347,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.937,
-    "longitude":124.45
+    "longitude":124.45,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T093",
     "caption":"Jaro (central), Leyte",
     "date":"11/20/2013",
@@ -305,9 +360,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.186,
-    "longitude":124.776
+    "longitude":124.776,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T094",
     "caption":"Jaro, Leyte",
     "date":"11/20/2013",
@@ -316,9 +373,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.186,
-    "longitude":124.776
+    "longitude":124.776,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T095",
     "caption":"Julita, Leyte",
     "date":"11/20/2013",
@@ -327,9 +386,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.978,
-    "longitude":124.959
+    "longitude":124.959,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T096",
     "caption":"Kananga, Leyte",
     "date":"11/20/2013",
@@ -338,9 +399,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.182,
-    "longitude":124.559
+    "longitude":124.559,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T097",
     "caption":"La Paz, Leyte",
     "date":"11/20/2013",
@@ -349,9 +412,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.897,
-    "longitude":124.94
+    "longitude":124.94,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T098",
     "caption":"Leyte, Leyte",
     "date":"11/20/2013",
@@ -360,9 +425,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.371,
-    "longitude":124.493
+    "longitude":124.493,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T099",
     "caption":"Matag Ob, Leyte",
     "date":"11/20/2013",
@@ -371,9 +438,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.127,
-    "longitude":124.467
+    "longitude":124.467,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T100",
     "caption":"Mayorga, Leyte",
     "date":"11/20/2013",
@@ -382,9 +451,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.899,
-    "longitude":124.998
+    "longitude":124.998,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T101",
     "caption":"Merida, Leyte",
     "date":"11/20/2013",
@@ -393,9 +464,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.921,
-    "longitude":124.528
+    "longitude":124.528,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T102",
     "caption":"Ormoc City (central), Leyte",
     "date":"11/20/2013",
@@ -404,9 +477,11 @@
     "extent":"Leyte Ormoc",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.008,
-    "longitude":124.608
+    "longitude":124.608,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T103",
     "caption":"Ormoc City (central), Leyte",
     "date":"11/20/2013",
@@ -415,9 +490,11 @@
     "extent":"Leyte Ormoc",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.008,
-    "longitude":124.608
+    "longitude":124.608,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T104",
     "caption":"Ormoc City (east), Leyte",
     "date":"11/20/2013",
@@ -426,9 +503,11 @@
     "extent":"Leyte Ormoc",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.026,
-    "longitude":124.657
+    "longitude":124.657,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T105",
     "caption":"Ormoc City (west), Leyte",
     "date":"11/20/2013",
@@ -437,9 +516,11 @@
     "extent":"Leyte Ormoc",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.046,
-    "longitude":124.573
+    "longitude":124.573,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T106",
     "caption":"Palo (central), Leyte",
     "date":"11/20/2013",
@@ -448,9 +529,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.154,
-    "longitude":124.99
+    "longitude":124.99,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T110",
     "caption":"Palo, Leyte",
     "date":"11/20/2013",
@@ -459,9 +542,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.154,
-    "longitude":124.99
+    "longitude":124.99,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T107",
     "caption":"Palompon (central), Leyte",
     "date":"11/20/2013",
@@ -470,9 +555,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.054,
-    "longitude":124.395
+    "longitude":124.395,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T108",
     "caption":"Palompon (central), Leyte",
     "date":"11/20/2013",
@@ -481,9 +568,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.054,
-    "longitude":124.395
+    "longitude":124.395,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T109",
     "caption":"Palompon, Leyte",
     "date":"11/20/2013",
@@ -492,9 +581,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.054,
-    "longitude":124.395
+    "longitude":124.395,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T111",
     "caption":"Pastrana, Leyte",
     "date":"11/20/2013",
@@ -503,9 +594,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.131,
-    "longitude":124.88
+    "longitude":124.88,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T112",
     "caption":"San Isidro, Leyte",
     "date":"11/20/2013",
@@ -514,9 +607,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.408,
-    "longitude":124.359
+    "longitude":124.359,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T113",
     "caption":"San Miguel, Leyte",
     "date":"11/20/2013",
@@ -525,9 +620,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.296,
-    "longitude":124.839
+    "longitude":124.839,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T122",
     "caption":"Sante Fe (central), Leyte",
     "date":"11/20/2013",
@@ -536,9 +633,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.185,
-    "longitude":124.928
+    "longitude":124.928,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T121",
     "caption":"Sante Fe, Leyte",
     "date":"11/20/2013",
@@ -547,9 +646,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.185,
-    "longitude":124.928
+    "longitude":124.928,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T114",
     "caption":"Tabango, Leyte",
     "date":"11/20/2013",
@@ -558,9 +659,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.319,
-    "longitude":124.38
+    "longitude":124.38,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T123",
     "caption":"Tabontabon, Leyte",
     "date":"11/20/2013",
@@ -569,9 +672,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.046,
-    "longitude":124.949
+    "longitude":124.949,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T115",
     "caption":"Tanauan (central), Leyte",
     "date":"11/20/2013",
@@ -580,9 +685,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.107,
-    "longitude":125.007
+    "longitude":125.007,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T116",
     "caption":"Tanauan, Leyte",
     "date":"11/20/2013",
@@ -591,9 +698,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.107,
-    "longitude":125.007
+    "longitude":125.007,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T117",
     "caption":"Tolosa, Leyte",
     "date":"11/20/2013",
@@ -602,9 +711,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.052,
-    "longitude":125.026
+    "longitude":125.026,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T118",
     "caption":"Tunga, Leyte",
     "date":"11/20/2013",
@@ -613,9 +724,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.248,
-    "longitude":124.752
+    "longitude":124.752,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T119",
     "caption":"Villaba, Leyte",
     "date":"11/20/2013",
@@ -624,9 +737,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.191,
-    "longitude":124.402
+    "longitude":124.402,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T073",
     "caption":"ICRC and IFRC Operational Provinces",
     "date":"11/19/2013",
@@ -635,9 +750,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross IFRC Operations",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T068",
     "caption":"Affected Persons by Province",
     "date":"11/18/2013",
@@ -646,9 +763,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T024",
     "caption":"Affected Persons per Mobilized Volunteer",
     "date":"11/18/2013",
@@ -657,9 +776,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T069",
     "caption":"Deaths by Province",
     "date":"11/18/2013",
@@ -668,9 +789,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T125",
     "caption":"Ormoc City (central) Barangays",
     "date":"11/18/2013",
@@ -679,9 +802,11 @@
     "extent":"Leyte Ormoc",
     "sector":"Red_Cross Administrative_Boundaries OSM Overview",
     "latitude":11.008,
-    "longitude":124.608
+    "longitude":124.608,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T124",
     "caption":"Ormoc City and Surrounding Area Barangays",
     "date":"11/18/2013",
@@ -690,9 +815,11 @@
     "extent":"Leyte Ormoc",
     "sector":"Red_Cross Administrative_Boundaries OSM Overview",
     "latitude":11.008,
-    "longitude":124.608
+    "longitude":124.608,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T074",
     "caption":"Ormoc, Leyte",
     "date":"11/18/2013",
@@ -701,9 +828,11 @@
     "extent":"Leyte Ormoc",
     "sector":"Red_Cross Overview OSM Maposmatic Poster",
     "latitude":11.008,
-    "longitude":124.608
+    "longitude":124.608,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T076",
     "caption":"Tacloban, Leyte",
     "date":"11/18/2013",
@@ -712,9 +841,11 @@
     "extent":"Leyte Tacloban",
     "sector":"Red_Cross Overview OSM Maposmatic Poster",
     "latitude":11.24133,
-    "longitude":125.0006
+    "longitude":125.0006,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T072",
     "caption":"Terrain in Leyte (northern)",
     "date":"11/18/2013",
@@ -723,9 +854,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Overview",
     "latitude":11.14,
-    "longitude":124.73
+    "longitude":124.73,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T071",
     "caption":"Totally Damaged Buildings by Province",
     "date":"11/18/2013",
@@ -734,9 +867,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T070",
     "caption":"Volunteers by Chapter HQ w/ Affected Persons by Province",
     "date":"11/18/2013",
@@ -745,9 +880,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T067",
     "caption":"Volunteers Mobilized by Province",
     "date":"11/18/2013",
@@ -756,9 +893,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T029",
     "caption":"Asturias, Cebu",
     "date":"11/17/2013",
@@ -767,9 +906,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.5625,
-    "longitude":123.72763
+    "longitude":123.72763,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T030",
     "caption":"Balamban, Cebu",
     "date":"11/17/2013",
@@ -778,9 +919,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.5056,
-    "longitude":123.7182
+    "longitude":123.7182,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T031",
     "caption":"Bantayan, Cebu",
     "date":"11/17/2013",
@@ -789,9 +932,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.211,
-    "longitude":123.723
+    "longitude":123.723,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T032",
     "caption":"Bogo City, Cebu",
     "date":"11/17/2013",
@@ -800,9 +945,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.037,
-    "longitude":124.014
+    "longitude":124.014,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T033",
     "caption":"Borbon, Cebu",
     "date":"11/17/2013",
@@ -811,9 +958,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.852,
-    "longitude":124.014
+    "longitude":124.014,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T027",
     "caption":"Building Damage Assessment",
     "date":"11/17/2013",
@@ -822,9 +971,11 @@
     "extent":"Leyte Ormoc",
     "sector":"Red_Cross Analysis Damage_Assessment",
     "latitude":11.008,
-    "longitude":124.608
+    "longitude":124.608,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T034",
     "caption":"Carmen, Cebu",
     "date":"11/17/2013",
@@ -833,9 +984,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.589,
-    "longitude":124.005
+    "longitude":124.005,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T035",
     "caption":"Catmon, Cebu",
     "date":"11/17/2013",
@@ -844,9 +997,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.674,
-    "longitude":124.001
+    "longitude":124.001,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T135",
     "caption":"Cebu",
     "date":"11/17/2013",
@@ -855,9 +1010,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Overview Administrative_Boundaries",
     "latitude":10.688,
-    "longitude":123.9001
+    "longitude":123.9001,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T036",
     "caption":"Cebu City (all), Cebu",
     "date":"11/17/2013",
@@ -866,9 +1023,11 @@
     "extent":"Cebu Cebu_City",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.312,
-    "longitude":123.867
+    "longitude":123.867,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T037",
     "caption":"Cebu City (center), Cebu",
     "date":"11/17/2013",
@@ -877,9 +1036,11 @@
     "extent":"Cebu Cebu_City",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.312,
-    "longitude":123.867
+    "longitude":123.867,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T038",
     "caption":"Compostela, Cebu",
     "date":"11/17/2013",
@@ -888,9 +1049,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.461,
-    "longitude":123.995
+    "longitude":123.995,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T039",
     "caption":"Consolacion, Cebu",
     "date":"11/17/2013",
@@ -899,9 +1062,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.372,
-    "longitude":123.971
+    "longitude":123.971,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T040",
     "caption":"Cordova, Cebu",
     "date":"11/17/2013",
@@ -910,9 +1075,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.252,
-    "longitude":123.95
+    "longitude":123.95,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T041",
     "caption":"Daanbantayan, Cebu",
     "date":"11/17/2013",
@@ -921,9 +1088,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.227,
-    "longitude":124.02
+    "longitude":124.02,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T042",
     "caption":"Danao City, Cebu",
     "date":"11/17/2013",
@@ -932,9 +1101,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.524,
-    "longitude":124.027
+    "longitude":124.027,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T043",
     "caption":"Lapu-Lapu City, Cebu",
     "date":"11/17/2013",
@@ -943,9 +1114,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.3,
-    "longitude":123.984
+    "longitude":123.984,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T044",
     "caption":"Liloan, Cebu",
     "date":"11/17/2013",
@@ -954,9 +1127,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.413,
-    "longitude":123.984
+    "longitude":123.984,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T045",
     "caption":"Madridejos, Cebu",
     "date":"11/17/2013",
@@ -965,9 +1140,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.278,
-    "longitude":123.735
+    "longitude":123.735,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T046",
     "caption":"Mandaue City, Cebu",
     "date":"11/17/2013",
@@ -976,9 +1153,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.341,
-    "longitude":123.945
+    "longitude":123.945,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T047",
     "caption":"Medellin, Cebu",
     "date":"11/17/2013",
@@ -987,9 +1166,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.131,
-    "longitude":123.98
+    "longitude":123.98,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T048",
     "caption":"Minglanilla, Cebu",
     "date":"11/17/2013",
@@ -998,9 +1179,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.247,
-    "longitude":123.795
+    "longitude":123.795,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T049",
     "caption":"Naga City, Cebu",
     "date":"11/17/2013",
@@ -1009,9 +1192,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.22,
-    "longitude":123.743
+    "longitude":123.743,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T050",
     "caption":"Pilar, Cebu",
     "date":"11/17/2013",
@@ -1020,9 +1205,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.769,
-    "longitude":124.531
+    "longitude":124.531,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T051",
     "caption":"Pinamungahan, Cebu",
     "date":"11/17/2013",
@@ -1031,9 +1218,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.277,
-    "longitude":123.601
+    "longitude":123.601,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T052",
     "caption":"Poro, Cebu",
     "date":"11/17/2013",
@@ -1042,9 +1231,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.674,
-    "longitude":124.424
+    "longitude":124.424,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T062",
     "caption":"San Francisco, Cebu",
     "date":"11/17/2013",
@@ -1053,9 +1244,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.639,
-    "longitude":124.336
+    "longitude":124.336,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T053",
     "caption":"San Remigio, Cebu",
     "date":"11/17/2013",
@@ -1064,9 +1257,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.961,
-    "longitude":123.932
+    "longitude":123.932,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T054",
     "caption":"Santa Fe, Cebu",
     "date":"11/17/2013",
@@ -1075,9 +1270,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":11.165,
-    "longitude":123.79
+    "longitude":123.79,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T055",
     "caption":"Sogod, Cebu",
     "date":"11/17/2013",
@@ -1086,9 +1283,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.76,
-    "longitude":123.993
+    "longitude":123.993,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T056",
     "caption":"Tabogon, Cebu",
     "date":"11/17/2013",
@@ -1097,9 +1296,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.932,
-    "longitude":124.014
+    "longitude":124.014,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T057",
     "caption":"Tabuelan, Cebu",
     "date":"11/17/2013",
@@ -1108,9 +1309,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.859,
-    "longitude":123.888
+    "longitude":123.888,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T058",
     "caption":"Talisay City, Cebu",
     "date":"11/17/2013",
@@ -1119,9 +1322,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.255,
-    "longitude":123.837
+    "longitude":123.837,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T059",
     "caption":"Toledo City, Cebu",
     "date":"11/17/2013",
@@ -1130,9 +1335,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.379,
-    "longitude":123.656
+    "longitude":123.656,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T060",
     "caption":"Tuburan, Cebu",
     "date":"11/17/2013",
@@ -1141,9 +1348,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.729,
-    "longitude":123.846
+    "longitude":123.846,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T061",
     "caption":"Tudela, Cebu",
     "date":"11/17/2013",
@@ -1152,9 +1361,11 @@
     "extent":"Cebu",
     "sector":"Red_Cross Administrative_Boundaries",
     "latitude":10.672,
-    "longitude":124.42
+    "longitude":124.42,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T065",
     "caption":"Current Shelter Populations",
     "date":"11/15/2013",
@@ -1163,9 +1374,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T025",
     "caption":"Damages and Affected Persons",
     "date":"11/15/2013",
@@ -1174,9 +1387,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Analysis",
     "latitude":11.14,
-    "longitude":124.73
+    "longitude":124.73,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T129",
     "caption":"Ormoc, Leyte",
     "date":"11/15/2013",
@@ -1185,9 +1400,11 @@
     "extent":"Leyte Ormoc",
     "sector":"Red_Cross Overview OSM Poster",
     "latitude":11.008,
-    "longitude":124.608
+    "longitude":124.608,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T126",
     "caption":"Philippines Transportation",
     "date":"11/15/2013",
@@ -1196,9 +1413,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report Transportation Analysis",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T026",
     "caption":"Population and Damages",
     "date":"11/15/2013",
@@ -1207,9 +1426,24 @@
     "extent":"Leyte",
     "sector":"Red_Cross Analysis",
     "latitude":11.14,
-    "longitude":124.73
+    "longitude":124.73,
+    "link":""
   },
   {
+    "source":"OTHER",
+    "thumbnail_id":"T153",
+    "caption":"SitRep: Damage to Chindolan Island, Palawan",
+    "date":"11/15/2013",
+    "description":"UNOSAT. 3 page report.",
+    "thumb":"UNOSAT_TC20131108PHL_Palawan_A4_Report_v1_thumb.jpg",
+    "extent":"Palawan",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.931947,
+    "longitude":120.053339,
+    "link":"http://www.unitar.org/unosat/node/44/1870"
+  },
+  {
+    "source":"",
     "thumbnail_id":"T023",
     "caption":"Evacuated Casualties by Province",
     "date":"11/14/2013",
@@ -1218,9 +1452,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T019",
     "caption":"Evacuated Families by Province",
     "date":"11/14/2013",
@@ -1229,9 +1465,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T020",
     "caption":"Evacuated Persons by Province",
     "date":"11/14/2013",
@@ -1240,9 +1478,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T066",
     "caption":"IFRC Cebu City Logistics Map",
     "date":"11/14/2013",
@@ -1251,9 +1491,11 @@
     "extent":"Cebu Cebu_City",
     "sector":"Red_Cross IFRC Operations",
     "latitude":10.312,
-    "longitude":123.867
+    "longitude":123.867,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T021",
     "caption":"Injuries by Province",
     "date":"11/14/2013",
@@ -1262,9 +1504,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T022",
     "caption":"Missing People by Province",
     "date":"11/14/2013",
@@ -1273,9 +1517,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T018",
     "caption":"Number of Deaths by Province",
     "date":"11/14/2013",
@@ -1284,9 +1530,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T063",
     "caption":"Active Evacuation Centers in Municipalities",
     "date":"11/13/2013",
@@ -1295,9 +1543,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T128",
     "caption":"Cebu City (center), Cebu",
     "date":"11/13/2013",
@@ -1306,9 +1556,11 @@
     "extent":"Cebu Cebu_City",
     "sector":"Red_Cross Overview OSM Maposmatic Poster",
     "latitude":10.312,
-    "longitude":123.867
+    "longitude":123.867,
+    "link":""
   },
   {
+    "source":"OTHER",
     "thumbnail_id":"T003",
     "caption":"Damage Grading of Tacloban City (Copernicus)",
     "date":"11/13/2013",
@@ -1317,9 +1569,37 @@
     "extent":"Leyte Tacloban",
     "sector":"Non_Red_Cross Situational_Report Satellite",
     "latitude":11.24133,
-    "longitude":125.0006
+    "longitude":125.0006,
+    "link":""
   },
   {
+    "source":"OTHER",
+    "thumbnail_id":"T145",
+    "caption":"Damage Overview in Eastern Visayas Region",
+    "date":"11/13/2013",
+    "description":"UNOSAT.",
+    "thumb":"UNOSAT_OverviewMap_EasternVisayas_20131119_MAP01_thumb.jpg",
+    "extent":"Eastern_Visayas",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis Overview",
+    "latitude":11.6,
+    "longitude":123.9,
+    "link":"http://www.unitar.org/unosat/node/44/1879"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T151",
+    "caption":"Damaged Structures in Ormoc City, Leyte",
+    "date":"11/13/2013",
+    "description":"UNOSAT.",
+    "thumb":"UNOSAT_A3_Ormoc_City_DamageAnalysis_thumb.jpg",
+    "extent":"Leyte Ormoc",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.008,
+    "longitude":124.608,
+    "link":"http://www.unitar.org/unosat/node/44/1872"
+  },
+  {
+    "source":"",
     "thumbnail_id":"T012",
     "caption":"Deaths by Province",
     "date":"11/13/2013",
@@ -1328,9 +1608,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T017",
     "caption":"Evacuated Casualties by Province",
     "date":"11/13/2013",
@@ -1339,9 +1621,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T013",
     "caption":"Evacuated Families by Province",
     "date":"11/13/2013",
@@ -1350,9 +1634,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T014",
     "caption":"Evacuated Persons by Province",
     "date":"11/13/2013",
@@ -1361,9 +1647,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T015",
     "caption":"Injuries by Province",
     "date":"11/13/2013",
@@ -1372,9 +1660,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T016",
     "caption":"Missing People by Province",
     "date":"11/13/2013",
@@ -1383,9 +1673,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T064",
     "caption":"Percent of Population Affected by Municipality",
     "date":"11/13/2013",
@@ -1394,9 +1686,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T127",
     "caption":"Tacloban, Leyte",
     "date":"11/13/2013",
@@ -1405,9 +1699,11 @@
     "extent":"Leyte Tacloban",
     "sector":"Red_Cross Overview OSM Poster",
     "latitude":11.24133,
-    "longitude":125.0006
+    "longitude":125.0006,
+    "link":""
   },
   {
+    "source":"OTHER",
     "thumbnail_id":"T002",
     "caption":"Affected Person per Municipalities (MapAction)",
     "date":"11/12/2013",
@@ -1416,9 +1712,11 @@
     "extent":"Country_Wide",
     "sector":"Non_Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T028",
     "caption":"Airport Status and Runway Length",
     "date":"11/12/2013",
@@ -1427,9 +1725,128 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report Transportation",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"OTHER",
+    "thumbnail_id":"T155",
+    "caption":"Damage to Tacloban Oil Depot, Tacloban City",
+    "date":"11/11/2013",
+    "description":"UNOSAT. 3 page report.",
+    "thumb":"UNOSAT_TC20131108PHL_TaclobanOilDepot_A4_Report_v1_thumb.jpg",
+    "extent":"Leyte Tacloban",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.24133,
+    "longitude":125.0006,
+    "link":"http://www.unitar.org/unosat/node/44/1867"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T156",
+    "caption":"Damaged Structures in Bentiqui (Bantigue), Isabel, Leyte",
+    "date":"11/11/2013",
+    "description":"UNOSAT.",
+    "thumb":"UNOSAT_A3_Bentiqui_DamageAnalysis_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":10.937,
+    "longitude":124.45,
+    "link":"http://www.unitar.org/unosat/node/44/1866"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T146",
+    "caption":"Damaged Structures in Cabolan (Cabul-an), Capoocan, Leyte",
+    "date":"11/11/2013",
+    "description":"UNOSAT.",
+    "thumb":"UNOSAT_A3_Cabolan_DamageAnalysis_AOI2_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.287,
+    "longitude":124.633,
+    "link":"http://www.unitar.org/unosat/node/44/1877"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T154",
+    "caption":"Damaged Structures in Capoocan, Leyte",
+    "date":"11/11/2013",
+    "description":"UNOSAT.",
+    "thumb":"UNOSAT_A3__Capocaan_DamageAnalysis_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.287,
+    "longitude":124.633,
+    "link":"http://www.unitar.org/unosat/node/44/1868"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T157",
+    "caption":"Damaged Structures in Isabel, Leyte",
+    "date":"11/11/2013",
+    "description":"UNOSAT.",
+    "thumb":"UNOSAT_A3__Isabel_DamageAnalysis_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":10.937,
+    "longitude":124.45,
+    "link":"http://www.unitar.org/unosat/node/44/1865"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T149",
+    "caption":"Damaged Structures in Julita, Leyte",
+    "date":"11/11/2013",
+    "description":"UNOSAT.",
+    "thumb":"UNOSAT_A3_Julita_DamageAnalysis_Landscape_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":10.978,
+    "longitude":124.959,
+    "link":"http://www.unitar.org/unosat/node/44/1874"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T147",
+    "caption":"Damaged Structures in Limon (Lemon), Capoocan, Leyte",
+    "date":"11/11/2013",
+    "description":"UNOSAT.",
+    "thumb":"UNOSAT_A3_Limon_DamageAnalysis_AOI1_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.287,
+    "longitude":124.633,
+    "link":"http://www.unitar.org/unosat/node/44/1876"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T150",
+    "caption":"Damaged Structures in Managasnas, Capoocan, Leyte",
+    "date":"11/11/2013",
+    "description":"UNOSAT.",
+    "thumb":"UNOSAT_A3_Managasnas_DamageAnalysis_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.287,
+    "longitude":124.633,
+    "link":"http://www.unitar.org/unosat/node/44/1873"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T148",
+    "caption":"Damaged Structures in Potot, Capoocan, Leyte",
+    "date":"11/11/2013",
+    "description":"UNOSAT.",
+    "thumb":"UNOSAT_A3_Potot_DamagAnalysis_Portrait_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.287,
+    "longitude":124.633,
+    "link":"http://www.unitar.org/unosat/node/44/1875"
+  },
+  {
+    "source":"",
     "thumbnail_id":"T006",
     "caption":"Deaths by Province",
     "date":"11/11/2013",
@@ -1438,9 +1855,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T011",
     "caption":"Evacuated Casualties by Province",
     "date":"11/11/2013",
@@ -1449,9 +1868,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T007",
     "caption":"Evacuated Families by Province",
     "date":"11/11/2013",
@@ -1460,9 +1881,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T008",
     "caption":"Evacuated Persons by Province",
     "date":"11/11/2013",
@@ -1471,9 +1894,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T009",
     "caption":"Injuries by Province",
     "date":"11/11/2013",
@@ -1482,9 +1907,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T010",
     "caption":"Missing by Province",
     "date":"11/11/2013",
@@ -1493,9 +1920,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Situational_Report",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"OTHER",
     "thumbnail_id":"T001",
     "caption":"Relief Web - Typoon Haiyan Path",
     "date":"11/11/2013",
@@ -1504,9 +1933,115 @@
     "extent":"Country_Wide",
     "sector":"Non_Red_Cross",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"OTHER",
+    "thumbnail_id":"T158",
+    "caption":"SitRep: Destruction in Sulangan, Bantayan, Cebu",
+    "date":"11/11/2013",
+    "description":"UNOSAT. 3 page report.",
+    "thumb":"UNOSAT_TC20131108PHL_Sulangan_A4_Report_v1_thumb.jpg",
+    "extent":"Cebu",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.211,
+    "longitude":123.723,
+    "link":"http://www.unitar.org/unosat/node/44/1864"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T152",
+    "caption":"Damaged Structures in Dulag, Leyte",
+    "date":"11/10/2013",
+    "description":"UNOSAT.",
+    "thumb":"UNOSAT_A3_Dulag_DamageAnalysis_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":10.959,
+    "longitude":125.02,
+    "link":"http://www.unitar.org/unosat/node/44/1871"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T159",
+    "caption":"Damaged Structures in Madridejos, Cebu",
+    "date":"11/10/2013",
+    "description":"UNOSAT.",
+    "thumb":"UNOSAT_A3__Madridejos_DamageAnalysis_20131112_thumb.jpg",
+    "extent":"Cebu",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.278,
+    "longitude":123.735,
+    "link":"http://www.unitar.org/unosat/node/44/1863"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T163",
+    "caption":"SitRep: Destruction in Dulag Town, Leyte",
+    "date":"11/10/2013",
+    "description":"UNOSAT. 3 page report.",
+    "thumb":"UNOSAT_TC20131108PHL_Dulag_A4_Report_v1_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":10.959,
+    "longitude":125.02,
+    "link":"http://www.unitar.org/unosat/node/44/1859"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T161",
+    "caption":"SitRep: Destruction in Luntad, Palo, Leyte",
+    "date":"11/10/2013",
+    "description":"UNOSAT. 3 page report.",
+    "thumb":"UNOSAT_TC20131108PHL_Luntad_A4_Report_v1_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.154,
+    "longitude":124.99,
+    "link":"http://www.unitar.org/unosat/node/44/1861"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T160",
+    "caption":"SitRep: Destruction in Madredijos, Cebu",
+    "date":"11/10/2013",
+    "description":"UNOSAT. 3 page report.",
+    "thumb":"UNOSAT_TC20131108PHL_Madredijos_A4_Report_v1_thumb.jpg",
+    "extent":"Cebu",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.278,
+    "longitude":123.735,
+    "link":"http://www.unitar.org/unosat/node/44/1862"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T164",
+    "caption":"SitRep: Destruction in Tabontabon Town, Leyte",
+    "date":"11/10/2013",
+    "description":"UNOSAT. 3 page report.",
+    "thumb":"UNOSAT_TC20131108PHL_Tabontabon_A4_Report_v1_thumb.jpg",
+    "extent":"Leyte",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.046,
+    "longitude":124.949,
+    "link":"http://www.unitar.org/unosat/node/44/1857"
+  },
+  {
+    "source":"OTHER",
+    "thumbnail_id":"T162",
+    "caption":"SitRep: Destruction in Tacloban City, Leyte",
+    "date":"11/10/2013",
+    "description":"UNOSAT. 3 page report.",
+    "thumb":"UNOSAT_TC20131108PHL_TaclobanCity_A4_Report_v1_thumb.jpg",
+    "extent":"Leyte Tacloban",
+    "sector":"Non_Red_Cross Damage_Assessment Analysis",
+    "latitude":11.24133,
+    "longitude":125.0006,
+    "link":"http://www.unitar.org/unosat/node/44/1860"
+  },
+  {
+    "source":"",
     "thumbnail_id":"T005",
     "caption":"Haiyan Path",
     "date":"11/9/2013",
@@ -1515,9 +2050,11 @@
     "extent":"Country_Wide",
     "sector":"Red_Cross Overview",
     "latitude":11.5,
-    "longitude":123.6
+    "longitude":123.6,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T130",
     "caption":"Leyte",
     "date":"11/8/2013",
@@ -1526,9 +2063,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Overview OSM Poster",
     "latitude":11.14,
-    "longitude":124.73
+    "longitude":124.73,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T131",
     "caption":"Mayorga, Leyte",
     "date":"11/8/2013",
@@ -1537,20 +2076,24 @@
     "extent":"Leyte",
     "sector":"Red_Cross Overview OSM",
     "latitude":10.899,
-    "longitude":124.998
+    "longitude":124.998,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T004",
     "caption":"OSM Overview Map",
     "date":"11/8/2013",
     "description":"Eastern half of the main affected area.",
     "thumb":"PHL_ARC_OSM_AOI(east)_archE_2013-11-08_thumb.jpg",
-    "extent":"Affected_Area_East",
+    "extent":"Eastern_Visayas",
     "sector":"Red_Cross OSM Poster Overview",
     "latitude":11.6,
-    "longitude":123.9
+    "longitude":123.9,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T132",
     "caption":"Palo, Leyte",
     "date":"11/8/2013",
@@ -1559,9 +2102,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Overview OSM",
     "latitude":11.154,
-    "longitude":124.99
+    "longitude":124.99,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T133",
     "caption":"Tanauan, Leyte",
     "date":"11/8/2013",
@@ -1570,9 +2115,11 @@
     "extent":"Leyte",
     "sector":"Red_Cross Overview OSM",
     "latitude":11.107,
-    "longitude":125.007
+    "longitude":125.007,
+    "link":""
   },
   {
+    "source":"",
     "thumbnail_id":"T134",
     "caption":"Tolosa, Leyte",
     "date":"11/8/2013",
@@ -1581,6 +2128,8 @@
     "extent":"Leyte",
     "sector":"Red_Cross Overview OSM",
     "latitude":11.052,
-    "longitude":125.026
+    "longitude":125.026,
+    "link":""
   }
+
 ]
