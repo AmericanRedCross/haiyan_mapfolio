@@ -1,4 +1,12 @@
 thumbnail_id,caption,date,description,thumb,extent,sector,latitude,longitude
+T141,Affected Barangays by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_affected_barangays_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
+T142,Affected Families by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_affected_families_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
+T143,Affected Persons by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_affected_persons_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
+T138,Evacuation Centres by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_number_of_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
+T144,Families In Evacuation Centres by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_families_in_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
+T137,Families Outside Evacuation Centres by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_families_outside_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
+T139,Persons in Evacuation Centres by Muncipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_persons_in_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
+T140,Persons Outside Evacuation Centres by Municipality,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_persons_outside_evacuation_centres_ thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
 T136,Power Outages,11/21/2013,Situational Report. Data source: NDRRMC.,2013-11-21_sitrep32_power_outages_thumb.jpg,Country_Wide,Red_Cross Situational_Report,11.5,123.6
 T075,"Alangalang (central), Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Alangalang(detail)_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.222,124.845
 T077,"Alangalang, Leyte",11/20/2013,Municipal map with barangays.,2013-11-20_ARC_Leyte_Alangalang_thumb.jpg,Leyte,Red_Cross Administrative_Boundaries,11.222,124.845
