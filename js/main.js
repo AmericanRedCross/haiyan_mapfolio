@@ -103,6 +103,7 @@ function generatepreviewhtml(data){
         var formattedDate = new Date(date).toString().substring(4,15);
         return formattedDate;
     }
+
     $.each(data, function(index, item){
         var pdfSrc = "https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/" + item.thumb.slice(0,-10) + ".pdf";
         var itemhtml = 

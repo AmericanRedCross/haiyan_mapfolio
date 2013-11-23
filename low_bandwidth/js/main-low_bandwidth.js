@@ -165,19 +165,25 @@ function generatepreviewhtml(data){
         return formattedDate;
     }
     $.each(data, function(index, item){
-        var pdfSrc = "https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/" + item.thumb.slice(0,-10) + ".pdf";
+        var pdfSrc = 'https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/' + item.thumb.slice(0,-10) + '.pdf';
+        var smallPdf = '';
+        if(item.small_pdf == "TRUE"){
+            smallPdf = '<a href="'+pdfSrc.slice(0,-4)+'(small).pdf'+'" target="_blank" style="margin:2px;" class="btn btn-primary btn-mini">Reduced-size PDF ('+item.small_pdf_size+')</a>'; 
+        }
         var itemhtml = '<div id="'+item.thumbnail_id+'" style="display:none," class="ALL-EXTENT ALL-SECTOR mapped '+item.extent+' '+item.sector+'">' +
-          '<div class="row thumbnail" style="min-height:0; margin-left:0; margin-right:0; padding:10px">'+            
-            '<div class="caption col-sm-8" style="padding:0;">'+            
-              '<h5 style="margin:0; font-weight:bold;">'+item.title+'</h5>'+
-              '<p style="font-size:small; margin:0;">'+ item.description_long +'</p>'+
-              '<p style="font-size:small; margin:6px 0 0 0;">'+ formatDate(item.date) +'</p>'+        
-            '</div>'+           
-            '<div class="col-sm-4">'+ '<div class="pdfButtonContainer"><a href="' + pdfSrc + '" target="_blank" class="pdfButton btn btn-primary btn-small">Download PDF (' + item.pdf_MB.toString() + ' MB)</a></div>' +
-            '<button type="button" onclick="callModal(' + item.thumbnail_id + ');" class="btn btn-link btn-small">Preview low-quality JPG</button><br>' +
-            '</div>'+
-          '</div>'+
-        '</div>';
+            '<div class="row thumbnail" style="min-height:0; margin-left:0; margin-right:0; padding:10px">'+            
+                '<div class="caption col-sm-8" style="padding:0;">'+            
+                    '<h5 style="margin:0; font-weight:bold;">'+item.title+'</h5>'+
+                    '<p style="font-size:small; margin:0;">'+ item.description_long +'</p>'+
+                    '<p style="font-size:small; margin:6px 0 0 0;">'+ formatDate(item.date) +'</p>'+        
+                '</div>'+           
+                '<div class="col-sm-4">'+
+                    '<div class="pdfButtonContainer">'+
+                        '<a href="' + pdfSrc + '" target="_blank" style="margin:2px;" class="pdfButton btn btn-primary btn-mini">Download PDF (' + item.pdf_MB.toString() + ' MB)</a>'+
+                        smallPdf +
+                    '</div>' +
+                    '<button type="button" onclick="callModal(' + item.thumbnail_id + ');" class="btn btn-link btn-mini">Preview low-quality JPG</button><br>' +
+                '</div></div></div>';
         html=html+itemhtml;        
         var itemExtents = item.extent.match(/\S+/g);
         $.each(itemExtents, function(index, extent){
