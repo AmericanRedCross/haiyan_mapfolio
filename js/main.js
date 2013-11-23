@@ -7,6 +7,182 @@ var extentTags = [];
 var sectorTags = [];
 var thumbnails;
 var centroidsData;
+var centroids = [];
+var markersBounds = [];
+var displayedPoints = [];
+var markers = new L.MarkerClusterGroup();
+
+var centroidOptions = {
+    radius: 8,
+    fillColor: "#ED1B2E",
+    color: "#FFF",
+    weight: 2.5,
+    opacity: 1,
+    fillOpacity: 1
+};
+
+var mapUrl = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
+var mapAttribution = 'Map data &copy; <a href="http://openstreetmap.org" target="_blank">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a> | Map style by <a href="http://hot.openstreetmap.org" target="_blank">H.O.T.</a> | &copy; <a href="http://redcross.org" title="Red Cross" target="_blank">Red Cross</a> 2013 | <a title="Disclaimer" onClick="showDisclaimer();">Disclaimer</a>';
+var mapTiles = L.tileLayer(mapUrl, {attribution: mapAttribution});
+
+var map = L.map('map', {   
+    zoom: 0,
+    maxZoom: 15,
+    scrollWheelZoom: false,
+    layers: [mapTiles]
+});
+
+function callModal (item) {
+	var modalDescription = $(item).find('.detailedDescription').html();	
+    var mapJpg = $(item).find('img').attr("src").slice(0,-10) + '.jpg';
+    var pdfSize = $(item).find('img').attr("data-pdfsize");
+    var pdfSrc = "https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/" + $(item).find('img').attr("src").slice(9,-10) + ".pdf";     
+    var img_maxHeight = (windowHeight*0.60).toString() + "px";
+    $(".modal-detailedDescription").empty();	
+    $(".modal-detailedDescription").html(modalDescription); 
+    $(".modal-img").css('max-height', img_maxHeight);
+    $(".modal-img").attr('src', mapJpg);
+	$(".pdfButton").attr('href', pdfSrc);   
+    $(".pdfSize").html(pdfSize); 
+    $('#myModal').modal();    
+}
+
+//disclaimer text
+function showDisclaimer() {
+    window.alert("The maps on this page do not imply the expression of any opinion on the part of the British Red Cross, American Red Cross or the International Federation of Red Cross and Red Crescent Societies or National Societies concerning the legal status of a territory or of its authorities.");
+}
+
+// on marker click open modal
+function centroidClick (e) {
+    var thumbnail_id = "#" + e.target.feature.properties.thumbnail_id;    
+    if ($(thumbnail_id).hasClass("ONLINE")) {
+        url = $(thumbnail_id).find('a').attr('href');
+        window.open(url, '_blank');
+    } else {
+        callModal(thumbnail_id);
+    }    
+}
+// on marker mouseover
+function displayName(e) {   
+    var target = e.target;
+    target.openPopup();   
+}
+// on marker mouseout
+function clearName(e) {    
+    var target = e.target;
+    target.closePopup();    
+}
+
+
+// beginning of function chain to initialize
+function getCentroids() {
+    $.ajax({
+        type: 'GET',
+        url: 'data/centroids.json',
+        contentType: 'application/json',
+        dataType: 'json',
+        timeout: 10000,
+        success: function(data) {
+            centroidsData = data;                       
+            //generate html to display map thumbnails
+            generatepreviewhtml(data);
+        },
+        error: function(e) {
+            console.log(e);
+        }
+    });
+}
+
+//generates html for preview boxes using data from centroid.json
+function generatepreviewhtml(data){
+    var html='<div id="noThumbnails" class="col-sm-12" style="display:none;">'+
+          '<h4 style="display:inline;">No maps match the filter settings.</h4>'+
+          '<button class="btn btn-default" type="button" style="display:inline; margin-left:20px;" onclick="toggleFilter('+"'REFRESH'"+', this);">Refresh Filters<span class="glyphicon glyphicon-refresh" style="margin-left:15px;"></span></a>'+
+        '</div>';
+    function formatDate(date){
+        var formattedDate = new Date(date).toString().substring(4,15);
+        return formattedDate;
+    }
+    $.each(data, function(index, item){
+        var pdfSrc = "https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/" + item.thumb.slice(0,-10) + ".pdf";
+        var itemhtml = 
+            '<div id="'+item.thumbnail_id+'" style="display:none," class="col-sm-3 ALL-EXTENT ALL-SECTOR mapped '+item.extent+' '+item.sector+'">'+
+                '<a onclick="callModal(this);" class="thumbnail">'+
+                    '<img class="lazy" data-pdfsize="'+item.pdf_MB+'" data-original="img/maps/'+item.thumb+'" width="300" height="200" alt="" >'+
+                    '<div class="caption">'+            
+                        '<h5 style="font-weight:bold;">'+item.title+'</h5>'+
+                        '<p style="font-size:small; margin:0;">'+ item.description_short +'</p>'+
+                        '<p style="font-size:small; margin:6px 0 0 0;">' + formatDate(item.date) +'</p>'+        
+                    '</div>'+
+                    '<div class="detailedDescription">'+                        
+                        '<h5 style="font-weight:bold;">'+item.title+'</h5>'+
+                        '<p style="font-size:small; margin:0;">'+item.description_long+'</p>'+
+                        '<p style="font-size:small; margin:6px 0 0 0;">'+formatDate(item.date)+'</p>'+ 
+                    '</div>'+   
+                '</a>'+
+            '</div>';
+        html=html+itemhtml;        
+        var itemExtents = item.extent.match(/\S+/g);
+        $.each(itemExtents, function(index, extent){
+            if (extentTags.indexOf(extent) === -1){
+                extentTags.push(extent);
+            }
+        });
+        var itemSectors = item.sector.match(/\S+/g);
+        $.each(itemSectors, function(index, sector){
+            if (sectorTags.indexOf(sector) === -1){
+                sectorTags.push(sector);
+            }
+        });
+    });
+    $('#mappreviews').html(html);
+    thumbnails = $(".thumbnailGallery").children();
+    generateFilterButtons();
+}
+
+function generateFilterButtons(){
+    extentTags.sort();
+    var extentFilterHtml = '<button id="ALL-EXTENT" class="btn btn-small btn-extent filtering all" type="button" onclick="toggleFilter('+"'ALL-EXTENT'"+', this);"'+
+        ' style="margin-right:10px;">All<span class="glyphicon glyphicon-check" style="margin-left:4px;"></span></button>';
+    $.each(extentTags, function(index, tag){
+        var itemHtml = '<button id="'+tag+'" class="btn btn-small btn-extent" type="button" onclick="toggleFilter('+"'"+tag+"'"+', this);">'+tag+
+            '<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>';
+        extentFilterHtml += itemHtml;    
+    });
+    $('#extentButtons').html(extentFilterHtml);
+    extentButtons = $("#extentButtons").children();
+
+    sectorTags.sort();
+    var sectorFilterHtml = '<button id="ALL-SECTOR" class="btn btn-small btn-sector filtering all" type="button" onclick="toggleFilter('+"'ALL-SECTOR'"+', this);"'+ 
+        'style="margin-right:10px;">All <span class="glyphicon glyphicon-check" style="margin-left:4px;"></span></button>';
+    $.each(sectorTags, function(index, tag){
+        var itemHtml = '<button id="'+tag+'" class="btn btn-small btn-sector" type="button" onclick="toggleFilter('+"'"+tag+"'"+', this);">'+tag+
+            '<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>';
+        sectorFilterHtml += itemHtml;
+    });
+    $('#sectorButtons').html(sectorFilterHtml);
+    sectorButtons = $("#sectorButtons").children();
+    formatCentroids();
+}
+
+function formatCentroids(){
+    $.each(centroidsData, function(index, item) {
+        latlng = [item.longitude, item.latitude];
+        var mapCoord = {
+            "type": "Feature",
+            "properties": {
+                "name": item.name,
+                "thumbnail_id": item.thumbnail_id,                                        
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": latlng
+            }
+        }
+        centroids.push(mapCoord);
+    }); 
+    toggleFilter("REFRESH");
+}
 
 function toggleFilter (filter, element) {
     // set both extent and sector to All, when no thumbnails are showing and refresh filters option is clicked
@@ -94,7 +270,7 @@ function toggleFilter (filter, element) {
 
 function toggleThumbnails (){
     $(thumbnails).hide();
-    $.each(thumbnails, function(iT, thumbnail){ 
+    $.each(thumbnails, function(iT, thumbnail){        
         $(thumbnail).removeClass("mapped");
         var hasExtent = false;
         $.each(visibleExtents, function(iE, extent){
@@ -109,10 +285,10 @@ function toggleThumbnails (){
             } 
         });
         if(hasExtent === true && hasSectors === true){
-            $(thumbnail).show();
+            $(thumbnail).show();            
             $(thumbnail).addClass("mapped");
         }        
-    });
+    });   
     thumbnailCount = $(thumbnails).filter(function(){return $(this).css('display') === 'block';}).length;
     if (thumbnailCount === 0){
         map.removeLayer(markers);
@@ -122,194 +298,12 @@ function toggleThumbnails (){
     }
 }
 
-function callModal (item) {
-	var title = $(item).find('.caption').html();
-    var description = $(item).find('.detailedDescription').html();
-	var thumbSrc = $(item).find('img').attr("src");
-    var mapSrc = thumbSrc.slice(0,-10) + '.jpg';
-    var pdfSrc = "https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/" + mapSrc.slice(9,-3) + "pdf";
-    pdfSrc = pdfSrc.replace(".png", ".pdf");
-    var img_maxHeight = (windowHeight*0.60).toString() + "px";
-    $(".modal-title").empty();
-    $(".modal-detailedDescription").empty();
-	$(".modal-title").html(title);
-    $(".modal-detailedDescription").html(description); 
-    $(".modal-img").css('max-height', img_maxHeight);
-    $(".modal-img").attr('src', mapSrc);
-	$("#downloadPDF").attr("href", pdfSrc);    
-    $('#myModal').modal();    
-}
-
-function paginateThumbnails() {
-    $("div.jp-holder").jPages({
-        containerID: "mappreviews",        
-        perPage: 12,
-        startPage: 1,
-        startRange: 1,
-        midRange: 5,
-        endRange: 1
-    });
-}
-
-//disclaimer text
-function showDisclaimer() {
-    window.alert("The maps on this page do not imply the expression of any opinion on the part of the British Red Cross, American Red Cross or the International Federation of Red Cross and Red Crescent Societies or National Societies concerning the legal status of a territory or of its authorities.");
-}
-
-// map stuff starts here
-var centroids = [];
-var markersBounds = [];
-var displayedPoints = [];
-var markers = new L.MarkerClusterGroup();
-
-var centroidOptions = {
-    radius: 8,
-    fillColor: "#ED1B2E",
-    color: "#FFF",
-    weight: 2.5,
-    opacity: 1,
-    fillOpacity: 1
-};
-
-var mapUrl = 'http://{s}.tile.openstreetmap.fr/hot/{z}/{x}/{y}.png';
-var mapAttribution = 'Map data &copy; <a href="http://openstreetmap.org" target="_blank">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/" target="_blank">CC-BY-SA</a> | Map style by <a href="http://hot.openstreetmap.org" target="_blank">H.O.T.</a> | &copy; <a href="http://redcross.org" title="Red Cross" target="_blank">Red Cross</a> 2013 | <a title="Disclaimer" onClick="showDisclaimer();">Disclaimer</a>';
-var mapTiles = L.tileLayer(mapUrl, {attribution: mapAttribution});
-
-var map = L.map('map', {   
-    zoom: 0,
-    maxZoom: 15,
-    scrollWheelZoom: false,
-    layers: [mapTiles]
-});
-
-
-// on marker click open modal
-function centroidClick (e) {
-    var thumbnail_id = "#" + e.target.feature.properties.thumbnail_id;    
-    if ($(thumbnail_id).hasClass("ONLINE")) {
-        url = $(thumbnail_id).find('a').attr('href');
-        window.open(url, '_blank');
-    } else {
-        callModal(thumbnail_id);
-    }    
-}
-
-// on marker mouseover
-function displayName(e) {   
-    var target = e.target;
-    target.openPopup();   
-}
-// on marker mouseout
-function clearName(e) {    
-    var target = e.target;
-    target.closePopup();    
-}
-
-// beginning of function chain to initialize map
-function getCentroids() {
-    $.ajax({
-        type: 'GET',
-        url: 'data/centroids.json',
-        contentType: 'application/json',
-        dataType: 'json',
-        timeout: 10000,
-        success: function(data) {
-            centroidsData = data;                       
-            //generate html to display map thumbnails
-            generatepreviewhtml(data);
-        },
-        error: function(e) {
-            console.log(e);
-        }
-    });
-}
-
-//generates html for preview boxes using data from centroid.json
-function generatepreviewhtml(data){
-    var html='<div id="noThumbnails" class="col-sm-12" style="display:none;">'+
-          '<h4 style="display:inline;">No maps match the filter settings.</h4>'+
-          '<button class="btn btn-default" type="button" style="display:inline; margin-left:20px;" onclick="toggleFilter('+"'REFRESH'"+', this);">Refresh Filters<span class="glyphicon glyphicon-refresh" style="margin-left:15px;"></span></a>'+
-        '</div>';
-    function formatDate(date){
-        var formattedDate = new Date(date).toString().substring(4,15);
-        return formattedDate;
-    }
-    $.each(data, function(index, item){
-        var itemhtml = '<div id="'+item.thumbnail_id+'" style="display:none," class="col-sm-3 ALL-EXTENT ALL-SECTOR mapped '+item.extent+' '+item.sector+'">' +
-          '<a onclick="callModal(this);" class="thumbnail">'+
-            '<img src="img/maps/'+item.thumb+'" alt="">'+
-            '<div class="caption">'+            
-              '<h5 style="margin-bottom:-8px; font-weight:bold;">'+item.caption+'</h5><br><p style="font-size:small;">'+ item.description +'<br><small>'+ formatDate(item.date) +'</small></p>'+        
-            '</div>'+
-            '<div class="detailedDescription">'+item.description+ '<br>PDF file size: ' + item.pdf_MB.toString() + ' MB.' +
-            '</div>'+
-          '</a>'+
-        '</div>';
-        html=html+itemhtml;        
-        var itemExtents = item.extent.match(/\S+/g);
-        $.each(itemExtents, function(index, extent){
-            if (extentTags.indexOf(extent) === -1){
-                extentTags.push(extent);
-            }
-        });
-        var itemSectors = item.sector.match(/\S+/g);
-        $.each(itemSectors, function(index, sector){
-            if (sectorTags.indexOf(sector) === -1){
-                sectorTags.push(sector);
-            }
-        });
-    });
-    $('#mappreviews').html(html);
-    thumbnails = $(".thumbnailGallery").children();
-    generateFilterButtons();
-}
-
-function generateFilterButtons(){
-    extentTags.sort();
-    var extentFilterHtml = '<button id="ALL-EXTENT" class="btn btn-small btn-extent filtering all" type="button" onclick="toggleFilter('+"'ALL-EXTENT'"+', this);"'+
-        ' style="margin-right:10px;">All<span class="glyphicon glyphicon-check" style="margin-left:4px;"></span></button>';
-    $.each(extentTags, function(index, tag){
-        var itemHtml = '<button id="'+tag+'" class="btn btn-small btn-extent" type="button" onclick="toggleFilter('+"'"+tag+"'"+', this);">'+tag+
-            '<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>';
-        extentFilterHtml += itemHtml;    
-    });
-    $('#extentButtons').html(extentFilterHtml);
-    extentButtons = $("#extentButtons").children();
-
-    sectorTags.sort();
-    var sectorFilterHtml = '<button id="ALL-SECTOR" class="btn btn-small btn-sector filtering all" type="button" onclick="toggleFilter('+"'ALL-SECTOR'"+', this);"'+ 
-        'style="margin-right:10px;">All <span class="glyphicon glyphicon-check" style="margin-left:4px;"></span></button>';
-    $.each(sectorTags, function(index, tag){
-        var itemHtml = '<button id="'+tag+'" class="btn btn-small btn-sector" type="button" onclick="toggleFilter('+"'"+tag+"'"+', this);">'+tag+
-            '<span class="glyphicon glyphicon-unchecked" style="margin-left:4px;"></span></button>';
-        sectorFilterHtml += itemHtml;
-    });
-    $('#sectorButtons').html(sectorFilterHtml);
-    sectorButtons = $("#sectorButtons").children();
-    formatCentroids();
-}
-
-function formatCentroids(){
-    $.each(centroidsData, function(index, item) {
-        latlng = [item.longitude, item.latitude];
-        var mapCoord = {
-            "type": "Feature",
-            "properties": {
-                "name": item.name,
-                "thumbnail_id": item.thumbnail_id,                                        
-            },
-            "geometry": {
-                "type": "Point",
-                "coordinates": latlng
-            }
-        }
-        centroids.push(mapCoord);
-    }); 
-    markersToMap();
-}
-
 function markersToMap(){
-    // paginateThumbnails();
+    $(function() {
+        $("img.lazy").lazyload({
+            effect: "fadeIn"
+        });
+    }); 
     map.removeLayer(markers);
     markers = new L.MarkerClusterGroup({
         showCoverageOnHover:false, 
