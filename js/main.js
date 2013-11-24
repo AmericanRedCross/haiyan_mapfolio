@@ -47,6 +47,27 @@ function callModal (item) {
     $('#myModal').modal();    
 }
 
+function toggleSearchType (item) {
+    var option = $(item).attr("id");
+    switch (option) {
+        case "filterSearchBtn":
+            $(".filterinput").val('');
+            toggleFilter("REFRESH");
+            $("#filterSearchBtn").removeClass("inactiveSearchType").addClass("activeSearchType");
+            $("#textSearchBtn").addClass("inactiveSearchType").removeClass("activeSearchType");
+            $("#filterSearch").show();
+            $("#textSearch").hide();
+            break;
+        case "textSearchBtn":
+            toggleFilter("REFRESH");
+            $("#textSearchBtn").removeClass("inactiveSearchType").addClass("activeSearchType");
+            $("#filterSearchBtn").addClass("inactiveSearchType").removeClass("activeSearchType");
+            $("#textSearch").show();
+            $("#filterSearch").hide();
+            break;
+    }
+}
+
 //disclaimer text
 function showDisclaimer() {
     window.alert("The maps on this page do not imply the expression of any opinion on the part of the British Red Cross, American Red Cross or the International Federation of Red Cross and Red Crescent Societies or National Societies concerning the legal status of a territory or of its authorities.");
@@ -95,10 +116,7 @@ function getCentroids() {
 
 //generates html for preview boxes using data from centroid.json
 function generatepreviewhtml(data){
-    var html='<div id="noThumbnails" class="col-sm-12" style="display:none;">'+
-          '<h4 style="display:inline;">No maps match the filter settings.</h4>'+
-          '<button class="btn btn-default" type="button" style="display:inline; margin-left:20px;" onclick="toggleFilter('+"'REFRESH'"+', this);">Refresh Filters<span class="glyphicon glyphicon-refresh" style="margin-left:15px;"></span></a>'+
-        '</div>';
+    var html = "";
     function formatDate(date){
         var formattedDate = new Date(date).toString().substring(4,15);
         return formattedDate;
@@ -107,7 +125,7 @@ function generatepreviewhtml(data){
     $.each(data, function(index, item){
         var pdfSrc = "https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/" + item.thumb.slice(0,-10) + ".pdf";
         var itemhtml = 
-            '<div id="'+item.thumbnail_id+'" style="display:none," class="col-sm-3 ALL-EXTENT ALL-SECTOR mapped '+item.extent+' '+item.sector+'">'+
+            '<div id="'+item.thumbnail_id+'" style="display:none," class="thumbnailWrap col-sm-3 ALL-EXTENT ALL-SECTOR mapped '+item.extent+' '+item.sector+'">'+
                 '<a onclick="callModal(this);" class="thumbnail">'+
                     '<img class="lazy" data-pdfsize="'+item.pdf_MB+'" data-original="img/maps/'+item.thumb+'" width="300" height="200" alt="" >'+
                     '<div class="caption">'+            
@@ -116,9 +134,11 @@ function generatepreviewhtml(data){
                         '<p style="font-size:small; margin:6px 0 0 0;">' + formatDate(item.date) +'</p>'+        
                     '</div>'+
                     '<div class="detailedDescription">'+                        
-                        '<h5 style="font-weight:bold;">'+item.title+'</h5>'+
-                        '<p style="font-size:small; margin:0;">'+item.description_long+'</p>'+
-                        '<p style="font-size:small; margin:6px 0 0 0;">'+formatDate(item.date)+'</p>'+ 
+                        '<h4 style="font-weight:bold;">'+item.title+'</h4>'+
+                        '<p style="font-size:small; margin:0 0 0 10px;">'+formatDate(item.date)+'</p>'+
+                        '<p style="font-size:small; margin:6px 0 0 10px;">'+item.description_long+'</p>'+ 
+                        '<p style="font-size:small; margin:6px 0 0 10px;"><b>Extent tags:</b> '+item.extent.replace(" ",", ")+'</p>'+                         
+                        '<p style="font-size:small; margin:6px 0 0 10px;"><b>Type tags:</b> '+item.sector.replace(" ",", ")+'</p>'+   
                     '</div>'+   
                 '</a>'+
             '</div>';
@@ -187,6 +207,9 @@ function formatCentroids(){
 
 function toggleFilter (filter, element) {
     // set both extent and sector to All, when no thumbnails are showing and refresh filters option is clicked
+    $.each(thumbnails, function(i, thumbnail){
+        $(thumbnail).removeClass("noSearchMatch").removeClass("mapped");
+    });
     if(filter === "REFRESH"){
         $.each(extentButtons, function(i, button){
             $(button).children().removeClass("glyphicon-check");
@@ -271,8 +294,7 @@ function toggleFilter (filter, element) {
 
 function toggleThumbnails (){
     $(thumbnails).hide();
-    $.each(thumbnails, function(iT, thumbnail){        
-        $(thumbnail).removeClass("mapped");
+    $.each(thumbnails, function(iT, thumbnail){       
         var hasExtent = false;
         $.each(visibleExtents, function(iE, extent){
             if($(thumbnail).hasClass(extent)){
@@ -292,8 +314,7 @@ function toggleThumbnails (){
     });   
     thumbnailCount = $(thumbnails).filter(function(){return $(this).css('display') === 'block';}).length;
     if (thumbnailCount === 0){
-        map.removeLayer(markers);
-        $('#noThumbnails').show();
+        map.removeLayer(markers);        
     } else {    
         markersToMap();
     }
@@ -365,6 +386,52 @@ $(window).resize(function(){
 function zoomOut() {
     map.fitBounds(markersBounds);
 }
+
+
+// Search Box
+(function ($) {
+  jQuery.expr[':'].Contains = function(a,i,m){
+      return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase())>=0;
+  };
+  
+  function filterList(header, list) {
+    var form = $("<form>").attr({"class":"filterform","action":"#"}),
+        input = $("<input>").attr({"class":"filterinput","type":"text"});
+    $(form).append(input).appendTo(header);
+  
+    $(input)
+      .change( function () {
+            var filters = $(this).val().match(/\S+/g);
+            $.each(thumbnails, function(index, thumbnail){
+                $(thumbnail).removeClass("noSearchMatch").removeClass("mapped");
+            });
+            if(filters) {
+                $.each(filters, function(index, filter){
+                    $matches = $(list).find('.thumbnailWrap:Contains(' + filter + ')');
+                    $('.thumbnailWrap', list).not($matches).addClass("noSearchMatch");
+                });  
+            } else {
+                $(thumbnails).find(".thumbnailWrap").show();
+            }
+            $.each(thumbnails, function(index, thumbnail){
+                if($(thumbnail).hasClass("noSearchMatch")){
+                    $(thumbnail).hide();
+                } else {
+                    $(thumbnail).addClass("mapped").show();
+                }
+            });
+            markersToMap();
+            return false;                   
+        }) 
+      .keyup( function () {            
+            $(this).change();
+        });
+  }  
+  $(function () {
+    filterList($("#form"), $("#mappreviews"));
+  });
+}(jQuery));
+
 
 
 // start function chain to initialize map

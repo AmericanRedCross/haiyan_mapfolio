@@ -7,8 +7,32 @@ var sectorTags = [];
 var thumbnails;
 var windowHeight = $(window).height();
 
+function toggleSearchType (item) {
+    var option = $(item).attr("id");
+    switch (option) {
+        case "filterSearchBtn":
+            $(".filterinput").val('');
+            toggleFilter("REFRESH");
+            $("#filterSearchBtn").removeClass("inactiveSearchType").addClass("activeSearchType");
+            $("#textSearchBtn").addClass("inactiveSearchType").removeClass("activeSearchType");
+            $("#filterSearch").show();
+            $("#textSearch").hide();
+            break;
+        case "textSearchBtn":
+            toggleFilter("REFRESH");
+            $("#textSearchBtn").removeClass("inactiveSearchType").addClass("activeSearchType");
+            $("#filterSearchBtn").addClass("inactiveSearchType").removeClass("activeSearchType");
+            $("#textSearch").show();
+            $("#filterSearch").hide();
+            break;
+    }
+}
+
 function toggleFilter (filter, element) {
     // set both extent and sector to All, when no thumbnails are showing and refresh filters option is clicked
+    $.each(thumbnails, function(i, thumbnail){
+        $(thumbnail).removeClass("noSearchMatch").removeClass("mapped");
+    });
     if(filter === "REFRESH"){
         $.each(extentButtons, function(i, button){
             $(button).children().removeClass("glyphicon-check");
@@ -93,8 +117,7 @@ function toggleFilter (filter, element) {
 
 function toggleThumbnails (){
     $(thumbnails).hide();
-    $.each(thumbnails, function(iT, thumbnail){ 
-        $(thumbnail).removeClass("mapped");
+    $.each(thumbnails, function(iT, thumbnail){         
         var hasExtent = false;
         $.each(visibleExtents, function(iE, extent){
             if($(thumbnail).hasClass(extent)){
@@ -112,10 +135,6 @@ function toggleThumbnails (){
             $(thumbnail).addClass("mapped");
         }        
     });
-    thumbnailCount = $(thumbnails).filter(function(){return $(this).css('display') === 'block';}).length;
-    if (thumbnailCount === 0){        
-        $('#noThumbnails').show();
-    }
 }
 
 //disclaimer text
@@ -156,10 +175,7 @@ function getCentroids() {
 
 //generates html for preview boxes using data from centroid.json
 function generatepreviewhtml(data){
-    var html='<div id="noThumbnails" class="col-sm-12" style="display:none;">'+
-          '<h4 style="display:inline;">No maps match the filter settings.</h4>'+
-          '<button class="btn btn-default" type="button" style="display:inline; margin-left:20px;" onclick="toggleFilter('+"'REFRESH'"+', this);">Refresh Filters<span class="glyphicon glyphicon-refresh" style="margin-left:15px;"></span></a>'+
-        '</div>';
+    var html="";
     function formatDate(date){
         var formattedDate = new Date(date).toString().substring(4,15);
         return formattedDate;
@@ -170,12 +186,13 @@ function generatepreviewhtml(data){
         if(item.small_pdf == "TRUE"){
             smallPdf = '<a href="'+pdfSrc.slice(0,-4)+'(small).pdf'+'" target="_blank" style="margin:2px;" class="btn btn-primary btn-mini">Reduced-size PDF ('+item.small_pdf_size+')</a>'; 
         }
-        var itemhtml = '<div id="'+item.thumbnail_id+'" style="display:none," class="ALL-EXTENT ALL-SECTOR mapped '+item.extent+' '+item.sector+'">' +
+        var itemhtml = '<div id="'+item.thumbnail_id+'" style="display:none," class="thumbnailWrap ALL-EXTENT ALL-SECTOR mapped '+item.extent+' '+item.sector+'">' +
             '<div class="row thumbnail" style="min-height:0; margin-left:0; margin-right:0; padding:10px">'+            
                 '<div class="caption col-sm-8" style="padding:0;">'+            
-                    '<h5 style="margin:0; font-weight:bold;">'+item.title+'</h5>'+
-                    '<p style="font-size:small; margin:0;">'+ item.description_long +'</p>'+
-                    '<p style="font-size:small; margin:6px 0 0 0;">'+ formatDate(item.date) +'</p>'+        
+                    '<h5 style="margin:0; font-weight:bold;">'+item.title+'<small> - '+formatDate(item.date)+'</small>'+'</h5>'+                        
+                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Description: </b>'+item.description_long+'</p>'+ 
+                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Extent tags: </b>'+item.extent.replace(" ",", ")+'</p>'+                         
+                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Type tags: </b>'+item.sector.replace(" ",", ")+'</p>'+   
                 '</div>'+           
                 '<div class="col-sm-4">'+
                     '<div class="pdfButtonContainer">'+
@@ -224,16 +241,51 @@ function generateFilterButtons(){
         sectorFilterHtml += itemHtml;
     });
     $('#sectorButtons').html(sectorFilterHtml);
-    sectorButtons = $("#sectorButtons").children();
-    // formatCentroids();
-    $(function() {
-        $("img.lazy").lazyload({
-            effect: "fadeIn"
-        });
-    });
+    sectorButtons = $("#sectorButtons").children();    
 }
 
-
+// Search Box
+(function ($) {
+  jQuery.expr[':'].Contains = function(a,i,m){
+      return (a.textContent || a.innerText || "").toUpperCase().indexOf(m[3].toUpperCase())>=0;
+  };
+  
+  function filterList(header, list) {
+    var form = $("<form>").attr({"class":"filterform","action":"#"}),
+        input = $("<input>").attr({"class":"filterinput","type":"text"});
+    $(form).append(input).appendTo(header);
+  
+    $(input)
+      .change( function () {
+            var filters = $(this).val().match(/\S+/g);
+            $.each(thumbnails, function(index, thumbnail){
+                $(thumbnail).removeClass("noSearchMatch").removeClass("mapped");
+            });
+            if(filters) {
+                $.each(filters, function(index, filter){
+                    $matches = $(list).find('.thumbnailWrap:Contains(' + filter + ')');
+                    $('.thumbnailWrap', list).not($matches).addClass("noSearchMatch");
+                });  
+            } else {
+                $(thumbnails).find(".thumbnailWrap").show();
+            }
+            $.each(thumbnails, function(index, thumbnail){
+                if($(thumbnail).hasClass("noSearchMatch")){
+                    $(thumbnail).hide();
+                } else {
+                    $(thumbnail).addClass("mapped").show();
+                }
+            });
+            return false;                   
+        }) 
+      .keyup( function () {            
+            $(this).change();
+        });
+  }  
+  $(function () {
+    filterList($("#form"), $("#mappreviews"));
+  });
+}(jQuery));
 
 // start function chain to initialize map
 getCentroids();
