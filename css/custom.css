@@ -132,10 +132,12 @@ a.leaflet-control-zoom-out {
   max-width: none;
 }
 
-.thumbnail{
-  margin-top: 15px;
-  margin-bottom: 15px;
-  min-height:330px;  /*set to largest thumbnail, so all boxes match*/
+.thumbnail{  
+  min-height: 300px;  /*set to largest thumbnail, so all boxes match*/
+}
+
+.thumbnailWrap{
+  padding: 5px;
 }
 
 .thumbnail:hover {
@@ -158,6 +160,7 @@ a.leaflet-control-zoom-out {
 }
 .modal img {
   border: 1px solid #ccc;
+  max-width: 100%;
 }
 
 @media (max-width: 980px) {
