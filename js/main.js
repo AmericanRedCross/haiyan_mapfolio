@@ -34,16 +34,12 @@ var map = L.map('map', {
 
 function callModal (item) {
 	var modalDescription = $(item).find('.modalDescription').html();	
-    var mapJpg = $(item).find('img').attr("src").slice(0,-10) + '.jpg';
-    // var pdfSize = $(item).find('img').attr("data-pdfsize");
-    // var pdfSrc = "https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/" + $(item).find('img').attr("src").slice(9,-10) + ".pdf";     
+    var mapJpg = $(item).find('img').attr("data-original").slice(0,-10) + '.jpg';
     var img_maxHeight = (windowHeight*0.60).toString() + "px";
     $(".modal-detailedDescription").empty();	
     $(".modal-detailedDescription").html(modalDescription); 
     $(".modal-img").css('max-height', img_maxHeight);
     $(".modal-img").attr('src', mapJpg);
-	// $(".pdfButton").attr('href', pdfSrc);   
-    // $(".pdfSize").html(pdfSize); 
     $('#myModal').modal();    
 }
 
@@ -130,7 +126,7 @@ function generatepreviewhtml(data){
         };
         var small_pdf= '';
         if (item.small_pdf == "TRUE"){
-            small_pdf = '<a class="btn btn-primary btn-mini" href="'+item.filename+'(small).pdf'+'" target="_blank">Download reduced size PDF (<span class="pdfSize"></span> MB)</a>'
+            small_pdf = '<a class="btn btn-primary btn-mini" href="'+item.filename+'(small).pdf'+'" target="_blank">Download reduced size PDF ('+(item.small_pdf_size/1024).toFixed(0)+' KB)</a>'
         }
         var itemhtml = 
             '<div id="'+item.thumbnail_id+'" style="display:none," class="thumbnailWrap col-sm-3 ALL-EXTENT ALL-SECTOR mapped '+item.extent+' '+item.sector+'">'+
