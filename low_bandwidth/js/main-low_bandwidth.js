@@ -181,23 +181,28 @@ function generatepreviewhtml(data){
         return formattedDate;
     }
     $.each(data, function(index, item){
-        var pdfSrc = 'https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/' + item.thumb.slice(0,-10) + '.pdf';
-        var smallPdf = '';
+        var pdfSrc = 'https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/' + item.filename + '.pdf';
+        var small_pdf = '';
         if(item.small_pdf == "TRUE"){
-            smallPdf = '<a href="'+pdfSrc.slice(0,-4)+'(small).pdf'+'" target="_blank" style="margin:2px;" class="btn btn-primary btn-mini">Reduced-size PDF ('+item.small_pdf_size+')</a>'; 
-        }
+            small_pdf = '<a href="'+item.filename+'(small).pdf'+'" target="_blank" style="margin:2px;" class="btn btn-primary btn-mini">Reduced-size PDF ('+(item.small_pdf_size/1024).toFixed(0)+' KB)</a>'; 
+        };
+        var link = '';
+        if (item.link){
+            link = '<p style="font-size:small; margin:0 0 0 10px;"><b>Source:</b> <a href="'+item.link+'" target="_blank">'+item.link+'</a></p>';
+        };
         var itemhtml = '<div id="'+item.thumbnail_id+'" style="display:none," class="thumbnailWrap ALL-EXTENT ALL-SECTOR mapped '+item.extent+' '+item.sector+'">' +
             '<div class="row thumbnail" style="min-height:0; margin-left:0; margin-right:0; padding:10px">'+            
                 '<div class="caption col-sm-8" style="padding:0;">'+            
                     '<h5 style="margin:0; font-weight:bold;">'+item.title+'<small> - '+formatDate(item.date)+'</small>'+'</h5>'+                        
-                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Description: </b>'+item.description_long+'</p>'+ 
+                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Description: </b>'+item.description+'</p>'+ 
                         '<p style="font-size:small; margin:0 0 0 10px;"><b>Extent tags: </b>'+item.extent.replace(" ",", ")+'</p>'+                         
-                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Type tags: </b>'+item.sector.replace(" ",", ")+'</p>'+   
+                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Type tags: </b>'+item.sector.replace(" ",", ")+'</p>'+link+
+
                 '</div>'+           
                 '<div class="col-sm-4">'+
                     '<div class="pdfButtonContainer">'+
-                        '<a href="' + pdfSrc + '" target="_blank" style="margin:2px;" class="pdfButton btn btn-primary btn-mini">Download PDF (' + item.pdf_MB.toString() + ' MB)</a>'+
-                        smallPdf +
+                        '<a href="' + pdfSrc + '" target="_blank" style="margin:2px;" class="pdfButton btn btn-primary btn-mini">Download PDF ('+(item.pdf_size/1024/1024).toFixed(2)+' MB)</a>'+
+                        small_pdf +
                     '</div>' +
                     '<button type="button" onclick="callModal(' + item.thumbnail_id + ');" class="btn btn-link btn-mini">Preview low-quality JPG</button><br>' +
                 '</div></div></div>';
