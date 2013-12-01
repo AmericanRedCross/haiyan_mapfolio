@@ -184,7 +184,7 @@ function generatepreviewhtml(data){
         var pdfSrc = 'https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/' + item.filename + '.pdf';
         var small_pdf = '';
         if(item.small_pdf == "TRUE"){
-            small_pdf = '<a href="'+item.filename+'(small).pdf'+'" target="_blank" style="margin:2px;" class="btn btn-primary btn-mini">Reduced-size PDF ('+(item.small_pdf_size/1024).toFixed(0)+' KB)</a>'; 
+            small_pdf = '<a href="https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/'+item.filename+'(small).pdf'+'" target="_blank" style="margin:2px;" class="btn btn-primary btn-mini">Reduced-size PDF ('+(item.small_pdf_size/1024).toFixed(0)+' KB)</a>'; 
         };
         var link = '';
         if (item.link){
@@ -195,8 +195,8 @@ function generatepreviewhtml(data){
                 '<div class="caption col-sm-8" style="padding:0;">'+            
                     '<h5 style="margin:0; font-weight:bold;">'+item.title+'<small> - '+formatDate(item.date)+'</small>'+'</h5>'+                        
                         '<p style="font-size:small; margin:0 0 0 10px;"><b>Description: </b>'+item.description+'</p>'+ 
-                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Extent tags: </b>'+item.extent.replace(" ",", ")+'</p>'+                         
-                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Type tags: </b>'+item.sector.replace(" ",", ")+'</p>'+link+
+                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Extent tags: </b>'+item.extent.replace(/\s/g, ', ')+'</p>'+                         
+                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Type tags: </b>'+item.sector.replace(/\s/g, ', ')+'</p>'+link+
 
                 '</div>'+           
                 '<div class="col-sm-4">'+
