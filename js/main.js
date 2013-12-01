@@ -139,8 +139,8 @@ function generatepreviewhtml(data){
                     '<div class="modalDescription" style="display:none;">'+                        
                         '<h4 style="font-weight:bold;">'+item.title+' <small>('+formatDate(item.date)+')</small></h4>'+                        
                         '<p style="font-size:small; margin:6px 0 0 10px;">'+item.description+'</p>'+
-                        '<p style="font-size:small; margin:6px 0 0 10px;"><b>Extent tags:</b> '+item.extent.replace(" ",", ")+'</p>'+                         
-                        '<p style="font-size:small; margin:6px 0 0 10px;"><b>Type tags:</b> '+item.sector.replace(" ",", ")+'</p>'+ link +
+                        '<p style="font-size:small; margin:6px 0 0 10px;"><b>Extent tags:</b> '+item.extent.replace(/\s/g, ', ')+'</p>'+                         
+                        '<p style="font-size:small; margin:6px 0 0 10px;"><b>Type tags:</b> '+item.sector.replace(/\s/g, ', ')+'</p>'+ link +
                         '<br><a class="btn btn-primary btn-mini" href="'+pdfSrc+'" target="_blank">Download PDF ('+(item.pdf_size/1024/1024).toFixed(2)+' MB)</a>'+
                          small_pdf+  
                     '</div>'+   

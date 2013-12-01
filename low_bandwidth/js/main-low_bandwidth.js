@@ -195,8 +195,8 @@ function generatepreviewhtml(data){
                 '<div class="caption col-sm-8" style="padding:0;">'+            
                     '<h5 style="margin:0; font-weight:bold;">'+item.title+'<small> - '+formatDate(item.date)+'</small>'+'</h5>'+                        
                         '<p style="font-size:small; margin:0 0 0 10px;"><b>Description: </b>'+item.description+'</p>'+ 
-                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Extent tags: </b>'+item.extent.replace(" ",", ")+'</p>'+                         
-                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Type tags: </b>'+item.sector.replace(" ",", ")+'</p>'+link+
+                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Extent tags: </b>'+item.extent.replace(/\s/g, ', ')+'</p>'+                         
+                        '<p style="font-size:small; margin:0 0 0 10px;"><b>Type tags: </b>'+item.sector.replace(/\s/g, ', ')+'</p>'+link+
 
                 '</div>'+           
                 '<div class="col-sm-4">'+
