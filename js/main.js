@@ -126,7 +126,7 @@ function generatepreviewhtml(data){
         };
         var small_pdf= '';
         if (item.small_pdf == "TRUE"){
-            small_pdf = '<a class="btn btn-primary btn-mini" href="'+item.filename+'(small).pdf'+'" target="_blank">Download reduced size PDF ('+(item.small_pdf_size/1024).toFixed(0)+' KB)</a>'
+            small_pdf = '<a class="btn btn-primary btn-mini" href="https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/'+item.filename+'(small).pdf'+'" target="_blank">Download reduced size PDF ('+(item.small_pdf_size/1024).toFixed(0)+' KB)</a>'
         }
         var itemhtml = 
             '<div id="'+item.thumbnail_id+'" style="display:none," class="thumbnailWrap col-sm-3 ALL-EXTENT ALL-SECTOR mapped '+item.extent+' '+item.sector+'">'+
