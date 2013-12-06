@@ -11,3 +11,4 @@ Interactive collection of map products related to Typhoon Haiyan and the Philipp
 - [Leaflet v0.6.2](http://leafletjs.com/)
 - [Leaflet.markercluster](http://github.com/Leaflet/Leaflet.markercluster)
 - [jQuery v1.10.1](http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js)
+- [Lazy Load v1.9.1](http://www.appelsiini.net/projects/lazyload)
