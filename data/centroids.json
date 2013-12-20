@@ -1,6 +1,22 @@
 [
   {
     "source":"",
+    "thumbnail_id":"T428",
+    "title":"IFRC Operations Overview",
+    "date":"12/16/2013",
+    "description":"Locations and nationalities of IFRC ERU teams.",
+    "filename":"2013-12-17_StaffLocations",
+    "pdf_size":6271164,
+    "small_pdf":"",
+    "small_pdf_size":null,
+    "extent":"Country_Wide",
+    "sector":"Red_Cross Operations",
+    "latitude":11.5,
+    "longitude":123.6,
+    "link":""
+  },
+  {
+    "source":"",
     "thumbnail_id":"T427",
     "title":"American Red Cross Restoring Family Links Cases by Chapter: Typhoon Haiyan",
     "date":"12/12/2013",
@@ -26,7 +42,7 @@
     "small_pdf":"TRUE",
     "small_pdf_size":2665609,
     "extent":"Country_Wide",
-    "sector":"Red_Cross 3W",
+    "sector":"Red_Cross 3W Operations",
     "latitude":11.5,
     "longitude":123.6,
     "link":""
