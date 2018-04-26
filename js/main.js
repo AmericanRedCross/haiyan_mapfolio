@@ -119,14 +119,14 @@ function generatepreviewhtml(data){
     }
 
     $.each(data, function(index, item){
-        var pdfSrc = 'https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/'+item.filename+'.pdf';
+        var pdfSrc = 'https://s3-us-west-2.amazonaws.com/arcmaps/response-maps/2013_phl_typhoon/'+item.filename+'.pdf';
         var link = '';
         if (item.link){
             link = '<p style="font-size:small; margin:6px 0 0 10px;"><b>Source:</b> <a href="'+item.link+'" target="_blank">'+item.link+'</a></p>';
         };
         var small_pdf= '';
         if (item.small_pdf == "TRUE"){
-            small_pdf = '<a class="btn btn-primary btn-mini" href="https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/'+item.filename+'(small).pdf'+'" target="_blank">Download reduced size PDF ('+(item.small_pdf_size/1024).toFixed(0)+' KB)</a>'
+            small_pdf = '<a class="btn btn-primary btn-mini" href="https://s3-us-west-2.amazonaws.com/arcmaps/response-maps/2013_phl_typhoon/'+item.filename+'(small).pdf'+'" target="_blank">Download reduced size PDF ('+(item.small_pdf_size/1024).toFixed(0)+' KB)</a>'
         }
         var itemhtml = 
             '<div id="'+item.thumbnail_id+'" style="display:none," class="thumbnailWrap col-sm-3 ALL-EXTENT ALL-SECTOR mapped '+item.extent+' '+item.sector+'">'+

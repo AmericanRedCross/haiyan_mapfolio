@@ -181,10 +181,10 @@ function generatepreviewhtml(data){
         return formattedDate;
     }
     $.each(data, function(index, item){
-        var pdfSrc = 'https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/' + item.filename + '.pdf';
+        var pdfSrc = 'https://s3-us-west-2.amazonaws.com/arcmaps/response-maps/2013_phl_typhoon/' + item.filename + '.pdf';
         var small_pdf = '';
         if(item.small_pdf == "TRUE"){
-            small_pdf = '<a href="https://s3-us-west-2.amazonaws.com/arcmaps/haiyan/'+item.filename+'(small).pdf'+'" target="_blank" style="margin:2px;" class="btn btn-primary btn-mini">Reduced-size PDF ('+(item.small_pdf_size/1024).toFixed(0)+' KB)</a>'; 
+            small_pdf = '<a href="https://s3-us-west-2.amazonaws.com/arcmaps/response-maps/2013_phl_typhoon/'+item.filename+'(small).pdf'+'" target="_blank" style="margin:2px;" class="btn btn-primary btn-mini">Reduced-size PDF ('+(item.small_pdf_size/1024).toFixed(0)+' KB)</a>'; 
         };
         var link = '';
         if (item.link){
